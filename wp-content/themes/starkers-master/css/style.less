@@ -26,6 +26,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 	font-family: @sans-bold;
+	color: @white;
 }
 ol, ul {
 	list-style: none;
@@ -95,16 +96,35 @@ BOX-SHADOW
 /*------------------------------
 COLORS
 ------------------------------*/
+@white				:		#f9f9f9;
 @red					:		#a60f10;
 @lightgreen		:		#27c997;
-@darkgreen		:		#084e51;
+@darkgreen		:		#05373c;
 
 
 /*------------------------------
 TYPOGRAPHY
 ------------------------------*/
 @sans-bold: 'montserratbold', helvetica, sans-serif;
+@sans-regular: 'montserratregular', helvetica, sans-serif;
 
+[data-icon]:before {
+	font-family: 'icomoon';
+	content: attr(data-icon);
+	speak: none;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
 /*-------------------------------------------------------------------------
 FORM ELEMENTS
 -------------------------------------------------------------------------*/
@@ -113,7 +133,7 @@ FORM ELEMENTS
 GENERAL LAYOUT
 -------------------------------------------------------------------------*/
 .wrapper{
-	width: 80%;
+	width: 90%;
 	margin: 0 auto;
 	.clearfix;
 	position: relative;
@@ -123,13 +143,157 @@ GENERAL LAYOUT
 /*-------------------------------------------------------------------------
 HEADER
 -------------------------------------------------------------------------*/
+.primary-nav{
+	position: relative;
+	margin-top: 1.25em;
+	color: @darkgreen;
 
+	ul{
+		width: 90%;
+		margin: 0 auto;
+		height: 50px;
+		text-align: center;
+		background: fadeout(white, 50%);
+	}
+}
+
+.main-logo{
+	float: none;
+	text-align: center;
+
+	img{
+		width: 100%;
+		display: block;
+	}
+}
+
+.primary-nav-item{
+	height: 60px;
+	line-height: 60px;
+	font-size: 0.9em;
+
+	a{
+		padding: 0 1em;
+		display: block;
+	}
+}
+
+.request-info-nav-item{
+	float: left;
+	display: inline-block;
+	width: 75%;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	font-size: 0.6em;
+	font-family: @sans-regular;
+	color: @white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	background: @lightgreen;
+}
+
+.mobile-nav-icon{
+	display: inline-block;
+	float: left;
+
+	a{
+		font-size: 2em;
+		line-height: 2;
+		padding: 0 0.6em;
+	}
+}
+
+.desktop-nav-item{
+	display: none;
+}
 
 /*-------------------------------------------------------------------------
 MAIN SECTION
 -------------------------------------------------------------------------*/
 .main{
-	background: url(../images/main-bg.jpg);
+	position: relative;
+	height: 700px;
+	background: url(../images/main-bg.jpg) no-repeat;
+	background-size: 100%;
+}
+
+.main-callout{
+	position: absolute;
+	bottom: 130px;
+	left: 50%;
+	margin-left: -250px;
+	width: 500px;
+	font-size: 2.5em;
+	color: @darkgreen;
+	text-align: center;
+}
+
+
+@media only screen and (min-width : 30em) { /* 480px */
+
+	.main-logo{
+		float: left;
+		margin: 0 0.5em 0 -10px;
+
+		img{
+			width: auto;
+			height: 60px;
+		}
+	}
+
+	.primary-nav{
+		height: 60px;
+		background: fadeout(white, 50%);
+
+		ul{
+			width: auto;
+			background: none;
+			text-align: left;
+		}
+	}
+
+	.mobile-nav-icon{
+		float: right;
+
+		a{
+			line-height: 70px;
+		}
+	}
+
+	.request-info-nav-item{
+		float: right;
+		margin: 0;
+		width: auto;
+		height: 60px;
+		line-height: 60px;
+	}
+
+}
+
+@media only screen and (min-width : 50em) { /* 800px */
+	body{
+		font-size: 100%;
+	}
+}
+
+@media only screen and (min-width : 60em) { /* 960px */
+
+	.desktop-nav-item{
+		display: inline-block;
+	}
+
+	.mobile-nav-icon{
+		display: none;
+	}
+}
+
+
+
+@media only screen and (min-width : 65em) { /* 1040px */
+	body{
+		font-size: 112.5%;
+	}
 }
 
 @import "webfonts.less";

@@ -10,29 +10,29 @@
 	 */
 
 	/* ========================================================================================================================
-	
+
 	Required external files
-	
+
 	======================================================================================================================== */
 
 	require_once( 'external/starkers-utilities.php' );
 
 	/* ========================================================================================================================
-	
+
 	Theme specific settings
 
 	Uncomment register_nav_menus to enable a single menu with the title of "Primary Navigation" in your theme
-	
+
 	======================================================================================================================== */
 
 	add_theme_support('post-thumbnails');
-	
+
 	// register_nav_menus(array('primary' => 'Primary Navigation'));
 
 	/* ========================================================================================================================
-	
+
 	Actions and Filters
-	
+
 	======================================================================================================================== */
 
 	add_action( 'wp_enqueue_scripts', 'starkers_script_enqueuer' );
@@ -40,19 +40,19 @@
 	add_filter( 'body_class', array( 'Starkers_Utilities', 'add_slug_to_body_class' ) );
 
 	/* ========================================================================================================================
-	
+
 	Custom Post Types - include custom post types and taxonimies here e.g.
 
 	e.g. require_once( 'custom-post-types/your-custom-post-type.php' );
-	
+
 	======================================================================================================================== */
 
 
 
 	/* ========================================================================================================================
-	
+
 	Scripts
-	
+
 	======================================================================================================================== */
 
 	/**
@@ -68,24 +68,31 @@
 
 		wp_register_style( 'screen', get_stylesheet_directory_uri().'/style.css', '', '', 'screen' );
         wp_enqueue_style( 'screen' );
-	}	
+	}
+
+	if (!is_admin()) add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
+	function my_jquery_enqueue() {
+	   wp_deregister_script('jquery');
+	   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js", false, null);
+	   wp_enqueue_script('jquery');
+	}
 
 	/* ========================================================================================================================
-	
+
 	Comments
-	
+
 	======================================================================================================================== */
 
 	/**
-	 * Custom callback for outputting comments 
+	 * Custom callback for outputting comments
 	 *
 	 * @return void
 	 * @author Keir Whitaker
 	 */
 	function starkers_comment( $comment, $args, $depth ) {
-		$GLOBALS['comment'] = $comment; 
+		$GLOBALS['comment'] = $comment;
 		?>
-		<?php if ( $comment->comment_approved == '1' ): ?>	
+		<?php if ( $comment->comment_approved == '1' ): ?>
 		<li>
 			<article id="comment-<?php comment_ID() ?>">
 				<?php echo get_avatar( $comment ); ?>

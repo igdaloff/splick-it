@@ -152,7 +152,7 @@ COLORS
 TYPOGRAPHY
 ------------------------------*/
 h2 {
-  font-size: 2em;
+  font-size: 1.8em;
   text-transform: uppercase;
   font-family: 'montserratbold', helvetica, sans-serif;
 }
@@ -185,10 +185,14 @@ input[type="text"] {
   padding: 0.5em;
   border-radius: 4px;
   border: none;
-  color: #05373c;
+  color: #052b2d;
 }
 textarea {
   border-radius: 6px;
+}
+button,
+.button {
+  padding: 0.75em 1em;
 }
 /*-------------------------------------------------------------------------
 GENERAL LAYOUT
@@ -214,7 +218,7 @@ HEADER
 .primary-nav {
   position: relative;
   margin-top: 1.25em;
-  color: #05373c;
+  color: #052b2d;
 }
 .primary-nav ul {
   width: 90%;
@@ -252,7 +256,7 @@ HEADER
   color: #f9f9f9;
   text-transform: uppercase;
   letter-spacing: 2px;
-  background: #27c997;
+  background: #1a9975;
 }
 .mobile-nav-icon {
   display: inline-block;
@@ -284,14 +288,14 @@ MAIN SECTION
 }
 .callout h2 {
   font-size: 2.4em;
-  color: #05373c;
+  color: #052b2d;
 }
 .feature-callout {
   display: inline-block;
   width: 100%;
   padding: 1em 1em 0.85em;
   margin-top: 1em;
-  background: #05373c;
+  background: #052b2d;
   color: #f9f9f9;
   text-align: left;
   -webkit-box-sizing: border-box;
@@ -408,7 +412,7 @@ MAIN SECTION
   font-style: normal;
 }
 .form-page {
-  background: #05373c;
+  background: #126046;
 }
 .form-page h2 {
   margin: 1em 0 0.25em;
@@ -424,4 +428,22 @@ MAIN SECTION
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+.sub-section-header h2 {
+  display: inline-block;
+  line-height: 1.5;
+}
+.learn-more-button {
+  float: right;
+  display: inline-block;
+}
+.first-sub-section {
+  background: #084e51;
+}
+.first-sub-section .sub-section-header {
+  padding: 1em 0 0.8em;
+  background: #05373c;
+}
+.first-sub-section .learn-more-button {
+  background: #052b2d;
 }

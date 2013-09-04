@@ -1,4 +1,6 @@
+/* GLOBAL SUB-SECTION STYLES */
 .sub-section-header{
+	padding: 1em 0 0.8em;
 
 	h2{
 		display: inline-block;
@@ -11,15 +13,65 @@
 	display: inline-block;
 }
 
+.sub-section-body{
+	padding: 2em 0;
+	color: @white;
+	.clearfix;
+
+	li{
+		float: left;
+		width: 33.33333334%;
+		padding: 0 1em;
+		text-align: center;
+		.box-sizing;
+	}
+
+	h3{
+		margin: 0.5em 0;
+	}
+
+	p{
+		margin: 0;
+	}
+}
+
+.sub-section-icon{
+	width: 30%;
+}
+
+/* SPECIFIC SUB-SECTION STYLES */
 .first-sub-section{
 	background: @lightblue;
 
 	.sub-section-header{
-		padding: 1em 0 0.8em;
 		background: @blue;
 	}
 
 	.learn-more-button{
 		background: @darkblue;
+	}
+}
+
+.second-sub-section{
+	background: @lightgreen;
+
+	.sub-section-header{
+		background: @green;
+	}
+
+	.learn-more-button{
+		background: @darkgreen;
+	}
+}
+
+.third-sub-section{
+	background: @lightred;
+
+	.sub-section-header{
+		background: @red;
+	}
+
+	.learn-more-button{
+		background: @darkred;
 	}
 }

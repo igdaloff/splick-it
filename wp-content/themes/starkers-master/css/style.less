@@ -97,7 +97,10 @@ BOX-SHADOW
 COLORS
 ------------------------------*/
 @white				:		#f9f9f9;
-@red					:		#a60f10;
+
+@lightred			:		#af2727;
+@red					:		#992323;
+@darkred			:		#842121;
 
 @lightgreen		:		#1a9975;
 @green				:		#177f5f;
@@ -106,7 +109,6 @@ COLORS
 @darkblue			:		#052b2d;
 @blue					:		#05373c;
 @lightblue		:		#084e51;
-
 
 /*------------------------------
 TYPOGRAPHY
@@ -118,6 +120,11 @@ h2{
 	font-size: 1.8em;
 	text-transform: uppercase;
 	font-family: @sans-bold;
+}
+
+h3{
+	font-size: 1.6em;
+	font-family: @sans-regular;
 }
 
 p{
@@ -159,7 +166,12 @@ textarea{
 }
 
 button, .button{
-	padding: 0.75em 1em;
+	padding: 1.5em 2em;
+	font-size: 0.6em;
+	font-family: @sans-regular;
+	color: @white;
+	text-transform: uppercase;
+	letter-spacing: 2px;
 }
 
 /*-------------------------------------------------------------------------
@@ -218,12 +230,11 @@ HEADER
 	height: 30px;
 	line-height: 30px;
 	margin-top: 10px;
-	font-size: 0.6em;
-	font-family: @sans-regular;
-	color: @white;
-	text-transform: uppercase;
-	letter-spacing: 2px;
 	background: @lightgreen;
+
+	a{
+		padding: 0 2em;
+	}
 }
 
 .mobile-nav-icon{

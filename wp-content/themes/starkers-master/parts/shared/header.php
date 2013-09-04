@@ -14,7 +14,7 @@
 					<a href="" aria-hidden="true" data-icon="m"></a>
 					<span class="screen-reader-text">Menu</span>
 				</li>
-				<li class="primary-nav-item request-info-nav-item"><a href="index.php?page_id=11">Request Info</a></li>
+				<li class="primary-nav-item request-info-nav-item"><a class="button" href="index.php?page_id=11">Request Info</a></li>
 			</ul>
 		</nav>
 	</div>

@@ -156,6 +156,10 @@ h2 {
   text-transform: uppercase;
   font-family: 'montserratbold', helvetica, sans-serif;
 }
+h3 {
+  font-size: 1.6em;
+  font-family: 'montserratregular', helvetica, sans-serif;
+}
 p {
   margin-bottom: 1em;
   font-size: 0.9em;
@@ -192,7 +196,12 @@ textarea {
 }
 button,
 .button {
-  padding: 0.75em 1em;
+  padding: 1.5em 2em;
+  font-size: 0.6em;
+  font-family: 'montserratregular', helvetica, sans-serif;
+  color: #f9f9f9;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 /*-------------------------------------------------------------------------
 GENERAL LAYOUT
@@ -251,12 +260,10 @@ HEADER
   height: 30px;
   line-height: 30px;
   margin-top: 10px;
-  font-size: 0.6em;
-  font-family: 'montserratregular', helvetica, sans-serif;
-  color: #f9f9f9;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   background: #1a9975;
+}
+.request-info-nav-item a {
+  padding: 0 2em;
 }
 .mobile-nav-icon {
   display: inline-block;
@@ -429,6 +436,10 @@ MAIN SECTION
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+/* GLOBAL SUB-SECTION STYLES */
+.sub-section-header {
+  padding: 1em 0 0.8em;
+}
 .sub-section-header h2 {
   display: inline-block;
   line-height: 1.5;
@@ -437,13 +448,62 @@ MAIN SECTION
   float: right;
   display: inline-block;
 }
+.sub-section-body {
+  padding: 2em 0;
+  color: #f9f9f9;
+  *zoom: 1;
+}
+.sub-section-body:before,
+.sub-section-body:after {
+  content: "";
+  display: table;
+}
+.sub-section-body:after {
+  clear: both;
+}
+.sub-section-body li {
+  float: left;
+  width: 33.33333334%;
+  padding: 0 1em;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.sub-section-body h3 {
+  margin: 0.5em 0;
+}
+.sub-section-body p {
+  margin: 0;
+}
+.sub-section-icon {
+  width: 30%;
+}
+/* SPECIFIC SUB-SECTION STYLES */
 .first-sub-section {
   background: #084e51;
 }
 .first-sub-section .sub-section-header {
-  padding: 1em 0 0.8em;
   background: #05373c;
 }
 .first-sub-section .learn-more-button {
   background: #052b2d;
+}
+.second-sub-section {
+  background: #1a9975;
+}
+.second-sub-section .sub-section-header {
+  background: #177f5f;
+}
+.second-sub-section .learn-more-button {
+  background: #126046;
+}
+.third-sub-section {
+  background: #af2727;
+}
+.third-sub-section .sub-section-header {
+  background: #992323;
+}
+.third-sub-section .learn-more-button {
+  background: #842121;
 }

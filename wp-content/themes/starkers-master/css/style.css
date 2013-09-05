@@ -184,11 +184,13 @@ p {
 /*-------------------------------------------------------------------------
 FORM ELEMENTS
 -------------------------------------------------------------------------*/
-input[type="text"] {
+input[type="text"],
+input[type="email"] {
   height: 2.25em;
   padding: 0.5em;
   border-radius: 4px;
   border: none;
+  font-size: 1em;
   color: #052b2d;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -581,7 +583,7 @@ MAIN SECTION
   width: 80%;
   border-radius: 6px 0 0 6px;
 }
-.newsletter button {
+.newsletter .button {
   width: 20%;
   border-radius: 0 6px 6px 0;
   background: #3f3f3f;
@@ -603,9 +605,6 @@ MAIN SECTION
     float: left;
     width: 32.3333333%;
   }
-}
-@media only screen and (min-width: 56.25em) {
-  /* 900px */
 }
 @media only screen and (min-width: 68.75em) {
   /* 1100px */

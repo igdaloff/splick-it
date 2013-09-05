@@ -9,7 +9,7 @@ Template Name: home
 <div class="main">
 	<?php include("parts/shared/header.php"); ?>
 	<div class="callout">
-		<h2>Platform & Distribution Solutions for Merchant Orders, Payments, Loyalty, and Gifting.</h2>
+		<h2>Merchant Solutions Platform For Mobile / Online Ordering, Payment, Loyalty & Marketing A Large Distribution Network</h2>
 		<ul class="feature-callout">
 			<li>Online<br>Ordering</li>
 			<li class="second-feature-callout">Tablet<br>Friendly</li>
@@ -21,7 +21,7 @@ Template Name: home
 <section class="sub-section first-sub-section">
 	<div class="sub-section-header">
 		<div class="wrapper">
-			<h2>Custom Apps</h2>
+			<h2><?php the_field('sub-section1_header'); ?></h2>
 			<a class="learn-more-button-desktop button" href="">Learn More</a>
 			<a class="learn-more-button-mobile button" data-icon="+"></a>
 			<span class="screen-reader-text">Learn More</span>
@@ -31,19 +31,19 @@ Template Name: home
 		<div class="wrapper">
 			<ul>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php bloginfo('template_url'); ?>/images/sub-section/tv.png" alt="TV icon" />
-					<h3>Easy To Setup Your Brand</h3>
-					<p>Our robust & scalable platform makes it fast & easy to set up your branded app whether you have 1 store or 1000’s. It’s all about you!</p>
+					<img class="sub-section-icon" src="<?php the_field('sub-section1_icon1'); ?>" alt="TV icon" />
+					<h3><?php the_field('sub-section1_subhead1'); ?></h3>
+					<p><?php the_field('sub-section1_body1'); ?></p>
 				</li>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php bloginfo('template_url'); ?>/images/sub-section/computer.png" alt="TV icon" />
-					<h3>Industry Leading Technology</h3>
-					<p>Your website and apps are designed and built by award-winning team of technologists and will always be fresh, updated and mobile compatible.</p>
+					<img class="sub-section-icon" src="<?php the_field('sub-section1_icon2'); ?>" alt="TV icon" />
+					<h3><?php the_field('sub-section1_subhead2'); ?></h3>
+					<p><?php the_field('sub-section1_body2'); ?></p>
 				</li>
 				<li class="sub-section-item last-sub-section-item">
-					<img class="sub-section-icon" src="<?php bloginfo('template_url'); ?>/images/sub-section/box.png" alt="TV icon" />
-					<h3>Multiple Delivery Options</h3>
-					<p>One size does not fit all. Splick-it lets you receive orders and data the way that works best for you business via POS, Fax, Printer, Tablet, Phone.</p>
+					<img class="sub-section-icon" src="<?php the_field('sub-section1_icon3'); ?>" alt="TV icon" />
+					<h3><?php the_field('sub-section1_subhead3'); ?></h3>
+					<p><?php the_field('sub-section1_body3'); ?></p>
 				</li>
 			</ul>
 		</div>
@@ -53,7 +53,7 @@ Template Name: home
 <section class="sub-section second-sub-section">
 	<div class="sub-section-header">
 		<div class="wrapper">
-			<h2>Effective Platform</h2>
+			<h2><?php the_field('sub-section2_header'); ?></h2>
 			<a class="learn-more-button-desktop button" href="">Learn More</a>
 			<a class="learn-more-button-mobile button" data-icon="+"></a>
 			<span class="screen-reader-text">Learn More</span>
@@ -63,19 +63,19 @@ Template Name: home
 		<div class="wrapper">
 			<ul>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php bloginfo('template_url'); ?>/images/sub-section/tickets.png" alt="Tickets icon" />
-					<h3>Higher Ticket Average</h3>
-					<p>The average Splick-it order is 30% higher than walk-in orders with engaged restaurants that implement best practices. Boom!</p>
+					<img class="sub-section-icon" src="<?php the_field('sub-section2_icon1'); ?>" alt="TV icon" />
+					<h3><?php the_field('sub-section2_subhead1'); ?></h3>
+					<p><?php the_field('sub-section2_body1'); ?></p>
 				</li>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php bloginfo('template_url'); ?>/images/sub-section/headphones.png" alt="Headphones icon" />
-					<h3>24/7 Customer Support</h3>
-					<p>Our team is known for it’s awesome customer support. We’re there for you every step of the way. We are here for you!</p>
+					<img class="sub-section-icon" src="<?php the_field('sub-section2_icon2'); ?>" alt="TV icon" />
+					<h3><?php the_field('sub-section2_subhead2'); ?></h3>
+					<p><?php the_field('sub-section2_body2'); ?></p>
 				</li>
 				<li class="sub-section-item last-sub-section-item">
-					<img class="sub-section-icon" src="<?php bloginfo('template_url'); ?>/images/sub-section/smiley.png" alt="Smiley face icon" />
-					<h3>Super Happy Customers</h3>
-					<p>People love our apps (and yours), they are consistently ranked higher in the app store because of our great user experience.</p>
+					<img class="sub-section-icon" src="<?php the_field('sub-section2_icon3'); ?>" alt="TV icon" />
+					<h3><?php the_field('sub-section2_subhead3'); ?></h3>
+					<p><?php the_field('sub-section2_body3'); ?></p>
 				</li>
 			</ul>
 		</div>
@@ -85,7 +85,7 @@ Template Name: home
 <section class="sub-section third-sub-section">
 	<div class="sub-section-header">
 		<div class="wrapper">
-			<h2>Grow Your Business</h2>
+			<h2><?php the_field('sub-section3_header'); ?></h2>
 			<a class="learn-more-button-desktop button" href="">Learn More</a>
 			<a class="learn-more-button-mobile button" data-icon="+"></a>
 			<span class="screen-reader-text">Learn More</span>
@@ -95,19 +95,19 @@ Template Name: home
 		<div class="wrapper">
 			<ul>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php bloginfo('template_url'); ?>/images/sub-section/network.png" alt="Network icon" />
-					<h3>Distribution Network</h3>
-					<p>Our robust & scalable platform makes it fast & easy to set up your branded app whether you have 1 store or 1000’s. It’s all about you!</p>
+					<img class="sub-section-icon" src="<?php the_field('sub-section3_icon1'); ?>" alt="TV icon" />
+					<h3><?php the_field('sub-section3_subhead1'); ?></h3>
+					<p><?php the_field('sub-section3_body1'); ?></p>
 				</li>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php bloginfo('template_url'); ?>/images/sub-section/chart.png" alt="Chart icon" />
-					<h3>Marketing Tools & Analytics</h3>
-					<p>Your website and apps are designed and built by award-winning team of technologists and will always be fresh, updated and mobile compatible.</p>
+					<img class="sub-section-icon" src="<?php the_field('sub-section3_icon2'); ?>" alt="TV icon" />
+					<h3><?php the_field('sub-section3_subhead2'); ?></h3>
+					<p><?php the_field('sub-section3_body2'); ?></p>
 				</li>
 				<li class="sub-section-item last-sub-section-item">
-					<img class="sub-section-icon" src="<?php bloginfo('template_url'); ?>/images/sub-section/calendar.png" alt="Calendar icon" />
-					<h3>Account Managers</h3>
-					<p>One size does not fit all. Splick-it lets you receive orders and data the way that works best for you business via POS, Fax, Printer, Tablet, Phone.</p>
+					<img class="sub-section-icon" src="<?php the_field('sub-section3_icon3'); ?>" alt="TV icon" />
+					<h3><?php the_field('sub-section3_subhead3'); ?></h3>
+					<p><?php the_field('sub-section3_body3'); ?></p>
 				</li>
 			</ul>
 		</div>
@@ -115,12 +115,18 @@ Template Name: home
 </section>
 
 <section class="newsletter">
-	<div class="wrapper">
-		<form>
-			<label>Sign up to receive our weekly newsletter on mobile&nbsp;commerce:</label>
-			<div class="email-input">
-				<input type="text">
-				<button type="submit">Go</button>
+	<div id="mc_embed_signup" class="wrapper">
+		<form action="http://splickit.us4.list-manage.com/subscribe/post?u=77f62922fe0fb7183173bf5f0&amp;id=7d14cb500c" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<div class="mc-field-group">
+				<label for="mce-EMAIL">Sign up to receive our weekly newsletter on mobile&nbsp;commerce:</label>
+				<div class="email-input">
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+					<input type="submit" value="Go" name="subscribe" id="mc-embedded-subscribe" class="button">
+				</div>
+			</div>
+			<div id="mce-responses" class="clear">
+				<div class="response" id="mce-error-response" style="display:none"></div>
+				<div class="response" id="mce-success-response" style="display:none"></div>
 			</div>
 		</form>
 	</div>

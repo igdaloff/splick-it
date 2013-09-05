@@ -7,7 +7,7 @@
 				</a>
 			</h1>
 			<ul>
-				<li class="primary-nav-item desktop-nav-item"><a href="">Merchant Services Program</a></li>
+				<li class="primary-nav-item desktop-nav-item"><a href="">Merchant Solutions Platform</a></li>
 				<li class="primary-nav-item desktop-nav-item"><a href="">Distribution Network</a></li>
 				<li class="primary-nav-item desktop-nav-item"><a href="">Clients</a></li>
 				<li class="primary-nav-item mobile-nav-icon">

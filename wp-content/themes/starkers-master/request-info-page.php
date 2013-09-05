@@ -7,7 +7,7 @@ Template Name: request info
 <div class="form-page">
 	<?php include("parts/shared/header.php"); ?>
 	<div class="wrapper form-page-inner">
-		<h2>Request for Info and Pricing</h2>
+		<h2>Request for Info and&nbsp;Pricing</h2>
 		<p>Complete the form below or call us at (303) 481-3660 to receive info about our branded iPhone, Android and web ordering apps for restaurants. (Are you a Pita Pit franchisee? Please use <a href="http://www.splickit.com/pitapit" title="New Pita Pit Franchisee Sign-Up">this sign-up form</a> instead!)</p>
 
 

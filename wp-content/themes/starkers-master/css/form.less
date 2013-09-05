@@ -6,7 +6,7 @@
 .form-page-inner{
 
 	form{
-		width: 80%;
+		width: 100%;
 		margin-top: 2em;
 	}
 
@@ -26,14 +26,16 @@
 	.fsRowBody{
 		display: inline-block;
 		width: 100%;
+		margin-bottom: 1.5em;
+	}
+
+	label{
 		margin-bottom: 0.5em;
 	}
 
 	label, input, textarea{
-		float: left;
-		width: 50%;
-		line-height: 2;
-		.box-sizing;
+		display: block;
+		width: 100%;
 	}
 
 	.button{
@@ -49,4 +51,26 @@
 	color: @white;
 	padding: 1em;
 	margin-bottom: 1em;
+}
+
+@media only screen and (min-width : 50em) { /* 800px */
+
+	.form-page-inner{
+
+		form{
+			width: 80%;
+		}
+
+		label, input, textarea{
+			float: left;
+			width: 50%;
+			line-height: 2;
+			.box-sizing;
+		}
+
+		.fsRowBody{
+			margin-bottom: 0.5em;
+		}
+
+	}
 }

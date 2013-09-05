@@ -325,6 +325,7 @@ MAIN SECTION
 	background: @darkblue;
 	font: @gotham-light;
 	color: @white;
+	border-radius: 4px;
 	text-align: left;
 	.box-sizing;
 
@@ -359,10 +360,21 @@ MAIN SECTION
 	.main-logo{
 		float: left;
 		margin: 0 0.5em 0 -10px;
+		.transition;
+		position: relative;
+			-webkit-backface-visibility: hidden;
 
 		img{
 			width: auto;
 			height: 60px;
+		}
+
+		&:hover{
+			-moz-transform: rotate(-8deg);
+			-ms-transform: rotate(-8deg);
+			-o-transform: rotate(-8deg);
+			-webkit-transform: rotate(-8deg);
+			webkit-transform: rotate(-8deg);
 		}
 	}
 
@@ -394,7 +406,7 @@ MAIN SECTION
 	}
 
 	.callout{
-		width: 420px;
+		width: 460px;
 		margin: 260px auto 0;
 	}
 }
@@ -433,7 +445,7 @@ MAIN SECTION
 @media only screen and (min-width : 75em) { /* 1200px */
 
 	.callout{
-		margin-left: 42%;
+		margin-left: 40%;
 	}
 }
 

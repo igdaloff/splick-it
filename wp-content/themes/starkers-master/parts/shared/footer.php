@@ -35,7 +35,7 @@
 				<li><a href="">Terms and Conditions</a></li>
 			</ul>
 		</div>
-		<div class="footer-list">
+		<div class="footer-list footer-contact-list">
 			<h4>Contact</h4>
 			<ul>
 				<li><a href="" class="button">Request Info</a></li>

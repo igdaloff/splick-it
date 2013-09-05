@@ -1,0 +1,83 @@
+.newsletter{
+	padding: 1em 0;
+	background: @grey;
+	color: @black;
+	text-transform: uppercase;
+	text-align: center;
+
+	label{
+		display: inline-block;
+		margin-bottom: 0.5em;
+		font-size: 1.4em;
+		width: auto;
+	}
+
+	.email-input{
+		width: auto;
+		margin-top: 0.25em;
+	}
+
+	input, button{
+		float: left;
+		height: 40px;
+	}
+
+	input{
+		width: 80%;
+		border-radius: 6px 0 0 6px;
+	}
+
+	button{
+		width: 20%;
+		border-radius: 0 6px 6px 0;
+		background: @black;
+		padding: 0;
+	}
+}
+
+
+@media only screen and (min-width : 50em) { /* 800px */
+
+	.newsletter{
+		height: 3em;
+		line-height: 3em;
+
+		label{
+			float: left;
+			text-align: left;
+			width: 67.66666667%;
+			font-size: 0.8em;
+		}
+
+		.email-input{
+			float: left;
+			width: 32.3333333%;
+		}
+	}
+}
+
+@media only screen and (min-width : 56.25em) { /* 900px */
+
+	.newsletter{
+
+		label{
+		}
+	}
+
+}
+
+@media only screen and (min-width : 68.75em) { /* 1100px */
+
+	.newsletter{
+
+		label{
+			font-size: 0.8em;
+			width: 55%;
+		}
+
+		.email-input{
+			width: 43%;
+		}
+	}
+
+}

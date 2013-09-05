@@ -152,7 +152,7 @@ COLORS
 TYPOGRAPHY
 ------------------------------*/
 h2 {
-  font-size: 1.8em;
+  font-size: 1.6em;
   text-transform: uppercase;
   font-family: 'montserratbold', helvetica, sans-serif;
 }
@@ -190,6 +190,9 @@ input[type="text"] {
   border-radius: 4px;
   border: none;
   color: #052b2d;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 textarea {
   border-radius: 6px;
@@ -200,8 +203,14 @@ button,
   font-size: 0.6em;
   font-family: 'montserratregular', helvetica, sans-serif;
   color: #f9f9f9;
+  text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
+  border: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
 }
 /*-------------------------------------------------------------------------
 GENERAL LAYOUT
@@ -438,15 +447,20 @@ MAIN SECTION
 }
 /* GLOBAL SUB-SECTION STYLES */
 .sub-section-header {
-  padding: 1em 0 0.8em;
+  padding: 0.8em 0;
 }
 .sub-section-header h2 {
-  display: inline-block;
-  line-height: 1.5;
+  float: left;
+  max-width: 60%;
+  line-height: 1;
 }
-.learn-more-button {
+.learn-more-button-desktop {
+  display: none;
+}
+.learn-more-button-mobile {
   float: right;
-  display: inline-block;
+  font-size: 2.3em;
+  padding: 0.2em 0.2em 0.1em;
 }
 .sub-section-body {
   padding: 2em 0;
@@ -461,20 +475,15 @@ MAIN SECTION
 .sub-section-body:after {
   clear: both;
 }
-.sub-section-body li {
-  float: left;
-  width: 33.33333334%;
-  padding: 0 1em;
+.sub-section-body h3 {
+  margin: 0.5em 0;
+}
+.sub-section-item {
+  padding: 1em 1.5em;
   text-align: center;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-.sub-section-body h3 {
-  margin: 0.5em 0;
-}
-.sub-section-body p {
-  margin: 0;
 }
 .sub-section-icon {
   width: 30%;
@@ -486,7 +495,8 @@ MAIN SECTION
 .first-sub-section .sub-section-header {
   background: #05373c;
 }
-.first-sub-section .learn-more-button {
+.first-sub-section .learn-more-button-desktop,
+.first-sub-section .learn-more-button-mobile {
   background: #052b2d;
 }
 .second-sub-section {
@@ -495,7 +505,8 @@ MAIN SECTION
 .second-sub-section .sub-section-header {
   background: #177f5f;
 }
-.second-sub-section .learn-more-button {
+.second-sub-section .learn-more-button-desktop,
+.second-sub-section .learn-more-button-mobile {
   background: #126046;
 }
 .third-sub-section {
@@ -504,6 +515,105 @@ MAIN SECTION
 .third-sub-section .sub-section-header {
   background: #992323;
 }
-.third-sub-section .learn-more-button {
+.third-sub-section .learn-more-button-desktop,
+.third-sub-section .learn-more-button-mobile {
   background: #842121;
+}
+@media only screen and (min-width: 30em) {
+  /* 480px */
+  .learn-more-button-desktop {
+    display: inline-block;
+    float: right;
+  }
+  .learn-more-button-mobile {
+    display: none;
+  }
+  .last-sub-section-item {
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 37.5em) {
+  /* 600px */
+  .sub-section-header h2 {
+    line-height: 1.4;
+  }
+  .sub-section-item {
+    float: left;
+    width: 50%;
+  }
+  .last-sub-section-item {
+    float: none;
+  }
+}
+@media only screen and (min-width: 60em) {
+  /* 960px */
+  .sub-section-item {
+    width: 33.33333334%;
+  }
+  .last-sub-section-item {
+    float: left;
+  }
+}
+.newsletter {
+  padding: 1em 0;
+  background: #b7b7b7;
+  color: #3f3f3f;
+  text-transform: uppercase;
+  text-align: center;
+}
+.newsletter label {
+  display: inline-block;
+  margin-bottom: 0.5em;
+  font-size: 1.4em;
+  width: auto;
+}
+.newsletter .email-input {
+  width: auto;
+  margin-top: 0.25em;
+}
+.newsletter input,
+.newsletter button {
+  float: left;
+  height: 40px;
+}
+.newsletter input {
+  width: 80%;
+  border-radius: 6px 0 0 6px;
+}
+.newsletter button {
+  width: 20%;
+  border-radius: 0 6px 6px 0;
+  background: #3f3f3f;
+  padding: 0;
+}
+@media only screen and (min-width: 50em) {
+  /* 800px */
+  .newsletter {
+    height: 3em;
+    line-height: 3em;
+  }
+  .newsletter label {
+    float: left;
+    text-align: left;
+    width: 67.66666667%;
+    font-size: 0.8em;
+  }
+  .newsletter .email-input {
+    float: left;
+    width: 32.3333333%;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  /* 900px */
+}
+@media only screen and (min-width: 68.75em) {
+  /* 1100px */
+  .newsletter label {
+    font-size: 0.8em;
+    width: 55%;
+  }
+  .newsletter .email-input {
+    width: 43%;
+  }
 }

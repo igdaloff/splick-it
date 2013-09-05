@@ -97,6 +97,8 @@ BOX-SHADOW
 COLORS
 ------------------------------*/
 @white				:		#f9f9f9;
+@black				:		#3f3f3f;
+@grey					:		#b7b7b7;
 
 @lightred			:		#af2727;
 @red					:		#992323;
@@ -117,7 +119,7 @@ TYPOGRAPHY
 @sans-regular: 'montserratregular', helvetica, sans-serif;
 
 h2{
-	font-size: 1.8em;
+	font-size: 1.6em;
 	text-transform: uppercase;
 	font-family: @sans-bold;
 }
@@ -159,6 +161,7 @@ input[type="text"]{
 	border-radius: 4px;
 	border: none;
 	color: @darkblue;
+	.box-sizing;
 }
 
 textarea{
@@ -170,8 +173,12 @@ button, .button{
 	font-size: 0.6em;
 	font-family: @sans-regular;
 	color: @white;
+	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 2px;
+	border: none;
+	.box-sizing;
+	cursor: pointer;
 }
 
 /*-------------------------------------------------------------------------
@@ -392,3 +399,4 @@ MAIN SECTION
 @import "webfonts.less";
 @import "form.less";
 @import "subsection.less";
+@import "footer.less";

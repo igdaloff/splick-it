@@ -1,7 +1,12 @@
+jQuery(document).ready(function($) {
 
-	jQuery(document).ready(function($) {
-
-		// Your JavaScript goes here
-
+	/* MOBILE MENU REVEAL */
+	$('.mobile-nav-icon').click( function(e){
+		e.preventDefault();
+		$('.mobile-nav').toggleClass('mobile-nav-active');
 	});
 
+	$('.mobile-nav a').click( function(e){
+		e.stopPropagation();
+	});
+});

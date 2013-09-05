@@ -7,7 +7,7 @@ Template Name: request info pita
 <div class="form-page">
 	<?php include("parts/shared/header.php"); ?>
 	<div class="wrapper form-page-inner">
-		<h2>Request for Info and&nbsp;Pricing - Pita Pit</h2>
+		<h3>Request for Info and Pricing - Pita&nbsp;Pit</h3>
 
 <form method="post" novalidate enctype="multipart/form-data" action="http://www.formstack.com/forms/index.php" class="fsForm fsSingleColumn fsMaxCol1" id="fsForm1400682">
 <input type="hidden" name="form" value="1400682" />
@@ -24,7 +24,7 @@ Template Name: request info pita
 <div role="alert" id="applyDiscountButton" style="display:none;">Apply Discount</div>
 <div role="alert" id="dcmYouSaved" style="display:none;">You saved</div>
 <div role="alert" id="dcmWithCode" style="display:none;">with code</div>
-<div role="alert" id="submitButtonText" style="display:none;">Submit Form</div>
+<div role="alert" id="submitButtonText" style="display:none;">Submit</div>
 <div role="alert" id="submittingText" style="display:none;">Submitting</div>
 <div class="fsPage" id="fsPage1400682-1">
 <div class="fsSection fs1Col">
@@ -34,11 +34,11 @@ Template Name: request info pita
 <div class="fsSubFieldGroup">
 <div class="fsSubField">
 <label class="fsRequiredLabel" for="field18643820-first">First Name<span class="hidden">*</span></label>
-<input type="text" id="field18643820-first" name="field18643820-first" size="20" value="" required class="fsField fsFieldName fsRequired" aria-required="true"  />
+<input placeholder="First Name" type="text" id="field18643820-first" name="field18643820-first" size="20" value="" required class="fsField fsFieldName fsRequired" aria-required="true"  />
 </div>
 <div class="fsSubField">
 <label class="fsRequiredLabel" for="field18643820-last">Last Name<span class="hidden">*</span></label>
-<input type="text" id="field18643820-last" name="field18643820-last" size="20" value="" required class="fsField fsFieldName fsRequired" aria-required="true"  />
+<input placeholder="Last Name" type="text" id="field18643820-last" name="field18643820-last" size="20" value="" required class="fsField fsFieldName fsRequired" aria-required="true"  />
 </div>
 </div>
 <div class="clear"></div>
@@ -60,7 +60,6 @@ Template Name: request info pita
 <div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell18643837" aria-describedby="fsSupporting18643837">
 <label id="label18643837" class="fsLabel fsRequiredLabel" for="field18643837">Pita Pit Store ID<span class="fsRequiredMarker">*</span></label>
 <input type="text" id="field18643837" name="field18643837" size="7" required  placeholder="US-091" value=""  class="fsField fsRequired " aria-required="true"  />
-<div id="fsSupporting18643837" class="fsSupporting">Example: US-091</div>
 </div>
 </div>
 </div>
@@ -68,7 +67,7 @@ Template Name: request info pita
 <div id="fsSubmit1400682" class="fsSubmit fsPagination" >
 <button type="button" id="fsPreviousButton1400682" class="fsPreviousButton" value="Previous Page" style="display:none; "><span class="fsFull">Previous</span><span class="fsSlim">&larr;</span></button>
 <button type="button" id="fsNextButton1400682" class="fsNextButton" value="Next Page" style="display:none; "><span class="fsFull">Next</span><span class="fsSlim">&rarr;</span></button>
-<input id="fsSubmitButton1400682" class="fsSubmitButton button" style="display:block;" type="submit" value="Submit Form" />
+<input id="fsSubmitButton1400682" class="fsSubmitButton button" style="display:block;" type="submit" value="Submit" />
 <div class="clear"></div>
 </div>
 <script type="text/javascript" src="http://www.formstack.com/forms/js/3/jquery.min.js"></script>

@@ -99,6 +99,7 @@ COLORS
 @white				:		#f9f9f9;
 @black				:		#3f3f3f;
 @grey					:		#b7b7b7;
+@lightgrey		:		#dddddd;
 
 @lightred			:		#af2727;
 @red					:		#992323;
@@ -115,11 +116,10 @@ COLORS
 /*------------------------------
 TYPOGRAPHY
 ------------------------------*/
-@gotham-light: normal 300 1em/1.3 'Gotham A', 'Gotham B';
+@gotham-light: normal 300 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
+@gotham-medium: normal 500 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
+@gotham-bold: normal 700 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
 
-@gotham-bold: normal 700 1em/1.3 'Gotham A', 'Gotham B';
-
-@gotham-medium: normal 500 1em/1.3 'Gotham A', 'Gotham B';
 
 @sans-bold: 'montserratbold', helvetica, sans-serif;
 @sans-regular: 'montserratregular', helvetica, sans-serif;
@@ -131,8 +131,8 @@ h2{
 }
 
 h3{
+	font: @gotham-light;
 	font-size: 1.6em;
-	font-family: @sans-regular;
 }
 
 h4{
@@ -144,7 +144,12 @@ p{
 	margin-bottom: 1em;
 	font-size: 0.9em;
 	line-height: 1.3;
-	font-family: @sans-regular;
+	font-family: 'Gotham A', 'Gotham B', helvetica, sans-serif;
+	font-weight: 300;
+}
+
+strong{
+	font-weight: 700;
 }
 
 [data-icon]:before {
@@ -164,6 +169,7 @@ p{
   top: -9999px;
   left: -9999px;
 }
+
 /*-------------------------------------------------------------------------
 FORM ELEMENTS
 -------------------------------------------------------------------------*/
@@ -172,6 +178,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
 	padding: 0.5em;
 	border-radius: 4px;
 	border: none;
+	font: @gotham-light;
 	font-size: 1em;
 	color: @darkblue;
 	.box-sizing;
@@ -179,6 +186,7 @@ input[type="text"], input[type="email"], input[type="tel"]{
 
 textarea{
 	border-radius: 4px;
+	border: none;
 }
 
 button, .button{
@@ -227,7 +235,7 @@ HEADER
 		margin: 0 auto;
 		height: 50px;
 		text-align: center;
-		background: fadeout(white, 40%);
+		background: fadeout(white, 30%);
 	}
 }
 
@@ -277,6 +285,7 @@ HEADER
 }
 
 .mobile-nav-icon{
+	position: relative;
 	display: inline-block;
 	float: left;
 
@@ -284,6 +293,21 @@ HEADER
 		font-size: 2em;
 		line-height: 2;
 		padding: 0 0.6em;
+	}
+
+	.mobile-nav{
+		position: absolute;
+		top: 50px;
+		left: -300px;
+		width: 240px;
+		height: auto;
+		font-size: 0.5em;
+		text-align: left;
+		.transition;
+	}
+
+	.mobile-nav-active{
+		left: auto;
 	}
 }
 
@@ -360,27 +384,18 @@ MAIN SECTION
 	.main-logo{
 		float: left;
 		margin: 0 0.5em 0 -10px;
-		.transition;
 		position: relative;
-			-webkit-backface-visibility: hidden;
 
 		img{
 			width: auto;
 			height: 60px;
 		}
-
-		&:hover{
-			-moz-transform: rotate(-8deg);
-			-ms-transform: rotate(-8deg);
-			-o-transform: rotate(-8deg);
-			-webkit-transform: rotate(-8deg);
-			webkit-transform: rotate(-8deg);
-		}
 	}
 
 	.primary-nav{
 		height: 60px;
-		background: fadeout(white, 40%);
+		margin-left: 10px;
+		background: fadeout(white, 30%);
 
 		ul{
 			width: auto;
@@ -394,6 +409,22 @@ MAIN SECTION
 
 		a{
 			line-height: 70px;
+		}
+
+		.mobile-nav{
+			left: auto;
+			right: -300px;
+			top: 60px;
+			text-align: right;
+			background: fadeout(white, 30%);
+
+			a{
+				line-height: 3;
+			}
+		}
+
+		.mobile-nav-active{
+			right: 0;
 		}
 	}
 

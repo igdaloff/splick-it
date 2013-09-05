@@ -1,22 +1,33 @@
 .form-page{
-	background: @lightblue;
+	background: @grey;
 	padding-bottom: 4em;
 }
 
 .form-page-inner{
+	background: @white;
+	border-radius: 8px;
+	padding: 1em 2em;
+	margin-top: 2em;
+	.box-sizing;
+	color: @black;
+
+	p{
+		width: 80%;
+	}
 
 	form{
 		width: 100%;
 		margin-top: 2em;
 	}
 
-	h2{
-		margin: 1em 0 0.25em;
+	h3{
+		margin-bottom: 0.25em;
+		color: @lightgreen;
+		font-size: 2em;
 	}
 
 	h4{
 		margin-bottom: 1em;
-		text-decoration: underline;
 	}
 
 	a{
@@ -43,10 +54,14 @@
 		width: 100%;
 	}
 
+	input, textarea{
+		background: @lightgrey;
+	}
+
 	.button{
 		background: @lightgreen;
 		float: right;
-		width: 25%;
+		width: 100%;
 		margin-top: 2em;
 	}
 }
@@ -58,12 +73,14 @@
 	margin-bottom: 1em;
 }
 
-.fsSupporting{
-	display: inline-block;
-	margin-top: 0.5em;
-	font-size: 0.8em;
-	font-family: @gotham-light;
-	font-style: italic;
+@media only screen and (min-width : 30em) { /* 480px */
+
+	.form-page-inner{
+
+		.button{
+			width: 25%;
+		}
+	}
 }
 
 @media only screen and (min-width : 50em) { /* 800px */
@@ -85,5 +102,8 @@
 			margin-bottom: 0.5em;
 		}
 
+		.button{
+			width: 25%;
+		}
 	}
 }

@@ -7,11 +7,9 @@ Template Name: request info
 <div class="form-page">
 	<?php include("parts/shared/header.php"); ?>
 	<div class="wrapper form-page-inner">
-		<h2>Request for Info and&nbsp;Pricing</h2>
-		<p>Complete the form below or call us at (303) 481-3660 to receive info about our branded iPhone, Android and web ordering apps for restaurants. (Are you a Pita Pit franchisee? Please use <a href="index.php?page_id=28" title="New Pita Pit Franchisee Sign-Up">this sign-up form</a> instead!)</p>
-
-
-
+		<h3>Request for Info and&nbsp;Pricing</h3>
+		<p>Complete the form below or call us at (303) 481-3660 to receive info about our branded iPhone, Android and web ordering apps for&nbsp;restaurants.</p>
+		<p><strong>Are you a Pita Pit franchisee? Please use <a href="index.php?page_id=28" title="New Pita Pit Franchisee Sign-Up">this sign-up form</a>&nbsp;instead!</strong></p>
 <form method="post" novalidate enctype="multipart/form-data" action="http://www.formstack.com/forms/index.php" class="fsForm fsSingleColumn fsMaxCol1" id="fsForm1567980">
 	<input type="hidden" name="form" value="1567980" />
 	<input type="hidden" name="viewkey" value="OYIyBFTxAs" />
@@ -34,19 +32,19 @@ Template Name: request info
 	<div id="fsRow1567980-1" class="fsRow fsFieldRow fsLastRow">
 	<div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell21499050">
 	<label id="label21499050" class="fsLabel fsRequiredLabel" for="field21499050">First Name<span class="fsRequiredMarker">*</span>                                            </label>
-	<input type="text" id="field21499050" name="field21499050" size="50" required   value=""  class="fsField fsRequired " aria-required="true"  />
+	<input placeholder="First Name" type="text" id="field21499050" name="field21499050" size="50" required   value=""  class="fsField fsRequired " aria-required="true"  />
 	</div>
 	</div>
 	<div id="fsRow1567980-2" class="fsRow fsFieldRow fsLastRow">
 	<div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell21499057">
 	<label id="label21499057" class="fsLabel fsRequiredLabel" for="field21499057">Last Name<span class="fsRequiredMarker">*</span>                                            </label>
-	<input type="text" id="field21499057" name="field21499057" size="50" required   value=""  class="fsField fsRequired " aria-required="true"  />
+	<input placeholder="Last Name" type="text" id="field21499057" name="field21499057" size="50" required   value=""  class="fsField fsRequired " aria-required="true"  />
 	</div>
 	</div>
 	<div id="fsRow1567980-3" class="fsRow fsFieldRow fsLastRow">
 	<div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell21499067">
 	<label id="label21499067" class="fsLabel" for="field21499067">Title                                            </label>
-	<input type="text" id="field21499067" name="field21499067" size="50"    value=""  class="fsField  "   />
+	<input placeholder="Title" type="text" id="field21499067" name="field21499067" size="50"    value=""  class="fsField  "   />
 	</div>
 	</div>
 	<div id="fsRow1567980-4" class="fsRow fsFieldRow fsLastRow">
@@ -365,25 +363,25 @@ Template Name: request info
 	<div id="fsRow1567980-6" class="fsRow fsFieldRow fsLastRow">
 	<div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell21499282">
 	<label id="label21499282" class="fsLabel" for="field21499282">Email                                            </label>
-	<input type="email" id="field21499282" name="field21499282" size="50"     value=""  class="fsField fsFormatEmail "   />
+	<input placeholder="example@email.com" type="email" id="field21499282" name="field21499282" size="50"     value=""  class="fsField fsFormatEmail "   />
 	</div>
 	</div>
 	<div id="fsRow1567980-7" class="fsRow fsFieldRow fsLastRow">
 	<div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell21499090">
 	<label id="label21499090" class="fsLabel" for="field21499090">Phone                                            </label>
-	<input type="text" id="field21499090" name="field21499090" size="50"    value=""  class="fsField  "   />
+	<input placeholder="123-456-7890" type="text" id="field21499090" name="field21499090" size="50"    value=""  class="fsField  "   />
 	</div>
 	</div>
 	<div id="fsRow1567980-8" class="fsRow fsFieldRow fsLastRow">
 	<div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell21499103">
 	<label id="label21499103" class="fsLabel" for="field21499103">Restaurant/Company Name                                            </label>
-	<input type="text" id="field21499103" name="field21499103" size="50"    value=""  class="fsField  "   />
+	<input placeholder="Restaurant/Company Name" type="text" id="field21499103" name="field21499103" size="50"    value=""  class="fsField  "   />
 	</div>
 	</div>
 	<div id="fsRow1567980-9" class="fsRow fsFieldRow fsLastRow">
 	<div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell21499228">
 	<label id="label21499228" class="fsLabel" for="field21499228">Number of Locations                                            </label>
-	<input type="text" id="field21499228" name="field21499228" size="50"    value=""  class="fsField  "   />
+	<input placeholder="# of Locations" type="text" id="field21499228" name="field21499228" size="50"    value=""  class="fsField  "   />
 	</div>
 	</div>
 	<div id="fsRow1567980-10" class="fsRow fsFieldRow fsLastRow">
@@ -395,7 +393,7 @@ Template Name: request info
 	<div id="fsRow1567980-11" class="fsRow fsFieldRow fsLastRow">
 	<div class="fsRowBody fsCell fsFieldCell  fsFirst fsLast fsLabelVertical  fsSpan100 " id="fsCell21499240">
 	<label id="label21499240" class="fsLabel" for="field21499240">Already have an OpenMenu ID?  Enter it here                                            </label>
-	<input type="text" id="field21499240" name="field21499240" size="50"    value=""  class="fsField  "   />
+	<input placeholder="aaaaaaaa-bbbb-cccc-dddd-eeeeeeeeeeee" type="text" id="field21499240" name="field21499240" size="50"    value=""  class="fsField  "   />
 	</div>
 	</div>
 	</div>

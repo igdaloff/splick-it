@@ -157,8 +157,8 @@ h2 {
   font-family: 'montserratbold', helvetica, sans-serif;
 }
 h3 {
+  font: normal 300 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
   font-size: 1.6em;
-  font-family: 'montserratregular', helvetica, sans-serif;
 }
 h4 {
   text-transform: uppercase;
@@ -168,7 +168,11 @@ p {
   margin-bottom: 1em;
   font-size: 0.9em;
   line-height: 1.3;
-  font-family: 'montserratregular', helvetica, sans-serif;
+  font-family: 'Gotham A', 'Gotham B', helvetica, sans-serif;
+  font-weight: 300;
+}
+strong {
+  font-weight: 700;
 }
 [data-icon]:before {
   font-family: 'icomoon';
@@ -196,6 +200,7 @@ input[type="tel"] {
   padding: 0.5em;
   border-radius: 4px;
   border: none;
+  font: normal 300 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
   font-size: 1em;
   color: #052b2d;
   -webkit-box-sizing: border-box;
@@ -204,6 +209,7 @@ input[type="tel"] {
 }
 textarea {
   border-radius: 4px;
+  border: none;
 }
 button,
 .button {
@@ -268,7 +274,7 @@ HEADER
   margin: 0 auto;
   height: 50px;
   text-align: center;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.7);
 }
 .main-logo {
   float: none;
@@ -311,6 +317,7 @@ HEADER
   padding: 0.2em 2em 0;
 }
 .mobile-nav-icon {
+  position: relative;
   display: inline-block;
   float: left;
 }
@@ -318,6 +325,22 @@ HEADER
   font-size: 2em;
   line-height: 2;
   padding: 0 0.6em;
+}
+.mobile-nav-icon .mobile-nav {
+  position: absolute;
+  top: 50px;
+  left: -300px;
+  width: 240px;
+  height: auto;
+  font-size: 0.5em;
+  text-align: left;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.mobile-nav-icon .mobile-nav-active {
+  left: auto;
 }
 .desktop-nav-item {
   display: none;
@@ -338,7 +361,7 @@ MAIN SECTION
   text-align: center;
 }
 .callout h2 {
-  font: normal 300 1em/1.3 'Gotham A', 'Gotham B';
+  font: normal 300 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
   font-size: 1.6em;
   color: #052b2d;
   text-transform: none;
@@ -351,7 +374,7 @@ MAIN SECTION
   padding: 1em;
   margin-top: 1em;
   background: #052b2d;
-  font: normal 300 1em/1.3 'Gotham A', 'Gotham B';
+  font: normal 300 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
   color: #f9f9f9;
   border-radius: 4px;
   text-align: left;
@@ -387,27 +410,16 @@ MAIN SECTION
   .main-logo {
     float: left;
     margin: 0 0.5em 0 -10px;
-    -webkit-transition: all 0.2s ease;
-    -moz-transition: all 0.2s ease;
-    -o-transition: all 0.2s ease;
-    transition: all 0.2s ease;
     position: relative;
-    -webkit-backface-visibility: hidden;
   }
   .main-logo img {
     width: auto;
     height: 60px;
   }
-  .main-logo:hover {
-    -moz-transform: rotate(-8deg);
-    -ms-transform: rotate(-8deg);
-    -o-transform: rotate(-8deg);
-    -webkit-transform: rotate(-8deg);
-    webkit-transform: rotate(-8deg);
-  }
   .primary-nav {
     height: 60px;
-    background: rgba(255, 255, 255, 0.6);
+    margin-left: 10px;
+    background: rgba(255, 255, 255, 0.7);
   }
   .primary-nav ul {
     width: auto;
@@ -419,6 +431,19 @@ MAIN SECTION
   }
   .mobile-nav-icon a {
     line-height: 70px;
+  }
+  .mobile-nav-icon .mobile-nav {
+    left: auto;
+    right: -300px;
+    top: 60px;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.7);
+  }
+  .mobile-nav-icon .mobile-nav a {
+    line-height: 3;
+  }
+  .mobile-nav-icon .mobile-nav-active {
+    right: 0;
   }
   .request-info-nav-item {
     float: right;
@@ -487,19 +512,33 @@ MAIN SECTION
   font-style: normal;
 }
 .form-page {
-  background: #084e51;
+  background: #b7b7b7;
   padding-bottom: 4em;
+}
+.form-page-inner {
+  background: #f9f9f9;
+  border-radius: 8px;
+  padding: 1em 2em;
+  margin-top: 2em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #3f3f3f;
+}
+.form-page-inner p {
+  width: 80%;
 }
 .form-page-inner form {
   width: 100%;
   margin-top: 2em;
 }
-.form-page-inner h2 {
-  margin: 1em 0 0.25em;
+.form-page-inner h3 {
+  margin-bottom: 0.25em;
+  color: #1a9975;
+  font-size: 2em;
 }
 .form-page-inner h4 {
   margin-bottom: 1em;
-  text-decoration: underline;
 }
 .form-page-inner a {
   text-decoration: underline;
@@ -526,10 +565,14 @@ MAIN SECTION
   display: block;
   width: 100%;
 }
+.form-page-inner input,
+.form-page-inner textarea {
+  background: #dddddd;
+}
 .form-page-inner .button {
   background: #1a9975;
   float: right;
-  width: 25%;
+  width: 100%;
   margin-top: 2em;
 }
 .fsError {
@@ -538,12 +581,11 @@ MAIN SECTION
   padding: 1em;
   margin-bottom: 1em;
 }
-.fsSupporting {
-  display: inline-block;
-  margin-top: 0.5em;
-  font-size: 0.8em;
-  font-family: normal 300 0.7692307692307692em 'Gotham A', 'Gotham B';
-  font-style: italic;
+@media only screen and (min-width: 30em) {
+  /* 480px */
+  .form-page-inner .button {
+    width: 25%;
+  }
 }
 @media only screen and (min-width: 50em) {
   /* 800px */
@@ -562,6 +604,9 @@ MAIN SECTION
   }
   .form-page-inner .fsRowBody {
     margin-bottom: 0.5em;
+  }
+  .form-page-inner .button {
+    width: 25%;
   }
 }
 /* GLOBAL SUB-SECTION STYLES */
@@ -596,6 +641,9 @@ MAIN SECTION
 }
 .sub-section-body h3 {
   margin: 0.5em 0;
+}
+.sub-section-body p {
+  font-family: 'montserratregular', helvetica, sans-serif;
 }
 .sub-section-item {
   padding: 1em 1.5em;
@@ -723,7 +771,7 @@ footer h4 {
 footer li {
   margin-bottom: 0.75em;
   color: #3f3f3f;
-  font-family: 'montserratregular', helvetica, sans-serif;
+  font: normal 500 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
   font-size: 0.9em;
 }
 footer li a:not(.button) {

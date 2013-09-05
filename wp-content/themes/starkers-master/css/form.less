@@ -14,6 +14,11 @@
 		margin: 1em 0 0.25em;
 	}
 
+	h4{
+		margin-bottom: 1em;
+		text-decoration: underline;
+	}
+
 	a{
 		text-decoration: underline;
 		.transition;
@@ -23,7 +28,7 @@
 		}
 	}
 
-	.fsRowBody{
+	.fsRowBody, .fsSubField{
 		display: inline-block;
 		width: 100%;
 		margin-bottom: 1.5em;
@@ -51,6 +56,14 @@
 	color: @white;
 	padding: 1em;
 	margin-bottom: 1em;
+}
+
+.fsSupporting{
+	display: inline-block;
+	margin-top: 0.5em;
+	font-size: 0.8em;
+	font-family: @gotham-light;
+	font-style: italic;
 }
 
 @media only screen and (min-width : 50em) { /* 800px */

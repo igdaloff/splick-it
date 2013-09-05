@@ -1,18 +1,52 @@
 .form-page{
-	background: @darkgreen;
+	background: @lightblue;
+	padding-bottom: 4em;
+}
+
+.form-page-inner{
+
+	form{
+		width: 80%;
+		margin-top: 2em;
+	}
 
 	h2{
 		margin: 1em 0 0.25em;
 	}
 
-	.form-row{
-		margin-bottom: 0.75em;
+	a{
+		text-decoration: underline;
+		.transition;
+
+		&:hover{
+			color: @lightgreen;
+		}
+	}
+
+	.fsRowBody{
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 0.5em;
 	}
 
 	label, input, textarea{
-		display: inline-block;
-		width: 40%;
+		float: left;
+		width: 50%;
+		line-height: 2;
 		.box-sizing;
 	}
 
+	.button{
+		background: @lightgreen;
+		float: right;
+		width: 25%;
+		margin-top: 2em;
+	}
+}
+
+.fsError{
+	background: @red;
+	color: @white;
+	padding: 1em;
+	margin-bottom: 1em;
 }

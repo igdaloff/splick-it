@@ -11,9 +11,9 @@ Template Name: home
 	<div class="callout">
 		<h2>Merchant Solutions Platform For Mobile / Online Ordering, Payment, Loyalty & Marketing A Large Distribution Network</h2>
 		<ul class="feature-callout">
-			<li>Online<br>Ordering</li>
-			<li class="second-feature-callout">Tablet<br>Friendly</li>
-			<li class="third-feature-callout">Optimized<br>For Delicious</li>
+			<li data-icon="p">Online<br>Ordering</li>
+			<li data-icon="i" class="second-feature-callout">Tablet<br>Friendly</li>
+			<li data-icon="f" class="third-feature-callout">Optimized<br>For Delicious</li>
 		</ul>
 	</div>
 </div>

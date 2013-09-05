@@ -160,6 +160,10 @@ h3 {
   font-size: 1.6em;
   font-family: 'montserratregular', helvetica, sans-serif;
 }
+h4 {
+  text-transform: uppercase;
+  font-family: 'montserratbold', helvetica, sans-serif;
+}
 p {
   margin-bottom: 1em;
   font-size: 0.9em;
@@ -201,6 +205,7 @@ textarea {
 }
 button,
 .button {
+  display: inline-block;
   padding: 1.5em 2em;
   font-size: 0.6em;
   font-family: 'montserratregular', helvetica, sans-serif;
@@ -589,6 +594,45 @@ MAIN SECTION
   background: #3f3f3f;
   padding: 0;
 }
+footer {
+  padding-top: 1.5em;
+  text-align: center;
+}
+footer .footer-list {
+  margin-bottom: 1.5em;
+}
+footer h4 {
+  margin-bottom: 0.5em;
+  color: #b7b7b7;
+}
+footer li {
+  margin-bottom: 0.75em;
+  color: #3f3f3f;
+  font-family: 'montserratregular', helvetica, sans-serif;
+  font-size: 0.9em;
+}
+footer .button {
+  width: 65%;
+  height: 40px;
+  background: #3f3f3f;
+}
+footer .button img {
+  width: 100px;
+}
+.footer-download-list .button {
+  padding: 0.65em 4em 0;
+}
+@media only screen and (min-width: 37.5em) {
+  /* 600px */
+  footer button img {
+    width: 100%;
+  }
+  .footer-list {
+    width: 50%;
+    float: left;
+    height: 150px;
+  }
+}
 @media only screen and (min-width: 50em) {
   /* 800px */
   .newsletter {
@@ -604,6 +648,19 @@ MAIN SECTION
   .newsletter .email-input {
     float: left;
     width: 32.3333333%;
+  }
+}
+@media only screen and (min-width: 56.25em) {
+  /* 900px */
+  .footer-list {
+    width: 25%;
+    padding: 0 1em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .footer-list .button {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 68.75em) {

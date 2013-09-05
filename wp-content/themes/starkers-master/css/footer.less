@@ -35,6 +35,57 @@
 	}
 }
 
+footer{
+	padding-top: 1.5em;
+	text-align: center;
+
+	.footer-list{
+		margin-bottom: 1.5em;
+	}
+
+	h4{
+		margin-bottom: 0.5em;
+		color: @grey;
+	}
+
+	li{
+		margin-bottom: 0.75em;
+		color: @black;
+		font-family: @sans-regular;
+		font-size: 0.9em;
+	}
+
+	.button{
+		width: 65%;
+		height: 40px;
+		background: @black;
+
+		img{
+			width: 100px;
+		}
+	}
+}
+
+.footer-download-list{
+
+	.button{
+		padding: 0.65em 4em 0;
+	}
+}
+
+@media only screen and (min-width : 37.5em) { /* 600px */
+
+	footer button img{
+		width: 100%;
+	}
+
+	.footer-list{
+		width: 50%;
+		float: left;
+		height: 150px;
+	}
+}
+
 
 @media only screen and (min-width : 50em) { /* 800px */
 
@@ -52,6 +103,19 @@
 		.email-input{
 			float: left;
 			width: 32.3333333%;
+		}
+	}
+}
+
+@media only screen and (min-width : 56.25em) { /* 900px */
+
+	.footer-list{
+		width: 25%;
+		padding: 0 1em;
+		.box-sizing;
+
+		.button{
+			width: 100%;
 		}
 	}
 }

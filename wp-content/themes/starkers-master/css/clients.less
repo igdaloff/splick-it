@@ -2,15 +2,16 @@
 	background: @grey;
 }
 
-#client-list{
+.grid-item-list{
 	margin: 1em -0.5em;
 }
 
-.single-client{
-	padding: 0.5em 0.5em 1.5em;
+.grid-item{
+	padding: 0.5em;
+	margin-bottom: 1em;
 }
 
-.single-client-inner{
+.grid-item-inner{
 	padding: 1em 2em;
 	background: @white;
 	border-radius: 4px;
@@ -22,7 +23,7 @@
 		font-size: 1.8em;
 	}
 
-	.client-icon, .client-links{
+	.grid-item-image, .grid-item-links{
 		float: left;
 		width: 50%;
 	}
@@ -32,10 +33,9 @@
 		margin-top: 1em;
 		color: @black;
 	}
-
 }
 
-.client-links{
+.grid-item-links{
 	padding-left: 1em;
 	.box-sizing;
 
@@ -62,7 +62,7 @@
 
 @media only screen and (min-width : 30em) { /* 480px */
 
-	.single-client{
+	.grid-item{
 		float: left;
 		width: 50%;
 		.box-sizing;
@@ -70,7 +70,7 @@
 }
 
 @media only screen and (min-width : 50em) { /* 800px */
-	.single-client{
+	.grid-item{
 		width: 33.3333333%;
 	}
 }

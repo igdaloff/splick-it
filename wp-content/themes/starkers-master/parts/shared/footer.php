@@ -4,7 +4,7 @@
 			<h4>Company</h4>
 			<ul>
 				<li><a href="">Blog</a></li>
-				<li><a href="">About</a></li>
+				<li><a href="/about/">About</a></li>
 				<li><a href="">Media</a></li>
 				<li><a href="">Jobs</a></li>
 			</ul>

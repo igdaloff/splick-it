@@ -10,7 +10,7 @@ Template Name: clients
 	<?php include("parts/shared/header.php"); ?>
 
 	<div class="wrapper">
-		<ul id="client-list">
+		<ul id="client-list" class="grid-item-list">
 
 		<?php
 	    $args=array(
@@ -28,11 +28,11 @@ Template Name: clients
 	      while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
 
-			<li class="single-client">
-				<div class="single-client-inner">
+			<li class="grid-item">
+				<div class="grid-item-inner">
 					<h3><?php echo get_the_title(); ?></h3>
-					<img class="client-icon" src="<?php the_field('client_icon_image'); ?>" alt="Client icon" />
-					<ul class="client-links">
+					<img class="grid-item-image" src="<?php the_field('client_icon_image'); ?>" alt="Client icon" />
+					<ul class="grid-item-links">
 						<li><a href="<?php the_field('apple_app_store_link'); ?>" class="button"><img src="<?php bloginfo('template_url'); ?>/images/apple-download.png" alt="Apple Download Icon" /></a></li>
 						<li><a href="<?php the_field('google_play_link'); ?>" class="button"><img src="<?php bloginfo('template_url'); ?>/images/android-download.png" alt="Android Download Icon" /></a></li>
 						<li><a href="<?php the_field('ssplick-it_link'); ?>" class="button order-button">Order Online</a></li>

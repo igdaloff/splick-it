@@ -18,9 +18,11 @@ jQuery(document).ready(function($) {
 	});
 
 	/* CLIENT MASONRY */
-	$('#client-list').masonry({
-		singleMode: true,
-		itemSelector: '.single-client',
-		transitionDuration: 0
-  });
+	$(window).load(function(){
+		$('.grid-item-list').masonry({
+			singleMode: true,
+			itemSelector: '.grid-item',
+			transitionDuration: 0
+	  });
+	});
 });

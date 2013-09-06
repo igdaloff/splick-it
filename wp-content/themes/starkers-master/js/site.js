@@ -9,4 +9,11 @@ jQuery(document).ready(function($) {
 	$('.mobile-nav a').click( function(e){
 		e.stopPropagation();
 	});
+
+	/* CLIENT MASONRY */
+	$('#client-list').masonry({
+		singleMode: true,
+		itemSelector: '.single-client',
+		transitionDuration: 0
+  });
 });

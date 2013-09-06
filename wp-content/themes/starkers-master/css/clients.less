@@ -1,0 +1,76 @@
+.clients{
+	background: @grey;
+}
+
+#client-list{
+	margin: 1em -0.5em;
+}
+
+.single-client{
+	padding: 0.5em 0.5em 1.5em;
+}
+
+.single-client-inner{
+	padding: 1em 2em;
+	background: @white;
+	border-radius: 4px;
+
+	h3{
+		margin-bottom: 0.5em;
+		color: @lightgreen;
+		text-align: center;
+		font-size: 1.8em;
+	}
+
+	.client-icon, .client-links{
+		float: left;
+		width: 50%;
+	}
+
+	p{
+		display: inline-block;
+		margin-top: 1em;
+		color: @black;
+	}
+
+}
+
+.client-links{
+	padding-left: 1em;
+	.box-sizing;
+
+	li{
+		display: inline-block;
+		margin: 0.25em 0;
+		width: 100%;
+	}
+
+	.button{
+		width: 100%;
+		padding: 0.6em 20%;
+		background: @black;
+	}
+
+	.order-button{
+		padding: 1.2em 5%;
+	}
+
+	img{
+		width: 100%;
+	}
+}
+
+@media only screen and (min-width : 30em) { /* 480px */
+
+	.single-client{
+		float: left;
+		width: 50%;
+		.box-sizing;
+	}
+}
+
+@media only screen and (min-width : 50em) { /* 800px */
+	.single-client{
+		width: 33.3333333%;
+	}
+}

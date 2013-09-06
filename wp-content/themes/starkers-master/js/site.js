@@ -1,7 +1,7 @@
 jQuery(document).ready(function($) {
 
 	/* HIGHLIGHT CURRENT PAGE IN NAV */
-	$(".primary-nav-item a").each(function(){
+	$("nav a").each(function(){
 		if ($(this).attr("href") == window.location.pathname){
 			$(this).addClass("selected");
 		}

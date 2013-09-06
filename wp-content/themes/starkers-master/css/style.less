@@ -27,7 +27,7 @@ body {
 	line-height: 1;
 	font-family: @sans-bold;
 	color: @white;
-	background: @white;
+	background: @grey;
 }
 ol, ul {
 	list-style: none;
@@ -259,6 +259,15 @@ GENERAL LAYOUT
 		font-size: 1.8em;
 	}
 
+	h4{
+		margin: 0.5em 0 1em;
+		color: @lightblue;
+		font: @gotham-medium;
+		font-size: 0.9em;
+		text-align: center;
+		text-transform: none;
+	}
+
 	.grid-item-image, .grid-item-links{
 		float: left;
 		width: 50%;
@@ -427,7 +436,11 @@ SUB NAV
 
 	.button{
 		width: 100%;
-		background: @blue;
+		background: @lightblue;
+	}
+
+	.selected{
+		background: @darkblue;
 	}
 }
 /*-------------------------------------------------------------------------

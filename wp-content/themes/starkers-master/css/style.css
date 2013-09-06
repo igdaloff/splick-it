@@ -104,7 +104,7 @@ body {
   line-height: 1;
   font-family: 'montserratbold', helvetica, sans-serif;
   color: #f9f9f9;
-  background: #f9f9f9;
+  background: #b7b7b7;
 }
 ol,
 ul {
@@ -292,6 +292,14 @@ GENERAL LAYOUT
   text-align: center;
   font-size: 1.8em;
 }
+.grid-item-inner h4 {
+  margin: 0.5em 0 1em;
+  color: #084e51;
+  font: normal 500 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
+  font-size: 0.9em;
+  text-align: center;
+  text-transform: none;
+}
 .grid-item-inner .grid-item-image,
 .grid-item-inner .grid-item-links {
   float: left;
@@ -452,7 +460,10 @@ SUB NAV
 }
 .sub-nav .button {
   width: 100%;
-  background: #05373c;
+  background: #084e51;
+}
+.sub-nav .selected {
+  background: #052b2d;
 }
 /*-------------------------------------------------------------------------
 MAIN SECTION
@@ -831,30 +842,16 @@ MAIN SECTION
     float: left;
   }
 }
-.clients {
-  background: #b7b7b7;
-}
 .grid-item-links .order-button {
   padding: 1.2em 5%;
-}
-.about {
-  background: #b7b7b7;
 }
 .about h3 {
   margin-bottom: 0;
 }
-.about h4 {
-  margin: 0.5em 0 1em;
-  color: #084e51;
-  font: normal 500 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
-  font-size: 0.9em;
-  text-align: center;
-  text-transform: none;
-}
-.about .button {
+.about .grid-item-inner .button {
   padding: 1.5em 2em;
 }
-.about .button:hover {
+.about .grid-item-inner .button:hover {
   padding: 1.65em 2em 1.35em;
 }
 .newsletter {

@@ -34,6 +34,45 @@ Template Name: about
 				?>
 			</p>
 		</div>
+
+		<ul id="client-list" class="grid-item-list">
+
+		<?php
+	    $args=array(
+	      'category_name' => 'team',
+	      'post_type' => 'post',
+	      'post_status' => 'publish',
+	      'posts_per_page' => 100,
+	      'order'	=> 'ASC'
+	    );
+
+	    $my_query = null;
+	    $my_query = new WP_Query($args);
+
+	    if( $my_query->have_posts() ) {
+	      while ($my_query->have_posts()) : $my_query->the_post(); ?>
+
+
+			<li class="grid-item">
+				<div class="grid-item-inner">
+					<h3><?php echo get_the_title(); ?></h3>
+					<h4><?php the_field('team_member_title'); ?></h4>
+					<img class="grid-item-image" src="<?php the_field('team_member_photo'); ?>" alt="Team member image" />
+					<ul class="grid-item-links">
+						<li><a href="<?php the_field('linkedin_url'); ?>" class="button">LinkedIn</a></li>
+					</ul>
+					<p><?php echo get_the_content(); ?></p>
+				</div>
+			</li>
+
+	  <?php
+	  	endwhile;
+	  }
+
+		wp_reset_query();  // Restore global post data stomped by the_post().
+		?>
+
+		</ul>
 	</div>
 </div>
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/footer','parts/shared/html-footer' ) ); ?>

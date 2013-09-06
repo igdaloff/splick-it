@@ -7,19 +7,19 @@
 				</a>
 			</h1>
 			<ul>
-				<li class="primary-nav-item desktop-nav-item"><a href="index.php?page_id=30">Merchant Solutions Platform</a></li>
-				<li class="primary-nav-item desktop-nav-item"><a href="">Distribution Network</a></li>
-				<li class="primary-nav-item desktop-nav-item"><a href="index.php?page_id=34">Clients</a></li>
+				<li class="primary-nav-item desktop-nav-item"><a href="/merchant-solutions/">Merchant Solutions Platform</a></li>
+				<li class="primary-nav-item desktop-nav-item"><a href="/distribution-network/">Distribution Network</a></li>
+				<li class="primary-nav-item desktop-nav-item"><a href="/clients/">Clients</a></li>
 				<li class="primary-nav-item mobile-nav-icon">
 					<a href="" aria-hidden="true" data-icon="m"></a>
 					<span class="screen-reader-text">Menu</span>
 					<ul class="mobile-nav">
-						<li class="mobile-nav-item"><a href="index.php?page_id=30">Merchant Solutions Platform</a></li>
-						<li class="mobile-nav-item"><a href="">Distribution Network</a></li>
-						<li class="mobile-nav-item"><a href="index.php?page_id=34">Clients</a></li>
+						<li class="mobile-nav-item"><a href="/merchant-solutions/">Merchant Solutions Platform</a></li>
+						<li class="mobile-nav-item"><a href="/distribution-network/">Distribution Network</a></li>
+						<li class="mobile-nav-item"><a href="/clients/">Clients</a></li>
 					</ul>
 				</li>
-				<li class="primary-nav-item request-info-nav-item"><a class="button" href="index.php?page_id=11">Request Info</a></li>
+				<li class="primary-nav-item request-info-nav-item"><a class="button" href="/start/">Request Info</a></li>
 			</ul>
 		</nav>
 	</div>

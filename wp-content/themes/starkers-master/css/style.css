@@ -297,6 +297,9 @@ HEADER
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
+.primary-nav-item .selected {
+  color: #1a9975;
+}
 .primary-nav-item a:not(.button):hover {
   color: #1a9975;
 }

@@ -1,5 +1,12 @@
 jQuery(document).ready(function($) {
 
+	/* HIGHLIGHT CURRENT PAGE IN NAV */
+	$(".primary-nav-item a").each(function(){
+		if ($(this).attr("href") == window.location.pathname){
+			$(this).addClass("selected");
+		}
+	});
+
 	/* MOBILE MENU REVEAL */
 	$('.mobile-nav-icon').click( function(e){
 		e.preventDefault();

@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.6.11)
 # Database: splickit_wordpress
-# Generation Time: 2013-09-06 12:47:10 +0000
+# Generation Time: 2013-09-06 17:30:19 +0000
 # ************************************************************
 
 
@@ -154,7 +154,7 @@ VALUES
 	(32,'hack_file','0','yes'),
 	(33,'blog_charset','UTF-8','yes'),
 	(34,'moderation_keys','','no'),
-	(35,'active_plugins','a:1:{i:0;s:30:\"advanced-custom-fields/acf.php\";}','yes'),
+	(35,'active_plugins','a:2:{i:0;s:30:\"advanced-custom-fields/acf.php\";i:1;s:19:\"akismet/akismet.php\";}','yes'),
 	(36,'home','http://l.splickit.com','yes'),
 	(37,'category_base','','yes'),
 	(38,'ping_sites','http://rpc.pingomatic.com/','yes'),
@@ -218,9 +218,9 @@ VALUES
 	(96,'widget_archives','a:2:{i:2;a:3:{s:5:\"title\";s:0:\"\";s:5:\"count\";i:0;s:8:\"dropdown\";i:0;}s:12:\"_multiwidget\";i:1;}','yes'),
 	(97,'widget_meta','a:2:{i:2;a:1:{s:5:\"title\";s:0:\"\";}s:12:\"_multiwidget\";i:1;}','yes'),
 	(98,'sidebars_widgets','a:3:{s:19:\"wp_inactive_widgets\";a:0:{}s:18:\"orphaned_widgets_1\";a:6:{i:0;s:8:\"search-2\";i:1;s:14:\"recent-posts-2\";i:2;s:17:\"recent-comments-2\";i:3;s:10:\"archives-2\";i:4;s:12:\"categories-2\";i:5;s:6:\"meta-2\";}s:13:\"array_version\";i:3;}','yes'),
-	(99,'cron','a:4:{i:1378479706;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1378494842;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1378494850;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}','yes'),
+	(99,'cron','a:4:{i:1378494842;a:3:{s:16:\"wp_version_check\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:17:\"wp_update_plugins\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}s:16:\"wp_update_themes\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:10:\"twicedaily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:43200;}}}i:1378494850;a:1:{s:19:\"wp_scheduled_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}i:1378566106;a:1:{s:30:\"wp_scheduled_auto_draft_delete\";a:1:{s:32:\"40cd750bba9870f18aada2478b24840a\";a:3:{s:8:\"schedule\";s:5:\"daily\";s:4:\"args\";a:0:{}s:8:\"interval\";i:86400;}}}s:7:\"version\";i:2;}','yes'),
 	(101,'_site_transient_update_core','O:8:\"stdClass\":3:{s:7:\"updates\";a:1:{i:0;O:8:\"stdClass\":9:{s:8:\"response\";s:6:\"latest\";s:8:\"download\";s:38:\"http://wordpress.org/wordpress-3.6.zip\";s:6:\"locale\";s:5:\"en_US\";s:8:\"packages\";O:8:\"stdClass\":4:{s:4:\"full\";s:38:\"http://wordpress.org/wordpress-3.6.zip\";s:10:\"no_content\";s:49:\"http://wordpress.org/wordpress-3.6-no-content.zip\";s:11:\"new_bundled\";s:50:\"http://wordpress.org/wordpress-3.6-new-bundled.zip\";s:7:\"partial\";b:0;}s:7:\"current\";s:3:\"3.6\";s:11:\"php_version\";s:5:\"5.2.4\";s:13:\"mysql_version\";s:3:\"5.0\";s:11:\"new_bundled\";s:3:\"3.6\";s:15:\"partial_version\";s:0:\"\";}}s:12:\"last_checked\";i:1378471587;s:15:\"version_checked\";s:3:\"3.6\";}','yes'),
-	(102,'_site_transient_update_plugins','O:8:\"stdClass\":2:{s:12:\"last_checked\";i:1378471587;s:8:\"response\";a:0:{}}','yes'),
+	(102,'_site_transient_update_plugins','O:8:\"stdClass\":3:{s:12:\"last_checked\";i:1378483968;s:7:\"checked\";a:2:{s:30:\"advanced-custom-fields/acf.php\";s:5:\"4.2.2\";s:19:\"akismet/akismet.php\";s:5:\"2.5.9\";}s:8:\"response\";a:0:{}}','yes'),
 	(105,'_site_transient_update_themes','O:8:\"stdClass\":3:{s:12:\"last_checked\";i:1378471587;s:7:\"checked\";a:3:{s:15:\"starkers-master\";s:0:\"\";s:14:\"twentythirteen\";s:3:\"1.0\";s:12:\"twentytwelve\";s:3:\"1.2\";}s:8:\"response\";a:0:{}}','yes'),
 	(106,'_transient_random_seed','523d6ec0d43fb62656d3c2967dfaa4e7','yes'),
 	(107,'auth_key','?Y6]t*f*$d|])$pYf~m..RWHiOBi&+sDH`orEh}!u0a#u&r?S5)Cb02=7L|yS?k2','yes'),
@@ -233,8 +233,8 @@ VALUES
 	(114,'_site_transient_browser_de48341fc1229faa5760dbf4f44462ec','a:9:{s:8:\"platform\";s:9:\"Macintosh\";s:4:\"name\";s:6:\"Chrome\";s:7:\"version\";s:12:\"29.0.1547.62\";s:10:\"update_url\";s:28:\"http://www.google.com/chrome\";s:7:\"img_src\";s:49:\"http://s.wordpress.org/images/browsers/chrome.png\";s:11:\"img_src_ssl\";s:48:\"https://wordpress.org/images/browsers/chrome.png\";s:15:\"current_version\";s:2:\"18\";s:7:\"upgrade\";b:0;s:8:\"insecure\";b:0;}','yes'),
 	(115,'dashboard_widget_options','a:4:{s:25:\"dashboard_recent_comments\";a:1:{s:5:\"items\";i:5;}s:24:\"dashboard_incoming_links\";a:5:{s:4:\"home\";s:21:\"http://l.splickit.com\";s:4:\"link\";s:97:\"http://blogsearch.google.com/blogsearch?scoring=d&partner=wordpress&q=link:http://l.splickit.com/\";s:3:\"url\";s:130:\"http://blogsearch.google.com/blogsearch_feeds?scoring=d&ie=utf-8&num=10&output=rss&partner=wordpress&q=link:http://l.splickit.com/\";s:5:\"items\";i:10;s:9:\"show_date\";b:0;}s:17:\"dashboard_primary\";a:7:{s:4:\"link\";s:26:\"http://wordpress.org/news/\";s:3:\"url\";s:31:\"http://wordpress.org/news/feed/\";s:5:\"title\";s:14:\"WordPress Blog\";s:5:\"items\";i:2;s:12:\"show_summary\";i:1;s:11:\"show_author\";i:0;s:9:\"show_date\";i:1;}s:19:\"dashboard_secondary\";a:7:{s:4:\"link\";s:28:\"http://planet.wordpress.org/\";s:3:\"url\";s:33:\"http://planet.wordpress.org/feed/\";s:5:\"title\";s:20:\"Other WordPress News\";s:5:\"items\";i:5;s:12:\"show_summary\";i:0;s:11:\"show_author\";i:0;s:9:\"show_date\";i:0;}}','yes'),
 	(117,'can_compress_scripts','1','yes'),
-	(144,'_transient_timeout_plugin_slugs','1378440272','no'),
-	(145,'_transient_plugin_slugs','a:3:{i:0;s:30:\"advanced-custom-fields/acf.php\";i:1;s:19:\"akismet/akismet.php\";i:2;s:9:\"hello.php\";}','no'),
+	(144,'_transient_timeout_plugin_slugs','1378570368','no'),
+	(145,'_transient_plugin_slugs','a:2:{i:0;s:30:\"advanced-custom-fields/acf.php\";i:1;s:19:\"akismet/akismet.php\";}','no'),
 	(151,'ftp_credentials','a:3:{s:8:\"hostname\";s:9:\"localhost\";s:8:\"username\";s:5:\"admin\";s:15:\"connection_type\";s:3:\"ftp\";}','yes'),
 	(153,'current_theme','Starkers','yes'),
 	(154,'theme_mods_starkers-master','a:1:{i:0;b:0;}','yes'),
@@ -278,9 +278,9 @@ VALUES
 	(248,'_transient_feed_mod_77fa140e07ce53fe8c87136636f83d72','1378411443','no'),
 	(249,'_transient_timeout_dash_de3249c4736ad3bd2cd29147c4a0d43e','1378454643','no'),
 	(250,'_transient_dash_de3249c4736ad3bd2cd29147c4a0d43e','<h4>Most Popular</h4>\n<h5><a href=\'http://wordpress.org/plugins/jetpack/\'>Jetpack by WordPress.com</a></h5>&nbsp;<span>(<a href=\'plugin-install.php?tab=plugin-information&amp;plugin=jetpack&amp;_wpnonce=4fa6aedd3a&amp;TB_iframe=true&amp;width=600&amp;height=800\' class=\'thickbox\' title=\'Jetpack by WordPress.com\'>Install</a>)</span>\n<p>Supercharge your WordPress site with powerful features previously only available to WordPress.com users.</p>\n<h4>Newest Plugins</h4>\n<h5><a href=\'http://wordpress.org/plugins/core-updates-permission/\'>Core Updates Permission</a></h5>&nbsp;<span>(<a href=\'plugin-install.php?tab=plugin-information&amp;plugin=core-updates-permission&amp;_wpnonce=fb011f347e&amp;TB_iframe=true&amp;width=600&amp;height=800\' class=\'thickbox\' title=\'Core Updates Permission\'>Install</a>)</span>\n<p>This plugin is a fork of Disable All WordPress Updates plugin. Like that plugin, Core Updates Permission completely disables the theme, plugin and core update checking system in WordPress. The plugin prevents WordPress from checking for updates including cronjobs, and prevents any notifications from being displayed. The one significant difference is that this plugin also allows you to pick and choose administrators that *can* have the ability to make updates.\n</p>\n','no'),
-	(251,'category_children','a:0:{}','yes'),
 	(260,'_site_transient_timeout_theme_roots','1378473387','yes'),
-	(261,'_site_transient_theme_roots','a:3:{s:15:\"starkers-master\";s:7:\"/themes\";s:14:\"twentythirteen\";s:7:\"/themes\";s:12:\"twentytwelve\";s:7:\"/themes\";}','yes');
+	(261,'_site_transient_theme_roots','a:3:{s:15:\"starkers-master\";s:7:\"/themes\";s:14:\"twentythirteen\";s:7:\"/themes\";s:12:\"twentytwelve\";s:7:\"/themes\";}','yes'),
+	(277,'category_children','a:0:{}','yes');
 
 /*!40000 ALTER TABLE `wp_options` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -445,7 +445,7 @@ VALUES
 	(144,30,'_edit_lock','1378412613:1'),
 	(145,30,'_wp_page_template','merchant-solutions-page.php'),
 	(146,32,'_edit_last','1'),
-	(147,32,'_edit_lock','1378426328:1'),
+	(147,32,'_edit_lock','1378475205:1'),
 	(148,32,'_wp_page_template','about-page.php'),
 	(149,34,'_edit_last','1'),
 	(150,34,'_edit_lock','1378426336:1'),
@@ -566,7 +566,7 @@ VALUES
 	(278,55,'splick-it_link',''),
 	(279,55,'_splick-it_link','field_5229251b4deb8'),
 	(280,57,'_edit_last','1'),
-	(281,57,'_edit_lock','1378432177:1'),
+	(281,57,'_edit_lock','1378471671:1'),
 	(284,58,'client_icon_image','42'),
 	(285,58,'_client_icon_image','field_522924564deb5'),
 	(286,58,'apple_app_store_link',''),
@@ -582,7 +582,127 @@ VALUES
 	(296,57,'google_play_link',''),
 	(297,57,'_google_play_link','field_522924f54deb7'),
 	(298,57,'splick-it_link',''),
-	(299,57,'_splick-it_link','field_5229251b4deb8');
+	(299,57,'_splick-it_link','field_5229251b4deb8'),
+	(300,59,'_edit_last','1'),
+	(303,59,'position','normal'),
+	(304,59,'layout','no_box'),
+	(305,59,'hide_on_screen',''),
+	(306,59,'_edit_lock','1378478963:1'),
+	(307,60,'story',''),
+	(308,60,'_story','field_5229da3c73f48'),
+	(309,32,'story',''),
+	(310,32,'_story','field_5229da3c73f48'),
+	(311,61,'story',''),
+	(312,61,'_story','field_5229da3c73f48'),
+	(314,62,'_edit_last','1'),
+	(315,62,'_edit_lock','1378478830:1'),
+	(319,59,'field_5229e9a6eb65c','a:11:{s:3:\"key\";s:19:\"field_5229e9a6eb65c\";s:5:\"label\";s:17:\"Team Member Photo\";s:4:\"name\";s:17:\"team_member_photo\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:11:\"save_format\";s:3:\"url\";s:12:\"preview_size\";s:4:\"full\";s:7:\"library\";s:3:\"all\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:1;}'),
+	(321,64,'_wp_attached_file','2013/09/anke.jpeg'),
+	(322,64,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:100;s:6:\"height\";i:100;s:4:\"file\";s:17:\"2013/09/anke.jpeg\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:10:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";}}'),
+	(325,65,'team_member_photo','64'),
+	(326,65,'_team_member_photo','field_5229e9a6eb65c'),
+	(327,62,'team_member_photo','64'),
+	(328,62,'_team_member_photo','field_5229e9a6eb65c'),
+	(329,59,'field_5229ea172976a','a:14:{s:3:\"key\";s:19:\"field_5229ea172976a\";s:5:\"label\";s:17:\"Team Member Title\";s:4:\"name\";s:17:\"team_member_title\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:3:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:0:\"\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}'),
+	(333,62,'team_member_title','SVP Sales & Marketing'),
+	(334,62,'_team_member_title','field_5229ea172976a'),
+	(337,59,'field_5229ea87b4199','a:14:{s:3:\"key\";s:19:\"field_5229ea87b4199\";s:5:\"label\";s:12:\"Linkedin URL\";s:4:\"name\";s:12:\"linkedin_url\";s:4:\"type\";s:4:\"text\";s:12:\"instructions\";s:37:\"Make sure the url begins with http://\";s:8:\"required\";s:1:\"0\";s:13:\"default_value\";s:0:\"\";s:11:\"placeholder\";s:0:\"\";s:7:\"prepend\";s:0:\"\";s:6:\"append\";s:0:\"\";s:10:\"formatting\";s:4:\"html\";s:9:\"maxlength\";s:0:\"\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:2;}'),
+	(342,62,'linkedin_url','http://www.linkedin.com/in/ankecorbin'),
+	(343,62,'_linkedin_url','field_5229ea87b4199'),
+	(351,59,'rule','a:5:{s:5:\"param\";s:13:\"post_category\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:1:\"3\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}'),
+	(352,66,'_edit_last','1'),
+	(353,66,'_edit_lock','1378479132:1'),
+	(354,67,'_wp_attached_file','2013/09/david.jpeg'),
+	(355,67,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:100;s:6:\"height\";i:100;s:4:\"file\";s:18:\"2013/09/david.jpeg\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:10:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";}}'),
+	(358,68,'team_member_title','CTO'),
+	(359,68,'_team_member_title','field_5229ea172976a'),
+	(360,68,'team_member_photo','67'),
+	(361,68,'_team_member_photo','field_5229e9a6eb65c'),
+	(362,68,'linkedin_url',''),
+	(363,68,'_linkedin_url','field_5229ea87b4199'),
+	(364,66,'team_member_title','CTO'),
+	(365,66,'_team_member_title','field_5229ea172976a'),
+	(366,66,'team_member_photo','67'),
+	(367,66,'_team_member_photo','field_5229e9a6eb65c'),
+	(368,66,'linkedin_url',''),
+	(369,66,'_linkedin_url','field_5229ea87b4199'),
+	(370,69,'_edit_last','1'),
+	(371,69,'_edit_lock','1378479297:1'),
+	(372,70,'_wp_attached_file','2013/09/rob.jpeg'),
+	(373,70,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:100;s:6:\"height\";i:100;s:4:\"file\";s:16:\"2013/09/rob.jpeg\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:10:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";}}'),
+	(376,71,'team_member_title','Chairman & EVP Business Development'),
+	(377,71,'_team_member_title','field_5229ea172976a'),
+	(378,71,'team_member_photo','70'),
+	(379,71,'_team_member_photo','field_5229e9a6eb65c'),
+	(380,71,'linkedin_url',''),
+	(381,71,'_linkedin_url','field_5229ea87b4199'),
+	(382,69,'team_member_title','Chairman & EVP Business Development'),
+	(383,69,'_team_member_title','field_5229ea172976a'),
+	(384,69,'team_member_photo','70'),
+	(385,69,'_team_member_photo','field_5229e9a6eb65c'),
+	(386,69,'linkedin_url',''),
+	(387,69,'_linkedin_url','field_5229ea87b4199'),
+	(388,72,'_edit_last','1'),
+	(389,72,'_edit_lock','1378479444:1'),
+	(390,73,'_wp_attached_file','2013/09/tarek.jpeg'),
+	(391,73,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:100;s:6:\"height\";i:100;s:4:\"file\";s:18:\"2013/09/tarek.jpeg\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:10:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";}}'),
+	(394,74,'team_member_title','Head Of Operations'),
+	(395,74,'_team_member_title','field_5229ea172976a'),
+	(396,74,'team_member_photo','73'),
+	(397,74,'_team_member_photo','field_5229e9a6eb65c'),
+	(398,74,'linkedin_url',''),
+	(399,74,'_linkedin_url','field_5229ea87b4199'),
+	(400,72,'team_member_title','Head Of Operations'),
+	(401,72,'_team_member_title','field_5229ea172976a'),
+	(402,72,'team_member_photo','73'),
+	(403,72,'_team_member_photo','field_5229e9a6eb65c'),
+	(404,72,'linkedin_url',''),
+	(405,72,'_linkedin_url','field_5229ea87b4199'),
+	(406,75,'_edit_last','1'),
+	(407,75,'_edit_lock','1378479496:1'),
+	(408,76,'_wp_attached_file','2013/09/tom.jpeg'),
+	(409,76,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:100;s:6:\"height\";i:100;s:4:\"file\";s:16:\"2013/09/tom.jpeg\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:10:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";}}'),
+	(412,77,'team_member_title','CFO'),
+	(413,77,'_team_member_title','field_5229ea172976a'),
+	(414,77,'team_member_photo','76'),
+	(415,77,'_team_member_photo','field_5229e9a6eb65c'),
+	(416,77,'linkedin_url',''),
+	(417,77,'_linkedin_url','field_5229ea87b4199'),
+	(418,75,'team_member_title','CFO'),
+	(419,75,'_team_member_title','field_5229ea172976a'),
+	(420,75,'team_member_photo','76'),
+	(421,75,'_team_member_photo','field_5229e9a6eb65c'),
+	(422,75,'linkedin_url',''),
+	(423,75,'_linkedin_url','field_5229ea87b4199'),
+	(424,78,'_edit_last','1'),
+	(425,78,'_edit_lock','1378482545:1'),
+	(426,79,'_wp_attached_file','2013/09/vijay.jpeg'),
+	(427,79,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:100;s:6:\"height\";i:100;s:4:\"file\";s:18:\"2013/09/vijay.jpeg\";s:5:\"sizes\";a:0:{}s:10:\"image_meta\";a:10:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";}}'),
+	(430,80,'team_member_title','President & CEO'),
+	(431,80,'_team_member_title','field_5229ea172976a'),
+	(432,80,'team_member_photo','79'),
+	(433,80,'_team_member_photo','field_5229e9a6eb65c'),
+	(434,80,'linkedin_url',''),
+	(435,80,'_linkedin_url','field_5229ea87b4199'),
+	(436,78,'team_member_title','President & CEO'),
+	(437,78,'_team_member_title','field_5229ea172976a'),
+	(438,78,'team_member_photo','79'),
+	(439,78,'_team_member_photo','field_5229e9a6eb65c'),
+	(440,78,'linkedin_url',''),
+	(441,78,'_linkedin_url','field_5229ea87b4199'),
+	(442,81,'_edit_last','1'),
+	(443,81,'_edit_lock','1378488477:1'),
+	(446,83,'_edit_last','1'),
+	(447,83,'field_522a07f246a7e','a:11:{s:3:\"key\";s:19:\"field_522a07f246a7e\";s:5:\"label\";s:13:\"Section Image\";s:4:\"name\";s:13:\"section_image\";s:4:\"type\";s:5:\"image\";s:12:\"instructions\";s:0:\"\";s:8:\"required\";s:1:\"0\";s:11:\"save_format\";s:3:\"url\";s:12:\"preview_size\";s:4:\"full\";s:7:\"library\";s:3:\"all\";s:17:\"conditional_logic\";a:3:{s:6:\"status\";s:1:\"0\";s:5:\"rules\";a:1:{i:0;a:2:{s:5:\"field\";s:4:\"null\";s:8:\"operator\";s:2:\"==\";}}s:8:\"allorany\";s:3:\"all\";}s:8:\"order_no\";i:0;}'),
+	(448,83,'rule','a:5:{s:5:\"param\";s:13:\"post_category\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:1:\"4\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}'),
+	(449,83,'position','normal'),
+	(450,83,'layout','no_box'),
+	(451,83,'hide_on_screen',''),
+	(452,83,'_edit_lock','1378486279:1'),
+	(453,84,'_wp_attached_file','2013/09/merch-sol-main.jpg'),
+	(454,84,'_wp_attachment_metadata','a:5:{s:5:\"width\";i:900;s:6:\"height\";i:597;s:4:\"file\";s:26:\"2013/09/merch-sol-main.jpg\";s:5:\"sizes\";a:2:{s:9:\"thumbnail\";a:4:{s:4:\"file\";s:26:\"merch-sol-main-150x150.jpg\";s:5:\"width\";i:150;s:6:\"height\";i:150;s:9:\"mime-type\";s:10:\"image/jpeg\";}s:6:\"medium\";a:4:{s:4:\"file\";s:26:\"merch-sol-main-300x199.jpg\";s:5:\"width\";i:300;s:6:\"height\";i:199;s:9:\"mime-type\";s:10:\"image/jpeg\";}}s:10:\"image_meta\";a:10:{s:8:\"aperture\";i:0;s:6:\"credit\";s:0:\"\";s:6:\"camera\";s:0:\"\";s:7:\"caption\";s:0:\"\";s:17:\"created_timestamp\";i:0;s:9:\"copyright\";s:0:\"\";s:12:\"focal_length\";i:0;s:3:\"iso\";i:0;s:13:\"shutter_speed\";i:0;s:5:\"title\";s:0:\"\";}}'),
+	(457,81,'section_image','84'),
+	(458,81,'_section_image','field_522a07f246a7e');
 
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -658,7 +778,7 @@ VALUES
 	(29,1,'2013-09-05 20:04:25','2013-09-05 20:04:25','','Request Info - Pita Pit','','inherit','open','open','','28-revision-v1','','','2013-09-05 20:04:25','2013-09-05 20:04:25','',28,'http://l.splickit.com/28-revision-v1/',0,'revision','',0),
 	(30,1,'2013-09-05 20:25:25','2013-09-05 20:25:25','','Merchant Solutions','','publish','open','open','','merchant-solutions','','','2013-09-05 20:25:25','2013-09-05 20:25:25','',0,'http://l.splickit.com/?page_id=30',0,'page','',0),
 	(31,1,'2013-09-05 20:25:25','2013-09-05 20:25:25','','Merchant Solutions','','inherit','open','open','','30-revision-v1','','','2013-09-05 20:25:25','2013-09-05 20:25:25','',30,'http://l.splickit.com/30-revision-v1/',0,'revision','',0),
-	(32,1,'2013-09-06 00:13:29','2013-09-06 00:13:29','','About','','publish','open','open','','about','','','2013-09-06 00:13:29','2013-09-06 00:13:29','',0,'http://l.splickit.com/?page_id=32',0,'page','',0),
+	(32,1,'2013-09-06 00:13:29','2013-09-06 00:13:29','Splick-it was founded in 2008 by a passionate group of people who like technology, convenience and food. We help brands deepen the relationship they have with their customers. Today, Splick-it powers mobile apps and online ordering for more than 1500 restaurant locations.','About','','publish','open','open','','about','','','2013-09-06 13:48:35','2013-09-06 13:48:35','',0,'http://l.splickit.com/?page_id=32',0,'page','',0),
 	(33,1,'2013-09-06 00:13:29','2013-09-06 00:13:29','','About','','inherit','open','open','','32-revision-v1','','','2013-09-06 00:13:29','2013-09-06 00:13:29','',32,'http://l.splickit.com/32-revision-v1/',0,'revision','',0),
 	(34,1,'2013-09-06 00:14:08','2013-09-06 00:14:08','','Clients','','publish','open','open','','clients','','','2013-09-06 00:14:08','2013-09-06 00:14:08','',0,'http://l.splickit.com/?page_id=34',0,'page','',0),
 	(35,1,'2013-09-06 00:14:08','2013-09-06 00:14:08','','Clients','','inherit','open','open','','34-revision-v1','','','2013-09-06 00:14:08','2013-09-06 00:14:08','',34,'http://l.splickit.com/34-revision-v1/',0,'revision','',0),
@@ -684,7 +804,33 @@ VALUES
 	(55,1,'2013-09-06 01:49:16','2013-09-06 01:49:16','Backyard Bowls is a revolutionary eatery specializing in acai bowls, real-food smoothies, and much more.','Backyard Bowls','','publish','open','open','','backyard-bowls','','','2013-09-06 01:49:16','2013-09-06 01:49:16','',0,'http://l.splickit.com/?p=55',0,'post','',0),
 	(56,1,'2013-09-06 01:49:16','2013-09-06 01:49:16','Backyard Bowls is a revolutionary eatery specializing in acai bowls, real-food smoothies, and much more.','Backyard Bowls','','inherit','open','open','','55-revision-v1','','','2013-09-06 01:49:16','2013-09-06 01:49:16','',55,'http://l.splickit.com/55-revision-v1/',0,'revision','',0),
 	(57,1,'2013-09-06 01:49:36','2013-09-06 01:49:36','Cinnabon makes the world’s most famous cinnamon rolls, along with plenty of other baked goodies and speciality beverages.','Cinnabon','','publish','open','open','','cinnabon','','','2013-09-06 01:49:36','2013-09-06 01:49:36','',0,'http://l.splickit.com/?p=57',0,'post','',0),
-	(58,1,'2013-09-06 01:49:36','2013-09-06 01:49:36','Cinnabon makes the world’s most famous cinnamon rolls, along with plenty of other baked goodies and speciality beverages.','Cinnabon','','inherit','open','open','','57-revision-v1','','','2013-09-06 01:49:36','2013-09-06 01:49:36','',57,'http://l.splickit.com/57-revision-v1/',0,'revision','',0);
+	(58,1,'2013-09-06 01:49:36','2013-09-06 01:49:36','Cinnabon makes the world’s most famous cinnamon rolls, along with plenty of other baked goodies and speciality beverages.','Cinnabon','','inherit','open','open','','57-revision-v1','','','2013-09-06 01:49:36','2013-09-06 01:49:36','',57,'http://l.splickit.com/57-revision-v1/',0,'revision','',0),
+	(59,1,'2013-09-06 13:36:48','2013-09-06 13:36:48','','About','','publish','closed','closed','','acf_about','','','2013-09-06 14:49:23','2013-09-06 14:49:23','',0,'http://l.splickit.com/?post_type=acf&#038;p=59',0,'acf','',0),
+	(60,1,'2013-09-06 13:41:43','2013-09-06 13:41:43','Hey this is some stuff.','About','','inherit','open','open','','32-revision-v1','','','2013-09-06 13:41:43','2013-09-06 13:41:43','',32,'http://l.splickit.com/32-revision-v1/',0,'revision','',0),
+	(61,1,'2013-09-06 13:48:35','2013-09-06 13:48:35','Splick-it was founded in 2008 by a passionate group of people who like technology, convenience and food. We help brands deepen the relationship they have with their customers. Today, Splick-it powers mobile apps and online ordering for more than 1500 restaurant locations.','About','','inherit','open','open','','32-revision-v1','','','2013-09-06 13:48:35','2013-09-06 13:48:35','',32,'http://l.splickit.com/32-revision-v1/',0,'revision','',0),
+	(62,1,'2013-09-06 14:41:24','2013-09-06 14:41:24','Prior to joining Splick-it, Anke was the VP Sales, Marketing &amp; Content at MapQuest. Her experience includes being an entrepreneur as well as a variety of executive level roles in corporate marketing, BD, retail sales and distribution at divisions of Time Inc., and Times Mirror Magazines. Her family has owned and operated restaurants all of her life.','Anke Corbin','','publish','open','open','','anke-corbin','','','2013-09-06 14:48:50','2013-09-06 14:48:50','',0,'http://l.splickit.com/?p=62',0,'post','',0),
+	(63,1,'2013-09-06 14:41:24','2013-09-06 14:41:24','','Anke Corbin','','inherit','open','open','','62-revision-v1','','','2013-09-06 14:41:24','2013-09-06 14:41:24','',62,'http://l.splickit.com/62-revision-v1/',0,'revision','',0),
+	(64,1,'2013-09-06 14:42:52','2013-09-06 14:42:52','','anke','','inherit','open','open','','anke','','','2013-09-06 14:42:52','2013-09-06 14:42:52','',62,'http://l.splickit.com/wp-content/uploads/2013/09/anke.jpeg',0,'attachment','image/jpeg',0),
+	(65,1,'2013-09-06 14:43:07','2013-09-06 14:43:07','Prior to joining Splick-it, Anke was the VP Sales, Marketing &amp; Content at MapQuest. Her experience includes being an entrepreneur as well as a variety of executive level roles in corporate marketing, BD, retail sales and distribution at divisions of Time Inc., and Times Mirror Magazines. Her family has owned and operated restaurants all of her life.','Anke Corbin','','inherit','open','open','','62-revision-v1','','','2013-09-06 14:43:07','2013-09-06 14:43:07','',62,'http://l.splickit.com/62-revision-v1/',0,'revision','',0),
+	(66,1,'2013-09-06 14:54:04','2013-09-06 14:54:04','Founding partner of DOJO4, President &amp; Principal Engineer at Gidigo iPhone Apps, Director Web Development at MeetingWave. Dave tries to ride his bike or scooter to work every day.','David Clements','','publish','open','open','','david-clements','','','2013-09-06 14:54:04','2013-09-06 14:54:04','',0,'http://l.splickit.com/?p=66',0,'post','',0),
+	(67,1,'2013-09-06 14:54:00','2013-09-06 14:54:00','','david','','inherit','open','open','','david','','','2013-09-06 14:54:00','2013-09-06 14:54:00','',66,'http://l.splickit.com/wp-content/uploads/2013/09/david.jpeg',0,'attachment','image/jpeg',0),
+	(68,1,'2013-09-06 14:54:04','2013-09-06 14:54:04','Founding partner of DOJO4, President &amp; Principal Engineer at Gidigo iPhone Apps, Director Web Development at MeetingWave. Dave tries to ride his bike or scooter to work every day.','David Clements','','inherit','open','open','','66-revision-v1','','','2013-09-06 14:54:04','2013-09-06 14:54:04','',66,'http://l.splickit.com/66-revision-v1/',0,'revision','',0),
+	(69,1,'2013-09-06 14:55:00','2013-09-06 14:55:00','Rob spent 20 years as an investment advisor and manager with EF Hutton, Paine Webber and Smith Barney. As an investor he has served on the board for numerous start ups.','Rob Taylor','','publish','open','open','','rob-taylor','','','2013-09-06 14:55:00','2013-09-06 14:55:00','',0,'http://l.splickit.com/?p=69',0,'post','',0),
+	(70,1,'2013-09-06 14:54:57','2013-09-06 14:54:57','','rob','','inherit','open','open','','rob','','','2013-09-06 14:54:57','2013-09-06 14:54:57','',69,'http://l.splickit.com/wp-content/uploads/2013/09/rob.jpeg',0,'attachment','image/jpeg',0),
+	(71,1,'2013-09-06 14:55:00','2013-09-06 14:55:00','Rob spent 20 years as an investment advisor and manager with EF Hutton, Paine Webber and Smith Barney. As an investor he has served on the board for numerous start ups.','Rob Taylor','','inherit','open','open','','69-revision-v1','','','2013-09-06 14:55:00','2013-09-06 14:55:00','',69,'http://l.splickit.com/69-revision-v1/',0,'revision','',0),
+	(72,1,'2013-09-06 14:57:23','2013-09-06 14:57:23','Tarek has held various management positions from Fortune 100 companies to Internet startups, leading technical and marketing teams. Fun fact: His favorite day of the week is Thursday.','Tarek Dimachkie','','publish','open','open','','tarek-dimachkie','','','2013-09-06 14:57:23','2013-09-06 14:57:23','',0,'http://l.splickit.com/?p=72',0,'post','',0),
+	(73,1,'2013-09-06 14:57:19','2013-09-06 14:57:19','','tarek','','inherit','open','open','','tarek','','','2013-09-06 14:57:19','2013-09-06 14:57:19','',72,'http://l.splickit.com/wp-content/uploads/2013/09/tarek.jpeg',0,'attachment','image/jpeg',0),
+	(74,1,'2013-09-06 14:57:23','2013-09-06 14:57:23','Tarek has held various management positions from Fortune 100 companies to Internet startups, leading technical and marketing teams. Fun fact: His favorite day of the week is Thursday.','Tarek Dimachkie','','inherit','open','open','','72-revision-v1','','','2013-09-06 14:57:23','2013-09-06 14:57:23','',72,'http://l.splickit.com/72-revision-v1/',0,'revision','',0),
+	(75,1,'2013-09-06 14:59:49','2013-09-06 14:59:49','Tom was previously the CFO of Global Energy Decisions, a company he helped grow to $45M in sales that ultimately sold to Ventyx Corp. Though he claims to, Tom has no relation to former NFL QB of the same last name.','Tom Plunkett','','publish','open','open','','tom-plunkett','','','2013-09-06 14:59:49','2013-09-06 14:59:49','',0,'http://l.splickit.com/?p=75',0,'post','',0),
+	(76,1,'2013-09-06 14:59:45','2013-09-06 14:59:45','','tom','','inherit','open','open','','tom','','','2013-09-06 14:59:45','2013-09-06 14:59:45','',75,'http://l.splickit.com/wp-content/uploads/2013/09/tom.jpeg',0,'attachment','image/jpeg',0),
+	(77,1,'2013-09-06 14:59:49','2013-09-06 14:59:49','Tom was previously the CFO of Global Energy Decisions, a company he helped grow to $45M in sales that ultimately sold to Ventyx Corp. Though he claims to, Tom has no relation to former NFL QB of the same last name.','Tom Plunkett','','inherit','open','open','','75-revision-v1','','','2013-09-06 14:59:49','2013-09-06 14:59:49','',75,'http://l.splickit.com/75-revision-v1/',0,'revision','',0),
+	(78,1,'2013-09-06 15:00:39','2013-09-06 15:00:39','Prior to joining Splick-it, Vijay was Vice President of Product at MapQuest and Product Manager at Google, where he played a key role in the development of Google Drive, Google Docs and Google Search.','Vijay Bingaru','','publish','open','open','','vijay-bingaru','','','2013-09-06 15:00:39','2013-09-06 15:00:39','',0,'http://l.splickit.com/?p=78',0,'post','',0),
+	(79,1,'2013-09-06 15:00:36','2013-09-06 15:00:36','','vijay','','inherit','open','open','','vijay','','','2013-09-06 15:00:36','2013-09-06 15:00:36','',78,'http://l.splickit.com/wp-content/uploads/2013/09/vijay.jpeg',0,'attachment','image/jpeg',0),
+	(80,1,'2013-09-06 15:00:39','2013-09-06 15:00:39','Prior to joining Splick-it, Vijay was Vice President of Product at MapQuest and Product Manager at Google, where he played a key role in the development of Google Drive, Google Docs and Google Search.','Vijay Bingaru','','inherit','open','open','','78-revision-v1','','','2013-09-06 15:00:39','2013-09-06 15:00:39','',78,'http://l.splickit.com/78-revision-v1/',0,'revision','',0),
+	(81,1,'2013-09-06 15:51:25','2013-09-06 15:51:25','Splick-it develops mobile apps & websites for your brand. ','Apps Built For Your Brand.','','publish','open','open','','apps-built-for-your-brand','','','2013-09-06 17:29:47','2013-09-06 17:29:47','',0,'http://l.splickit.com/?p=81',0,'post','',0),
+	(82,1,'2013-09-06 15:51:25','2013-09-06 15:51:25','Splick-it develops mobile apps & websites for your brand. ','Apps Built For Your Brand.','','inherit','open','open','','81-revision-v1','','','2013-09-06 15:51:25','2013-09-06 15:51:25','',81,'http://l.splickit.com/81-revision-v1/',0,'revision','',0),
+	(83,1,'2013-09-06 16:51:19','2013-09-06 16:51:19','','Merchant Solutions Platform','','publish','closed','closed','','acf_merchant-solutions-platform','','','2013-09-06 16:51:19','2013-09-06 16:51:19','',0,'http://l.splickit.com/?post_type=acf&#038;p=83',0,'acf','',0),
+	(84,1,'2013-09-06 16:57:58','2013-09-06 16:57:58','','merch-sol-main','','inherit','open','open','','merch-sol-main','','','2013-09-06 16:57:58','2013-09-06 16:57:58','',81,'http://l.splickit.com/wp-content/uploads/2013/09/merch-sol-main.jpg',0,'attachment','image/jpeg',0);
 
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -714,7 +860,14 @@ VALUES
 	(51,2,0),
 	(53,2,0),
 	(55,2,0),
-	(57,2,0);
+	(57,2,0),
+	(62,3,0),
+	(66,3,0),
+	(69,3,0),
+	(72,3,0),
+	(75,3,0),
+	(78,3,0),
+	(81,4,0);
 
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -743,7 +896,9 @@ LOCK TABLES `wp_term_taxonomy` WRITE;
 INSERT INTO `wp_term_taxonomy` (`term_taxonomy_id`, `term_id`, `taxonomy`, `description`, `parent`, `count`)
 VALUES
 	(1,1,'category','',0,0),
-	(2,2,'category','',0,6);
+	(2,2,'category','',0,6),
+	(3,3,'category','',0,6),
+	(4,4,'category','',0,1);
 
 /*!40000 ALTER TABLE `wp_term_taxonomy` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -770,7 +925,9 @@ LOCK TABLES `wp_terms` WRITE;
 INSERT INTO `wp_terms` (`term_id`, `name`, `slug`, `term_group`)
 VALUES
 	(1,'Uncategorized','uncategorized',0),
-	(2,'Clients','clients',0);
+	(2,'Clients','clients',0),
+	(3,'Team','team',0),
+	(4,'Merchant Solutions','merchant-solutions',0);
 
 /*!40000 ALTER TABLE `wp_terms` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -814,8 +971,8 @@ VALUES
 	(16,1,'metaboxhidden_page','a:5:{i:0;s:10:\"postcustom\";i:1;s:16:\"commentstatusdiv\";i:2;s:11:\"commentsdiv\";i:3;s:7:\"slugdiv\";i:4;s:9:\"authordiv\";}'),
 	(17,1,'closedpostboxes_acf','a:0:{}'),
 	(18,1,'metaboxhidden_acf','a:1:{i:0;s:7:\"slugdiv\";}'),
-	(19,1,'wp_user-settings','libraryContent=browse'),
-	(20,1,'wp_user-settings-time','1378354735');
+	(19,1,'wp_user-settings','libraryContent=browse&editor=html'),
+	(20,1,'wp_user-settings-time','1378479439');
 
 /*!40000 ALTER TABLE `wp_usermeta` ENABLE KEYS */;
 UNLOCK TABLES;

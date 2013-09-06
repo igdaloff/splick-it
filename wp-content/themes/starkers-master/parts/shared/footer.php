@@ -26,8 +26,8 @@
 		<div class="footer-list footer-download-list">
 			<h4>Download</h4>
 			<ul>
-				<li><a href="" class="button"><img src="<?php bloginfo('template_url'); ?>/images/apple-download.png" alt="Apple Download Icon" /></a></li>
-				<li><a href="" class="button"><img src="<?php bloginfo('template_url'); ?>/images/android-download.png" alt="Android Download Icon" /></a></li>
+				<li><a href="https://itunes.apple.com/us/app/splick-it/id375047368?mt=8" class="button"><img src="<?php bloginfo('template_url'); ?>/images/apple-download.png" alt="Apple Download Icon" /></a></li>
+				<li><a href="https://play.google.com/store/apps/details?id=com.splickit.app" class="button"><img src="<?php bloginfo('template_url'); ?>/images/android-download.png" alt="Android Download Icon" /></a></li>
 			</ul>
 		</div>
 

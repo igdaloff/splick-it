@@ -859,23 +859,28 @@ MAIN SECTION
 .merchant-solutions-horizontal img {
   width: 100%;
 }
-.merchant-solutions-vertical h3 {
-  margin-bottom: 1em;
-}
 .merchant-solutions-vertical img,
 .merchant-solutions-vertical p {
-  float: right;
-  width: 50%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  width: 100%;
+  display: block;
 }
-.merchant-solutions-vertical img {
-  width: 50%;
-  padding-right: 2em;
-}
-.merchant-solutions-vertical p {
-  width: 50%;
+@media only screen and (min-width: 50em) {
+  /* 800px */
+  .merchant-solutions-vertical h3 {
+    margin-bottom: 1em;
+  }
+  .merchant-solutions-vertical img,
+  .merchant-solutions-vertical p {
+    float: right;
+    width: 50%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  .merchant-solutions-vertical p {
+    padding-left: 2em;
+  }
 }
 .grid-item-links .order-button {
   padding: 1.2em 5%;

@@ -266,7 +266,7 @@ GENERAL LAYOUT
   background: #f9f9f9;
   border-radius: 4px;
   padding: 1em 2em;
-  margin-top: 2em;
+  margin-bottom: 1em;
   *zoom: 1;
 }
 .standard-section:before,
@@ -361,7 +361,7 @@ HEADER
 -------------------------------------------------------------------------*/
 .primary-nav {
   position: relative;
-  margin-top: 1.25em;
+  margin: 1.25em 0 1em;
   color: #052b2d;
 }
 .primary-nav ul {
@@ -454,7 +454,7 @@ SUB NAV
   display: inline-block;
   width: 100%;
   padding: 0.5em;
-  margin: 1em auto;
+  margin: 1em auto 0;
   background: rgba(249, 249, 249, 0.7);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -931,7 +931,6 @@ MAIN SECTION
 }
 footer {
   padding-top: 1.5em;
-  margin-top: 1.5em;
   text-align: center;
   background: #f9f9f9;
 }
@@ -964,6 +963,10 @@ footer .button {
 }
 footer .button img {
   width: 100px;
+}
+.footer-social-list li {
+  margin-bottom: 0;
+  font-size: 1.8em;
 }
 .footer-contact-list li {
   font-size: 1em;

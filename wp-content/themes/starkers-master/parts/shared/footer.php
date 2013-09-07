@@ -3,18 +3,18 @@
 		<div class="footer-list">
 			<h4>Company</h4>
 			<ul>
-				<li><a href="">Blog</a></li>
 				<li><a href="/about/">About</a></li>
 				<li><a href="">Media</a></li>
 				<li><a href="">Jobs</a></li>
+				<li><a href="/terms-and-conditions/">Terms and Conditions</a></li>
 			</ul>
 		</div>
 		<div class="footer-list">
-			<h4>Support</h4>
-			<ul>
-				<li><a href="">Online Ordering</a></li>
-				<li><a href="">Mobile Ordering</a></li>
-				<li><a href="">Terms and Conditions</a></li>
+			<h4>Social</h4>
+			<ul class="footer-social-list">
+				<li><a data-icon="b" href="//www.facebook.com/splickit"></a></li>
+				<li><a data-icon="t" href="//twitter.com/splickit"></a></li>
+				<li><a data-icon="l" href="//linkedin.com/company/splick-it-inc"></a></li>
 			</ul>
 		</div>
 		<div class="footer-list footer-contact-list">

@@ -20,7 +20,7 @@
 		<div class="footer-list footer-contact-list">
 			<h4>Contact</h4>
 			<ul>
-				<li><a href="" class="button">Request Info</a></li>
+				<li><a href="/start/" class="button">Request Info</a></li>
 			</ul>
 		</div>
 		<div class="footer-list footer-download-list">

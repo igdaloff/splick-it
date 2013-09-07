@@ -852,8 +852,13 @@ MAIN SECTION
     float: left;
   }
 }
-.merchant-solutions-horizontal p,
-.merchant-solutions-vertical p {
+.merchant-solutions .standard-section {
+  padding-top: 0;
+}
+.merchant-solutions h3 {
+  padding-top: 1em;
+}
+.merchant-solutions p {
   font-size: 1.2em;
 }
 .merchant-solutions-horizontal img {

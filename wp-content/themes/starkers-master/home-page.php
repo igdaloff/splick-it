@@ -36,12 +36,12 @@ Template Name: home
 					<p><?php the_field('sub-section1_body1'); ?></p>
 				</li>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php the_field('sub-section1_icon2'); ?>" alt="TV icon" />
+					<img class="sub-section-icon" src="<?php the_field('sub-section1_icon2'); ?>" alt="Computer icon" />
 					<h3><?php the_field('sub-section1_subhead2'); ?></h3>
 					<p><?php the_field('sub-section1_body2'); ?></p>
 				</li>
 				<li class="sub-section-item last-sub-section-item">
-					<img class="sub-section-icon" src="<?php the_field('sub-section1_icon3'); ?>" alt="TV icon" />
+					<img class="sub-section-icon" src="<?php the_field('sub-section1_icon3'); ?>" alt="Box icon" />
 					<h3><?php the_field('sub-section1_subhead3'); ?></h3>
 					<p><?php the_field('sub-section1_body3'); ?></p>
 				</li>
@@ -54,8 +54,8 @@ Template Name: home
 	<div class="sub-section-header">
 		<div class="wrapper">
 			<h2><?php the_field('sub-section2_header'); ?></h2>
-			<a class="learn-more-button-desktop button" href="">Learn More</a>
-			<a class="learn-more-button-mobile button" data-icon="+"></a>
+			<a class="learn-more-button-desktop button" href="/merchant-solutions#<?php the_field('sub-section2_learn_more_link'); ?>">Learn More</a>
+			<a class="learn-more-button-mobile button" data-icon="+" href=""></a>
 			<span class="screen-reader-text">Learn More</span>
 		</div>
 	</div>
@@ -63,17 +63,17 @@ Template Name: home
 		<div class="wrapper">
 			<ul>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php the_field('sub-section2_icon1'); ?>" alt="TV icon" />
+					<img class="sub-section-icon" src="<?php the_field('sub-section2_icon1'); ?>" alt="Ticket icon" />
 					<h3><?php the_field('sub-section2_subhead1'); ?></h3>
 					<p><?php the_field('sub-section2_body1'); ?></p>
 				</li>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php the_field('sub-section2_icon2'); ?>" alt="TV icon" />
+					<img class="sub-section-icon" src="<?php the_field('sub-section2_icon2'); ?>" alt="Headphones icon" />
 					<h3><?php the_field('sub-section2_subhead2'); ?></h3>
 					<p><?php the_field('sub-section2_body2'); ?></p>
 				</li>
 				<li class="sub-section-item last-sub-section-item">
-					<img class="sub-section-icon" src="<?php the_field('sub-section2_icon3'); ?>" alt="TV icon" />
+					<img class="sub-section-icon" src="<?php the_field('sub-section2_icon3'); ?>" alt="Smiley icon" />
 					<h3><?php the_field('sub-section2_subhead3'); ?></h3>
 					<p><?php the_field('sub-section2_body3'); ?></p>
 				</li>
@@ -95,17 +95,17 @@ Template Name: home
 		<div class="wrapper">
 			<ul>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php the_field('sub-section3_icon1'); ?>" alt="TV icon" />
+					<img class="sub-section-icon" src="<?php the_field('sub-section3_icon1'); ?>" alt="Network icon" />
 					<h3><?php the_field('sub-section3_subhead1'); ?></h3>
 					<p><?php the_field('sub-section3_body1'); ?></p>
 				</li>
 				<li class="sub-section-item">
-					<img class="sub-section-icon" src="<?php the_field('sub-section3_icon2'); ?>" alt="TV icon" />
+					<img class="sub-section-icon" src="<?php the_field('sub-section3_icon2'); ?>" alt="Briefcase icon" />
 					<h3><?php the_field('sub-section3_subhead2'); ?></h3>
 					<p><?php the_field('sub-section3_body2'); ?></p>
 				</li>
 				<li class="sub-section-item last-sub-section-item">
-					<img class="sub-section-icon" src="<?php the_field('sub-section3_icon3'); ?>" alt="TV icon" />
+					<img class="sub-section-icon" src="<?php the_field('sub-section3_icon3'); ?>" alt="Calendar icon" />
 					<h3><?php the_field('sub-section3_subhead3'); ?></h3>
 					<p><?php the_field('sub-section3_body3'); ?></p>
 				</li>

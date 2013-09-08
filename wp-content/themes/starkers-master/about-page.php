@@ -9,19 +9,6 @@ Template Name: about
 <div class="about">
 
 	<div class="wrapper">
-<!--
-		<header class="sub-nav">
-			<nav>
-				<ul>
-					<li><a class="button" href="/about/">About</a></li>
-					<li><a class="button" href="/media/">Media</a></li>
-					<li><a class="button" href="/jobs/">Jobs</a></li>
-					<li><a class="button" href="/blog/">Blog</a></li>
-				</ul>
-			</nav>
-		</header>
--->
-
 		<div class="about-intro standard-section">
 			<h3>The Splick.it Story</h3>
 			<p>

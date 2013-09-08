@@ -248,6 +248,10 @@ GENERAL LAYOUT
 		color: @black;
 		line-height: 1.7;
 	}
+
+	img{
+		width: 100%;
+	}
 }
 
 .grid-item-list{
@@ -437,6 +441,7 @@ HEADER
   -o-transition: left 0.2s linear, right 0.2s linear;
   transition: left 0.2s linear, right 0.2s linear;
 	.box-sizing;
+	overflow-y: scroll;
 
 	&.mobile-nav-active{
 		left: 0;
@@ -467,6 +472,18 @@ HEADER
 			padding: 10px 4px 6px;
 		}
 	}
+
+	.download-button{
+		padding: 14px 4px 2px;
+
+		&:hover{
+			padding: 16px 4px 0;
+		}
+
+		img{
+			width: 90px;
+		}
+	}
 }
 
 .menu-push {
@@ -478,7 +495,7 @@ HEADER
   transition: left 0.2s linear, right 0.2s linear;
 }
 
-.secondary-nav-ul{
+.push-nav-section{
 	padding-top: 1em;
 	border-bottom: 1px solid @lightblue;
 
@@ -642,10 +659,6 @@ MAIN SECTION
 @media only screen and (min-width : 50em) { /* 800px */
 	body{
 		font-size: 100%;
-	}
-
-	.menu-push {
-    left: 0;
 	}
 
 	.callout{

@@ -28,6 +28,10 @@ body {
 	font-family: @sans-bold;
 	color: @white;
 	background: @grey;
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+	.transition;
 }
 ol, ul {
 	list-style: none;
@@ -327,12 +331,14 @@ HEADER
 	margin: 1.25em 0 1em;
 	color: @darkblue;
 
-	ul{
+	.top-level-ul{
 		width: 90%;
+		padding: 0 5% 0 0;
 		margin: 0 auto;
 		height: 50px;
 		text-align: center;
 		background: fadeout(white, 30%);
+		.box-sizing;
 	}
 }
 
@@ -367,9 +373,9 @@ HEADER
 }
 
 .request-info-nav-item{
-	float: left;
+	float: right;
 	display: inline-block;
-	width: 75%;
+	width: 74%;
 	height: 30px;
 	line-height: 30px;
 	margin-top: 10px;
@@ -398,21 +404,67 @@ HEADER
 		padding: 0 0.6em;
 	}
 
-	.mobile-nav{
-		position: absolute;
-		top: 50px;
-		left: -300px;
-		width: 240px;
-		height: auto;
-		font-size: 0.5em;
-		text-align: left;
-		.transition;
-	}
-
 	.mobile-nav-active{
 		left: auto;
 	}
 }
+
+#mobile-nav{
+	position: fixed;
+	left: -240px;
+	width: 240px;
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+	font-size: 0.5em;
+	text-align: left;
+	background: @darkblue;
+	.transition;
+	.box-sizing;
+
+	h3{
+		color: @lightblue;
+		text-align: center;
+		padding-bottom: 0.5em;
+		font-size: 2.4em;
+		text-transform: uppercase;
+		font-family: @sans-bold;
+	}
+
+	.button{
+		background: @lightblue;
+		color: @white;
+		width: 100%;
+		padding: 0.8em 0.2em;
+		margin-bottom: 1em;
+		font-size: 0.7em;
+
+		&:hover{
+			padding: 1em 1em 0.6em;
+		}
+	}
+
+	&.mobile-nav-active{
+		left: 0;
+		.transition;
+	}
+}
+
+.menu-push {
+  right: -240px;
+  left: auto;
+  .transition;
+}
+
+.secondary-nav-ul{
+	padding-top: 1em;
+	border-bottom: 1px solid @lightblue;
+
+	li{
+		padding: 0 1em;
+	}
+}
+
 
 .desktop-nav-item{
 	display: none;
@@ -473,9 +525,9 @@ MAIN SECTION
 
 .feature-callout{
 	display: inline-block;
-	width: 100%;
+	width: 80%;
 	padding: 1em;
-	margin-top: 1em;
+	margin: 1em auto 0;
 	background: @darkblue;
 	font: @gotham-light;
 	color: @white;
@@ -488,7 +540,7 @@ MAIN SECTION
 		float: left;
 		text-transform: uppercase;
 		font-size: 0.6em;
-		width: 33.33333%;
+		width: 50%;
 		padding-left: 40px;
 		.box-sizing;
 
@@ -505,7 +557,8 @@ MAIN SECTION
 	}
 
 	.third-feature-callout{
-		padding-left: 35px;
+		display: none;
+		padding-left: 32px;
 	}
 }
 
@@ -527,8 +580,9 @@ MAIN SECTION
 		margin-left: 10px;
 		background: fadeout(white, 30%);
 
-		ul{
+		.top-level-ul{
 			width: auto;
+			padding: 0;
 			background: none;
 			text-align: left;
 		}
@@ -540,22 +594,25 @@ MAIN SECTION
 		a{
 			line-height: 70px;
 		}
+	}
 
-		.mobile-nav{
-			left: auto;
-			right: -300px;
-			top: 60px;
-			text-align: right;
-			background: fadeout(white, 30%);
+	#mobile-nav{
+		right: -240px;
+		left: auto;
 
-			a{
-				line-height: 3;
-			}
+		a{
+			line-height: 3;
 		}
 
-		.mobile-nav-active{
+		&.mobile-nav-active{
 			right: 0;
+			left: auto;
 		}
+	}
+
+	.menu-push {
+    left: -240px;
+    right: auto;
 	}
 
 	.request-info-nav-item{
@@ -569,6 +626,18 @@ MAIN SECTION
 	.callout{
 		width: 460px;
 		margin: 260px auto 0;
+	}
+
+	.feature-callout{
+
+		li{
+			font-size: 0.5em;
+			width: 33.33333%;
+		}
+
+		.third-feature-callout{
+			display: inline-block;
+		}
 	}
 }
 

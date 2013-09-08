@@ -18,6 +18,26 @@ jQuery(document).ready(function($) {
     classie.toggle( menu, 'mobile-nav-active' );
 	};
 
+	/* SHOW SUB-NAV */
+	var timer;
+  $('.first-desktop-nav-item').mouseenter(function() {
+		$('.second-level-ul').addClass('second-level-ul-active');
+		$(this).addClass('first-desktop-nav-item-active');
+		$(this).find('a').addClass('selected');
+  });
+
+  $('.first-desktop-nav-item, .second-level-ul').mouseleave(function() {
+      timer=setTimeout("$('.second-level-ul').removeClass('second-level-ul-active')",50);
+			$('.first-desktop-nav-item').removeClass('first-desktop-nav-item-active');
+			$('.first-desktop-nav-item a').removeClass('selected');
+  });
+
+  $(".first-desktop-nav-item, .second-level-ul").mouseenter(function() {
+		$('.first-desktop-nav-item').addClass('first-desktop-nav-item-active');
+		$('.first-desktop-nav-item a').addClass('selected');
+    clearTimeout(timer);
+  });
+
 	/* CLIENT MASONRY */
 	$(window).load(function(){
 		$('.grid-item-list').masonry({
@@ -27,6 +47,8 @@ jQuery(document).ready(function($) {
 		});
 	});
 
+
+/*
     var MEASUREMENTS_ID = 'measurements'; // abstracted-out for convenience in renaming
     $("body").append('<div id="'+MEASUREMENTS_ID+'"></div>');
     $("#"+MEASUREMENTS_ID).css({
@@ -46,6 +68,7 @@ jQuery(document).ready(function($) {
     $(window).on("resize", function(){
         $("#"+MEASUREMENTS_ID).text(getDimensions());
     });
+*/
 
 
 });

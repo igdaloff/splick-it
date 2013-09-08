@@ -3,9 +3,8 @@
 Template Name: request info pita
 */
 ?>
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header' ) ); ?>
+<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 <div class="form-page">
-	<?php include("parts/shared/header.php"); ?>
 	<div class="wrapper form-page-inner">
 		<h3>Request for Info and Pricing - Pita&nbsp;Pit</h3>
 

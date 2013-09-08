@@ -3,9 +3,8 @@
 Template Name: request info
 */
 ?>
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header' ) ); ?>
+<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 <div class="form-page">
-	<?php include("parts/shared/header.php"); ?>
 	<div class="wrapper form-page-inner">
 		<h3>Request for Info and&nbsp;Pricing</h3>
 		<p>Complete the form below or call us at (303) 481-3660 to receive info about our branded iPhone, Android and web ordering apps for&nbsp;restaurants.</p>

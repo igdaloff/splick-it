@@ -4,11 +4,9 @@ Template Name: clients
 */
 ?>
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header' ) ); ?>
+<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <div class="clients">
-	<?php include("parts/shared/header.php"); ?>
-
 	<div class="wrapper">
 		<ul class="grid-item-list">
 

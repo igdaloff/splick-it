@@ -5,9 +5,8 @@ Template Name: home
 ?>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header' ) ); ?>
-
 <div class="main">
-	<?php include("parts/shared/header.php"); ?>
+	<?php include ('parts/shared/header.php'); ?>
 	<div class="callout">
 		<h2>Merchant Solutions Platform For Mobile / Online Ordering, Payment, Loyalty & Marketing A Large Distribution Network</h2>
 		<ul class="feature-callout">
@@ -17,7 +16,6 @@ Template Name: home
 		</ul>
 	</div>
 </div>
-
 <section class="sub-section first-sub-section">
 	<div class="sub-section-header">
 		<div class="wrapper">

@@ -8,7 +8,7 @@ Template Name: home
 <div class="main">
 	<?php include ('parts/shared/header.php'); ?>
 	<div class="callout">
-		<h2>Merchant Solutions Platform For Mobile / Online Ordering, Payment, Loyalty & Marketing A Large Distribution Network</h2>
+		<h2>Merchant Solutions Platform For Mobile/Online Ordering, Payment, Loyalty & Marketing<span>+ A Large Distribution Network</span></h2>
 		<ul class="feature-callout">
 			<li data-icon="p">Online<br>Ordering</li>
 			<li data-icon="i" class="second-feature-callout">Tablet<br>Friendly</li>

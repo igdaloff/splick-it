@@ -24,7 +24,6 @@ Template Name: distribution network
 
 			<section class="standard-section <?php the_category_unlinked(' '); ?>">
 				<h3><?php echo get_the_title(); ?></h3>
-				<img src="<?php the_field('distribution_network_icon'); ?>" alt="Distribution network section image" />
 				<p><?php echo get_the_content(); ?></p>
 				<img src="<?php the_field('section_image'); ?>" alt="Distribution network section image" />
 			</section>

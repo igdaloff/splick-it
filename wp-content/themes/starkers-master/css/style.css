@@ -274,7 +274,7 @@ GENERAL LAYOUT
 .standard-section {
   background: #f9f9f9;
   border-radius: 4px;
-  padding: 1em 2em;
+  padding: 2em;
   margin-bottom: 1em;
   *zoom: 1;
 }
@@ -301,7 +301,7 @@ GENERAL LAYOUT
   margin: 0 -0.5em 1em;
 }
 .grid-item {
-  padding: 0.5em;
+  padding: 0 0.5em 1em;
 }
 .grid-item-inner {
   padding: 1em 2em 0.5em;
@@ -373,7 +373,7 @@ HEADER
 -------------------------------------------------------------------------*/
 .primary-nav {
   position: relative;
-  margin: 1.25em 0 1em;
+  margin: 1em 0;
   color: #052b2d;
 }
 .primary-nav .top-level-ul {
@@ -486,7 +486,7 @@ HEADER
 #mobile-nav h3 {
   color: #084e51;
   text-align: center;
-  padding-bottom: 0.5em;
+  padding: 0 0 0.5em;
   font-size: 2.4em;
   text-transform: uppercase;
   font-family: 'montserratbold', helvetica, sans-serif;
@@ -549,11 +549,16 @@ MAIN SECTION
 }
 .callout h2 {
   font: normal 300 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
-  font-size: 1.6em;
+  font-size: 1.5em;
   color: #052b2d;
   text-transform: none;
   width: 90%;
   margin: 0 auto;
+}
+.callout span {
+  color: #177f5f;
+  display: block;
+  font-size: 0.8em;
 }
 .feature-callout {
   display: inline-block;
@@ -644,7 +649,7 @@ MAIN SECTION
     line-height: 60px;
   }
   .callout {
-    width: 460px;
+    width: 470px;
     margin: 230px auto 0;
   }
   .feature-callout li {
@@ -744,7 +749,7 @@ MAIN SECTION
 @media only screen and (min-width: 75em) {
   /* 1200px */
   .callout {
-    margin-left: 40%;
+    margin-left: 38%;
   }
 }
 @font-face {
@@ -987,22 +992,23 @@ MAIN SECTION
 .merchant-solutions p {
   font-size: 1.2em;
 }
-.merchant-solutions-horizontal .standard-section img,
-.marketing-tools .standard-section img {
-  width: 100%;
-}
+.merchant-solutions-horizontal img,
 .merchant-solutions-vertical img,
+.merchant-solutions-horizontal p,
 .merchant-solutions-vertical p {
-  width: 100%;
   display: block;
+  width: 100%;
 }
 @media only screen and (min-width: 50em) {
   /* 800px */
-  .merchant-solutions-vertical h3 {
-    margin-bottom: 1em;
+  .merchant-solutions-vertical h3,
+  .distribution-network h3 {
+    margin-bottom: 0.5em;
   }
   .merchant-solutions-vertical img,
-  .merchant-solutions-vertical p {
+  .distribution-network img,
+  .merchant-solutions-vertical p,
+  .distribution-network p {
     float: right;
     width: 50%;
     -webkit-box-sizing: border-box;
@@ -1010,7 +1016,8 @@ MAIN SECTION
     box-sizing: border-box;
     padding: 0;
   }
-  .merchant-solutions-vertical p {
+  .merchant-solutions-vertical p,
+  .distribution-network p {
     padding-left: 2em;
   }
 }
@@ -1018,7 +1025,7 @@ MAIN SECTION
   padding: 1.2em 5%;
 }
 .about .about-intro {
-  margin-bottom: 0.5em;
+  margin-bottom: 1em;
 }
 .about h3 {
   margin-bottom: 0;

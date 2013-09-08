@@ -12,23 +12,11 @@ jQuery(document).ready(function($) {
 			menu = document.getElementById( 'mobile-nav' )
       body = document.body;
 
-	pushMenu.onclick = function(e) {
-		e.preventDefault();
+	pushMenu.onclick = function() {
     classie.toggle( this, 'active' );
     classie.toggle( body, 'menu-push' );
     classie.toggle( menu, 'mobile-nav-active' );
 	};
-
-/*
-	$('.mobile-nav-icon').click( function(e){
-		e.preventDefault();
-		$('.mobile-nav').toggleClass('mobile-nav-active');
-	});
-
-	$('.mobile-nav a').click( function(e){
-		e.stopPropagation();
-	});
-*/
 
 	/* CLIENT MASONRY */
 	$(window).load(function(){

@@ -108,10 +108,10 @@ body {
   overflow-x: hidden;
   position: relative;
   left: 0;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: left 0.2s linear, right 0.2s linear;
+  -moz-transition: left 0.2s linear, right 0.2s linear;
+  -o-transition: left 0.2s linear, right 0.2s linear;
+  transition: left 0.2s linear, right 0.2s linear;
 }
 ol,
 ul {
@@ -221,6 +221,7 @@ textarea {
 }
 button,
 .button {
+  position: relative;
   display: inline-block;
   padding: 1.5em 2em;
   font-size: 0.6em;
@@ -239,6 +240,7 @@ button,
   -moz-transition: all 0.2s ease;
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
+  -webkit-backface-visibility: hidden;
 }
 button:hover,
 .button:hover {
@@ -293,7 +295,7 @@ GENERAL LAYOUT
   line-height: 1.7;
 }
 .grid-item-list {
-  margin: 1em -0.5em;
+  margin: 0 -0.5em 1em;
 }
 .grid-item {
   padding: 0.5em;
@@ -425,6 +427,7 @@ HEADER
   padding: 0 2em;
   border-radius: 0;
   background: #1a9975;
+  color: #f9f9f9;
 }
 .request-info-nav-item .button:hover {
   padding: 0.2em 2em 0;
@@ -434,10 +437,18 @@ HEADER
   display: inline-block;
   float: left;
 }
-.mobile-nav-icon a {
+.mobile-nav-icon span {
   font-size: 2em;
   line-height: 2;
   padding: 0 0.6em;
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.mobile-nav-icon span:hover {
+  color: #1a9975;
 }
 .mobile-nav-icon .mobile-nav-active {
   left: auto;
@@ -452,13 +463,20 @@ HEADER
   font-size: 0.5em;
   text-align: left;
   background: #052b2d;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: left 0.2s linear, right 0.2s linear;
+  -moz-transition: left 0.2s linear, right 0.2s linear;
+  -o-transition: left 0.2s linear, right 0.2s linear;
+  transition: left 0.2s linear, right 0.2s linear;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+}
+#mobile-nav.mobile-nav-active {
+  left: 0;
+  -webkit-transition: left 0.2s linear, right 0.2s linear;
+  -moz-transition: left 0.2s linear, right 0.2s linear;
+  -o-transition: left 0.2s linear, right 0.2s linear;
+  transition: left 0.2s linear, right 0.2s linear;
 }
 #mobile-nav h3 {
   color: #084e51;
@@ -472,27 +490,20 @@ HEADER
   background: #084e51;
   color: #f9f9f9;
   width: 100%;
-  padding: 0.8em 0.2em;
+  padding: 8px 4px;
   margin-bottom: 1em;
-  font-size: 0.7em;
+  font-size: 10px;
 }
 #mobile-nav .button:hover {
-  padding: 1em 1em 0.6em;
-}
-#mobile-nav.mobile-nav-active {
-  left: 0;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  padding: 10px 4px 6px;
 }
 .menu-push {
   right: -240px;
   left: auto;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease;
+  -webkit-transition: left 0.2s linear, right 0.2s linear;
+  -moz-transition: left 0.2s linear, right 0.2s linear;
+  -o-transition: left 0.2s linear, right 0.2s linear;
+  transition: left 0.2s linear, right 0.2s linear;
 }
 .secondary-nav-ul {
   padding-top: 1em;
@@ -618,7 +629,7 @@ MAIN SECTION
   .mobile-nav-icon {
     float: right;
   }
-  .mobile-nav-icon a {
+  .mobile-nav-icon span {
     line-height: 70px;
   }
   #mobile-nav {
@@ -717,7 +728,6 @@ MAIN SECTION
   background: #f9f9f9;
   border-radius: 8px;
   padding: 1em 2em;
-  margin-top: 2em;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -957,6 +967,9 @@ MAIN SECTION
 }
 .grid-item-links .order-button {
   padding: 1.2em 5%;
+}
+.about .about-intro {
+  margin-bottom: 0.5em;
 }
 .about h3 {
   margin-bottom: 0;

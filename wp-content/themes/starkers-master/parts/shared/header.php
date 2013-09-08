@@ -11,7 +11,7 @@
 				<li class="primary-nav-item desktop-nav-item"><a href="/distribution-network/">Distribution Network</a></li>
 				<li class="primary-nav-item desktop-nav-item"><a href="/clients/">Clients</a></li>
 				<li class="primary-nav-item mobile-nav-icon">
-					<a href="" aria-hidden="true" data-icon="m" id="mobile-nav-button"></a>
+					<span aria-hidden="true" data-icon="m" id="mobile-nav-button"></span>
 					<span class="screen-reader-text">Menu</span>
 					<ul id="mobile-nav">
 						<li class="mobile-nav-section">
@@ -22,7 +22,7 @@
 							</div>
 							<div class="secondary-nav-ul">
 								<ul>
-									<li class="mobile-nav-item"><a class="button" href="/merchant-solutions/">Merchant Solutions Platform</a></li>
+									<li class="mobile-nav-item"><a class="button" href="/merchant-solutions/">Merchant Solutions</a></li>
 									<li class="mobile-nav-item"><a class="button" href="/distribution-network/">Distribution Network</a></li>
 									<li class="mobile-nav-item"><a class="button" href="/clients/">Clients</a></li>
 								</ul>

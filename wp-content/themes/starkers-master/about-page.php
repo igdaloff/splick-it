@@ -10,6 +10,7 @@ Template Name: about
 	<?php include("parts/shared/header.php"); ?>
 
 	<div class="wrapper">
+<!--
 		<header class="sub-nav">
 			<nav>
 				<ul>
@@ -20,6 +21,7 @@ Template Name: about
 				</ul>
 			</nav>
 		</header>
+-->
 
 		<div class="about-intro standard-section">
 			<h3>The Splick.it Story</h3>
@@ -35,7 +37,7 @@ Template Name: about
 			</p>
 		</div>
 
-		<ul id="client-list" class="grid-item-list">
+		<ul class="grid-item-list">
 
 		<?php
 	    $args=array(

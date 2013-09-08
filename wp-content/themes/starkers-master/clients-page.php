@@ -10,7 +10,7 @@ Template Name: clients
 	<?php include("parts/shared/header.php"); ?>
 
 	<div class="wrapper">
-		<ul id="client-list" class="grid-item-list">
+		<ul class="grid-item-list">
 
 		<?php
 	    $args=array(

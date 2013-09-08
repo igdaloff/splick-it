@@ -7,7 +7,7 @@
 #
 # Host: 127.0.0.1 (MySQL 5.6.11)
 # Database: splickit_wordpress
-# Generation Time: 2013-09-08 17:42:48 +0000
+# Generation Time: 2013-09-08 18:42:17 +0000
 # ************************************************************
 
 
@@ -797,13 +797,37 @@ VALUES
 	(563,104,'rule','a:5:{s:5:\"param\";s:13:\"post_category\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:1:\"6\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}'),
 	(564,125,'rule','a:5:{s:5:\"param\";s:13:\"post_category\";s:8:\"operator\";s:2:\"==\";s:5:\"value\";s:1:\"7\";s:8:\"order_no\";i:0;s:8:\"group_no\";i:0;}'),
 	(565,126,'_edit_last','1'),
-	(566,126,'_edit_lock','1378658871:1'),
+	(566,126,'_edit_lock','1378665447:1'),
 	(569,127,'section_image','84'),
 	(570,127,'_section_image','field_522ca694205a6'),
 	(571,126,'section_image','84'),
 	(572,126,'_section_image','field_522ca694205a6'),
 	(575,128,'section_image','84'),
-	(576,128,'_section_image','field_522ca694205a6');
+	(576,128,'_section_image','field_522ca694205a6'),
+	(577,129,'_edit_last','1'),
+	(578,129,'_edit_lock','1378665483:1'),
+	(581,130,'section_image',''),
+	(582,130,'_section_image','field_522a07f246a7e'),
+	(583,129,'section_image',''),
+	(584,129,'_section_image','field_522a07f246a7e'),
+	(585,131,'_edit_last','1'),
+	(586,131,'_edit_lock','1378665493:1'),
+	(589,132,'section_image',''),
+	(590,132,'_section_image','field_522a07f246a7e'),
+	(591,131,'section_image',''),
+	(592,131,'_section_image','field_522a07f246a7e'),
+	(593,133,'_edit_last','1'),
+	(594,133,'_edit_lock','1378665506:1'),
+	(597,134,'section_image',''),
+	(598,134,'_section_image','field_522a07f246a7e'),
+	(599,133,'section_image',''),
+	(600,133,'_section_image','field_522a07f246a7e'),
+	(601,135,'_edit_last','1'),
+	(602,135,'_edit_lock','1378665629:1'),
+	(605,136,'section_image',''),
+	(606,136,'_section_image','field_522a07f246a7e'),
+	(607,135,'section_image',''),
+	(608,135,'_section_image','field_522a07f246a7e');
 
 /*!40000 ALTER TABLE `wp_postmeta` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -974,7 +998,15 @@ VALUES
 	(125,1,'2013-09-08 16:34:35','2013-09-08 16:34:35','','Marketing Tools','','publish','closed','closed','','acf_marketing-tools','','','2013-09-08 16:36:16','2013-09-08 16:36:16','',0,'http://l.splickit.com/?post_type=acf&#038;p=125',0,'acf','',0),
 	(126,1,'2013-09-08 16:37:22','2013-09-08 16:37:22','This is some content that is featured in a section of the Marketing Tools page.','Marketing Tools Section','','publish','open','open','','marketing-tools-section','','','2013-09-08 16:47:50','2013-09-08 16:47:50','',0,'http://l.splickit.com/?p=126',0,'post','',0),
 	(127,1,'2013-09-08 16:37:22','2013-09-08 16:37:22','','Marketing Tools Section','','inherit','open','open','','126-revision-v1','','','2013-09-08 16:37:22','2013-09-08 16:37:22','',126,'http://l.splickit.com/126-revision-v1/',0,'revision','',0),
-	(128,1,'2013-09-08 16:47:50','2013-09-08 16:47:50','This is some content that is featured in a section of the Marketing Tools page.','Marketing Tools Section','','inherit','open','open','','126-revision-v1','','','2013-09-08 16:47:50','2013-09-08 16:47:50','',126,'http://l.splickit.com/126-revision-v1/',0,'revision','',0);
+	(128,1,'2013-09-08 16:47:50','2013-09-08 16:47:50','This is some content that is featured in a section of the Marketing Tools page.','Marketing Tools Section','','inherit','open','open','','126-revision-v1','','','2013-09-08 16:47:50','2013-09-08 16:47:50','',126,'http://l.splickit.com/126-revision-v1/',0,'revision','',0),
+	(129,1,'2013-09-08 18:39:43','2013-09-08 18:39:43','','Mobile Ordering','','publish','open','open','','mobile-ordering','','','2013-09-08 18:39:43','2013-09-08 18:39:43','',0,'http://l.splickit.com/?p=129',0,'post','',0),
+	(130,1,'2013-09-08 18:39:43','2013-09-08 18:39:43','','Mobile Ordering','','inherit','open','open','','129-revision-v1','','','2013-09-08 18:39:43','2013-09-08 18:39:43','',129,'http://l.splickit.com/129-revision-v1/',0,'revision','',0),
+	(131,1,'2013-09-08 18:40:05','2013-09-08 18:40:05','','Online Ordering','','publish','open','open','','online-ordering','','','2013-09-08 18:40:05','2013-09-08 18:40:05','',0,'http://l.splickit.com/?p=131',0,'post','',0),
+	(132,1,'2013-09-08 18:40:05','2013-09-08 18:40:05','','Online Ordering','','inherit','open','open','','131-revision-v1','','','2013-09-08 18:40:05','2013-09-08 18:40:05','',131,'http://l.splickit.com/131-revision-v1/',0,'revision','',0),
+	(133,1,'2013-09-08 18:40:17','2013-09-08 18:40:17','','Loyalty And Gamification','','publish','open','open','','loyalty-and-gamification','','','2013-09-08 18:40:17','2013-09-08 18:40:17','',0,'http://l.splickit.com/?p=133',0,'post','',0),
+	(134,1,'2013-09-08 18:40:17','2013-09-08 18:40:17','','Loyalty And Gamification','','inherit','open','open','','133-revision-v1','','','2013-09-08 18:40:17','2013-09-08 18:40:17','',133,'http://l.splickit.com/133-revision-v1/',0,'revision','',0),
+	(135,1,'2013-09-08 18:40:29','2013-09-08 18:40:29','','Marketing Tools','','publish','open','open','','marketing-tools','','','2013-09-08 18:40:29','2013-09-08 18:40:29','',0,'http://l.splickit.com/?p=135',0,'post','',0),
+	(136,1,'2013-09-08 18:40:29','2013-09-08 18:40:29','','Marketing Tools','','inherit','open','open','','135-revision-v1','','','2013-09-08 18:40:29','2013-09-08 18:40:29','',135,'http://l.splickit.com/135-revision-v1/',0,'revision','',0);
 
 /*!40000 ALTER TABLE `wp_posts` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1016,7 +1048,11 @@ VALUES
 	(100,6,0),
 	(106,6,0),
 	(110,4,0),
-	(126,7,0);
+	(126,7,0),
+	(129,4,0),
+	(131,4,0),
+	(133,4,0),
+	(135,4,0);
 
 /*!40000 ALTER TABLE `wp_term_relationships` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -1047,7 +1083,7 @@ VALUES
 	(1,1,'category','',0,0),
 	(2,2,'category','',0,6),
 	(3,3,'category','',0,6),
-	(4,4,'category','',0,1),
+	(4,4,'category','',0,5),
 	(5,5,'category','',0,1),
 	(6,6,'category','',0,2),
 	(7,7,'category','',0,1);

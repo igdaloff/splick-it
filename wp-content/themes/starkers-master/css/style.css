@@ -508,12 +508,8 @@ HEADER
   background: #084e51;
   color: #f9f9f9;
   width: 100%;
-  padding: 8px 4px;
   margin-bottom: 1em;
   font-size: 10px;
-}
-#mobile-nav .button:hover {
-  padding: 10px 4px 6px;
 }
 #mobile-nav .download-button {
   padding: 14px 4px 2px;
@@ -641,9 +637,6 @@ MAIN SECTION
   #mobile-nav {
     right: -240px;
     left: auto;
-  }
-  #mobile-nav a {
-    line-height: 3;
   }
   #mobile-nav.mobile-nav-active {
     right: 0;

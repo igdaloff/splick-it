@@ -1047,15 +1047,21 @@ MAIN SECTION
     margin-bottom: 0.5em;
   }
   .merchant-solutions-vertical .standard-section-image,
+  .distribution-network .standard-section-image {
+    width: 40%;
+  }
+  .merchant-solutions-vertical p,
+  .distribution-network p {
+    width: 60%;
+  }
+  .merchant-solutions-vertical .standard-section-image,
   .distribution-network .standard-section-image,
   .merchant-solutions-vertical p,
   .distribution-network p {
     float: right;
-    width: 50%;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    padding: 0;
   }
   .merchant-solutions-vertical p,
   .distribution-network p {

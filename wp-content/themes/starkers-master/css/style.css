@@ -223,7 +223,9 @@ button,
 .button {
   position: relative;
   display: inline-block;
-  padding: 1.5em 2em;
+  height: 4em;
+  line-height: 4;
+  padding: 0 2em;
   font-size: 0.6em;
   font-family: 'montserratregular', helvetica, sans-serif;
   color: #f9f9f9;
@@ -244,7 +246,7 @@ button,
 }
 button:hover,
 .button:hover {
-  padding: 1.65em 2em 1.35em;
+  line-height: 4.5;
   -moz-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2) inset, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
   -webkit-box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2) inset, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
   box-shadow: 0 5px 7px rgba(0, 0, 0, 0.2) inset, transparent 0 0 0 0, transparent 0 0 0 0, transparent 0 0 0;
@@ -346,11 +348,12 @@ GENERAL LAYOUT
 }
 .grid-item-links .button {
   width: 100%;
-  padding: 0.6em 20%;
+  padding: 0;
   background: #3f3f3f;
 }
 .grid-item-links img {
-  width: 100%;
+  width: 80px;
+  padding-top: 0.9em;
 }
 @media only screen and (min-width: 42.5em) {
   /* 680px */
@@ -428,6 +431,7 @@ HEADER
 }
 .request-info-nav-item .button {
   height: 100%;
+  line-height: 60px;
   padding: 0 2em;
   border-radius: 0;
   background: #1a9975;
@@ -1028,20 +1032,15 @@ MAIN SECTION
     width: auto;
   }
 }
-.grid-item-links .order-button {
-  padding: 1.2em 5%;
+.clients .order-button {
+  padding: 0;
+  font-size: 0.4em;
 }
 .about .about-intro {
   margin-bottom: 1em;
 }
 .about h3 {
   margin-bottom: 0;
-}
-.about .grid-item-inner .button {
-  padding: 1.5em 2em;
-}
-.about .grid-item-inner .button:hover {
-  padding: 1.65em 2em 1.35em;
 }
 .newsletter {
   padding: 1em 0;
@@ -1074,9 +1073,6 @@ MAIN SECTION
   border-radius: 0 4px 4px 0;
   background: #3f3f3f;
   padding: 0;
-}
-.newsletter .button:hover {
-  padding-top: 0.5em;
 }
 footer {
   padding-top: 1.5em;

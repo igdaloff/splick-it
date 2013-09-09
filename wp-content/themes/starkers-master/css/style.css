@@ -511,10 +511,10 @@ HEADER
   font-size: 10px;
 }
 #mobile-nav .download-button {
-  padding: 14px 4px 2px;
+  line-height: 6;
 }
 #mobile-nav .download-button:hover {
-  padding: 16px 4px 0;
+  line-height: 6.5;
 }
 #mobile-nav .download-button img {
   width: 90px;

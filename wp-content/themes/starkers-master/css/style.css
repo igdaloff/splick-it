@@ -1032,6 +1032,16 @@ MAIN SECTION
 .jobs .standard-section p {
   margin-bottom: 0;
 }
+.jobs .job-item {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px dashed #3f3f3f;
+}
+.jobs .job-item:last-child {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
 @media only screen and (min-width: 50em) {
   /* 800px */
   .merchant-solutions-vertical h3,

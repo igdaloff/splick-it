@@ -1094,6 +1094,7 @@ MAIN SECTION
   margin-bottom: 0.5em;
   font-size: 1.4em;
   width: auto;
+  font-family: 'montserratbold', helvetica, sans-serif;
 }
 .newsletter .email-input {
   width: auto;

@@ -20,9 +20,11 @@ Template Name: home
 	<div class="sub-section-header">
 		<div class="wrapper">
 			<h2><?php the_field('sub-section1_header'); ?></h2>
+<!--
 			<a class="learn-more-button-desktop button" href="">Learn More</a>
 			<a class="learn-more-button-mobile button" data-icon="+"></a>
 			<span class="screen-reader-text">Learn More</span>
+-->
 		</div>
 	</div>
 	<div class="sub-section-body">
@@ -52,9 +54,11 @@ Template Name: home
 	<div class="sub-section-header">
 		<div class="wrapper">
 			<h2><?php the_field('sub-section2_header'); ?></h2>
+<!--
 			<a class="learn-more-button-desktop button" href="/merchant-solutions#<?php the_field('sub-section2_learn_more_link'); ?>">Learn More</a>
 			<a class="learn-more-button-mobile button" data-icon="+" href=""></a>
 			<span class="screen-reader-text">Learn More</span>
+-->
 		</div>
 	</div>
 	<div class="sub-section-body">
@@ -84,9 +88,11 @@ Template Name: home
 	<div class="sub-section-header">
 		<div class="wrapper">
 			<h2><?php the_field('sub-section3_header'); ?></h2>
+<!--
 			<a class="learn-more-button-desktop button" href="">Learn More</a>
 			<a class="learn-more-button-mobile button" data-icon="+"></a>
 			<span class="screen-reader-text">Learn More</span>
+-->
 		</div>
 	</div>
 	<div class="sub-section-body">

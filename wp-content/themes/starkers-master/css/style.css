@@ -917,6 +917,9 @@ MAIN SECTION
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.sub-section-item a {
+  text-decoration: underline;
+}
 .sub-section-icon {
   width: 30%;
 }

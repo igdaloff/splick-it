@@ -430,8 +430,6 @@ HEADER
   float: right;
   display: inline-block;
   width: 74%;
-  height: 30px;
-  line-height: 30px;
   margin-top: 10px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -439,11 +437,12 @@ HEADER
 }
 .request-info-nav-item .button {
   height: 100%;
-  line-height: 60px;
   padding: 0 2em;
   border-radius: 0;
   background: #1a9975;
   color: #f9f9f9;
+  height: 30px;
+  line-height: 30px;
 }
 .request-info-nav-item .button:hover {
   padding: 0.2em 2em 0;
@@ -650,6 +649,8 @@ MAIN SECTION
     float: right;
     margin: 0;
     width: auto;
+  }
+  .request-info-nav-item .button {
     height: 60px;
     line-height: 60px;
   }
@@ -1049,6 +1050,8 @@ MAIN SECTION
   .merchant-solutions-vertical .standard-section-image,
   .distribution-network .standard-section-image {
     width: 40%;
+    text-align: center;
+    padding-top: 0.5em;
   }
   .merchant-solutions-vertical p,
   .distribution-network p {

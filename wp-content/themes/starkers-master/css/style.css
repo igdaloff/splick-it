@@ -502,6 +502,7 @@ HEADER
   font-size: 2.4em;
   text-transform: uppercase;
   font-family: 'montserratbold', helvetica, sans-serif;
+  line-height: 1;
 }
 #mobile-nav .button {
   background: #084e51;

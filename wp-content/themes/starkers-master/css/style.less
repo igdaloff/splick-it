@@ -25,7 +25,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: @sans-bold;
+	font: @gotham-light;
 	color: @white;
 	background: @grey;
 	overflow-x: hidden;
@@ -139,7 +139,6 @@ h2{
 }
 
 h3{
-	font: @gotham-light;
 	font-size: 1.6em;
 }
 
@@ -152,8 +151,6 @@ p{
 	margin-bottom: 1em;
 	font-size: 0.9em;
 	line-height: 1.4;
-	font-family: 'Gotham A', 'Gotham B', helvetica, sans-serif;
-	font-weight: 300;
 }
 
 strong{
@@ -384,6 +381,7 @@ HEADER
 		padding: 0 1em;
 		display: block;
 		.transition;
+		font-family: @sans-bold;
 	}
 
 	.selected{
@@ -564,7 +562,6 @@ MAIN SECTION
 	padding: 1em;
 	margin: 1em auto 0;
 	background: @darkblue;
-	font: @gotham-light;
 	color: @white;
 	border-radius: 4px;
 	text-align: left;

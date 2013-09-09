@@ -23,7 +23,7 @@ Template Name: jobs
 			</div>
 
 			<div class="standard-section">
-
+			<h3>Job Descriptions</h3>
 			<?php
 		    $args=array(
 		      'category_name' => 'jobs',
@@ -39,7 +39,7 @@ Template Name: jobs
 		    if( $my_query->have_posts() ) {
 		      while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-				<div class="job-item">
+				<div class="job-item" id="<?php global $post; echo $post->post_name; ?>">
 					<h4><?php echo get_the_title(); ?></h4>
 					<p><?php echo get_the_content(); ?></p>
 				</div>

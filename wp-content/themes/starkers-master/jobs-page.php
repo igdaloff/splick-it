@@ -12,9 +12,9 @@ Template Name: jobs
 				<h3>Splick.it Jobs</h3>
 				<p>
 					<?php
-						$my_id = 146;
-						$post_id_146 = get_post($my_id);
-						$content = $post_id_146->post_content;
+						$my_id = 135;
+						$post_id_135 = get_post($my_id);
+						$content = $post_id_135->post_content;
 						$content = apply_filters('the_content', $content);
 						$content = str_replace(']]>', ']]>', $content);
 						echo $content;

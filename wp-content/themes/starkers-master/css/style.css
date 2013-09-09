@@ -992,8 +992,11 @@ MAIN SECTION
 .merchant-solutions p {
   font-size: 1.2em;
 }
-.merchant-solutions-horizontal img,
-.merchant-solutions-vertical img,
+.merchant-solutions-horizontal img {
+  width: 100%;
+}
+.merchant-solutions-horizontal .standard-section-image,
+.merchant-solutions-vertical .standard-section-image,
 .merchant-solutions-horizontal p,
 .merchant-solutions-vertical p {
   display: block;
@@ -1005,8 +1008,8 @@ MAIN SECTION
   .distribution-network h3 {
     margin-bottom: 0.5em;
   }
-  .merchant-solutions-vertical img,
-  .distribution-network img,
+  .merchant-solutions-vertical .standard-section-image,
+  .distribution-network .standard-section-image,
   .merchant-solutions-vertical p,
   .distribution-network p {
     float: right;
@@ -1019,6 +1022,10 @@ MAIN SECTION
   .merchant-solutions-vertical p,
   .distribution-network p {
     padding-left: 2em;
+  }
+  .merchant-solutions-vertical img,
+  .distribution-network img {
+    width: auto;
   }
 }
 .grid-item-links .order-button {

@@ -7,9 +7,8 @@ Template Name: about
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 
 <div class="about">
-
 	<div class="wrapper">
-		<div class="about-intro standard-section">
+		<div class="standard-intro standard-section">
 			<h3>The Splick.it Story</h3>
 			<p>
 				<?php

@@ -264,6 +264,9 @@ GENERAL LAYOUT
   *zoom: 1;
   position: relative;
   max-width: 1200px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .wrapper:before,
 .wrapper:after {
@@ -292,12 +295,19 @@ GENERAL LAYOUT
   font-size: 2em;
   color: #1a9975;
 }
+.standard-section h4 {
+  color: #1a9975;
+  margin-bottom: 0.5em;
+}
 .standard-section p {
   color: #3f3f3f;
   line-height: 1.7;
 }
 .standard-section img {
   width: 100%;
+}
+.standard-intro {
+  margin-bottom: 1em;
 }
 .grid-item-list {
   margin: 0 -0.5em 1em;
@@ -1009,6 +1019,19 @@ MAIN SECTION
   display: block;
   width: 100%;
 }
+.jobs .standard-section a {
+  text-decoration: underline;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.jobs .standard-section a:hover {
+  color: #1a9975;
+}
+.jobs .standard-section p {
+  margin-bottom: 0;
+}
 @media only screen and (min-width: 50em) {
   /* 800px */
   .merchant-solutions-vertical h3,
@@ -1038,9 +1061,6 @@ MAIN SECTION
 .clients .order-button {
   padding: 0;
   font-size: 0.4em;
-}
-.about .about-intro {
-  margin-bottom: 1em;
 }
 .about h3 {
   margin-bottom: 0;

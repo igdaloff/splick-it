@@ -15,4 +15,4 @@
 		<link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/style.css" type="text/css" media="all">
 		<?php wp_head(); ?>
 	</head>
-	<bodys>
+	<body>

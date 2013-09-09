@@ -232,6 +232,7 @@ GENERAL LAYOUT
 	.clearfix;
 	position: relative;
 	max-width:1200px;
+	.box-sizing;
 }
 
 .standard-section{
@@ -246,6 +247,11 @@ GENERAL LAYOUT
 		color: @lightgreen;
 	}
 
+	h4{
+		color: @lightgreen;
+		margin-bottom: 0.5em;
+	}
+
 	p{
 		color: @black;
 		line-height: 1.7;
@@ -254,6 +260,10 @@ GENERAL LAYOUT
 	img{
 		width: 100%;
 	}
+}
+
+.standard-intro{
+	margin-bottom: 1em;
 }
 
 .grid-item-list{
@@ -769,7 +779,7 @@ MAIN SECTION
 @import "webfonts.less";
 @import "form.less";
 @import "subsection.less";
-@import "merchant-solutions.less";
+@import "secondary.less";
 @import "clients.less";
 @import "about.less";
 @import "footer.less";

@@ -792,9 +792,6 @@ MAIN SECTION
   box-sizing: border-box;
   color: #3f3f3f;
 }
-.form-page-inner p {
-  width: 80%;
-}
 .form-page-inner form {
   width: 100%;
   margin-top: 2em;
@@ -856,7 +853,8 @@ MAIN SECTION
 }
 @media only screen and (min-width: 50em) {
   /* 800px */
-  .form-page-inner form {
+  .form-page-inner form,
+  .form-page-inner p {
     width: 80%;
   }
   .form-page-inner label,

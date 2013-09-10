@@ -31,6 +31,7 @@
 								<h3>Company</h3>
 								<ul>
 									<li class="mobile-nav-item"><a class="button" href="/about/">About</a></li>
+									<li class="mobile-nav-item"><a class="button" href="/media/">Media</a></li>
 									<li class="mobile-nav-item"><a class="button" href="/jobs/">Jobs</a></li>
 									<li class="mobile-nav-item"><a class="button" href="/terms-and-conditions/">Terms and Conditions</a></li>
 								</ul>

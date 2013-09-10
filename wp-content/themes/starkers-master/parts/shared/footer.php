@@ -4,6 +4,7 @@
 			<h4>Company</h4>
 			<ul>
 				<li><a href="/about/">About</a></li>
+				<li><a href="/media/">Media</a></li>
 				<li><a href="/jobs/">Jobs</a></li>
 				<li><a href="/terms-and-conditions/">Terms and Conditions</a></li>
 			</ul>

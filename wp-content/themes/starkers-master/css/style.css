@@ -1035,17 +1035,42 @@ MAIN SECTION
   margin-bottom: 0.5em;
   color: #3f3f3f;
 }
-.jobs .job-item,
-.media .job-item {
+.job-item,
+.press-item {
   margin-bottom: 2em;
   padding-bottom: 2em;
   border-bottom: 1px dashed #3f3f3f;
 }
-.jobs .job-item:last-child,
-.media .job-item:last-child {
+.job-item:last-child,
+.press-item:last-child {
   margin: 0;
   padding: 0;
   border: 0;
+}
+.press-item {
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+.press .press-item {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.press .press-item h4 {
+  margin: 0;
+  text-decoration: none;
+  text-transform: none;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.press .press-item:hover h4 {
+  text-decoration: underline;
+}
+.press-item-logo {
+  width: 100px;
+  margin: 0 auto;
 }
 @media only screen and (min-width: 50em) {
   /* 800px */
@@ -1079,6 +1104,15 @@ MAIN SECTION
   .merchant-solutions-vertical img,
   .distribution-network img {
     width: auto;
+  }
+  .press .press-item h4,
+  .press .press-item .press-item-logo {
+    float: left;
+    margin: auto;
+  }
+  .press .press-item h4 {
+    padding-left: 2em;
+    line-height: 100px;
   }
 }
 .clients .order-button {

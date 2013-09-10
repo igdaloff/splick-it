@@ -34,7 +34,7 @@ Template Name: media
 		?>
 	</section>
 
-	<section class="standard-section">
+	<section class="standard-section press">
 		<h3>Recent Press Coverage</h3>
 		<?php
 	    $args=array(
@@ -50,11 +50,13 @@ Template Name: media
 
 	    if( $my_query->have_posts() ) {
 	      while ($my_query->have_posts()) : $my_query->the_post(); ?>
-			<div class="media-item">
-				<div class="press-item-logo">
-<!-- 					<img src="<?php the_field('press_item_logo'); ?>" alt="Press item logo" /> -->
-				</div>
-				<h4><a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h4>
+			<div class="media-item press-item">
+				<a href="<?php the_permalink(); ?>">
+					<div class="press-item-logo">
+						<img src="<?php the_field('press_item_logo'); ?>" alt="Press item logo" />
+					</div>
+					<h4><?php echo get_the_title(); ?></h4>
+				</a>
 			</div>
 	  <?php
 	  	endwhile;

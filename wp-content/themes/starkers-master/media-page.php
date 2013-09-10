@@ -7,6 +7,14 @@ Template Name: media
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
 <div class="wrapper media">
 	<section class="standard-section">
+		<h3>Media Contact</h3>
+		<ul>
+			<li>Anke Corbin</li>
+			<li><a href="mailto:acorbin@splickit.com">acorbin@splickit.com</a></li>
+			<li>760-707-8202</li>
+		</ul>
+	</section>
+	<section class="standard-section">
 		<h3>Brand Assets</h3>
 		<?php
 	    $args=array(

@@ -1011,11 +1011,13 @@ MAIN SECTION
   width: 100%;
 }
 .jobs .standard-section h3,
-.media .standard-section h3 {
+.media .standard-section h3,
+.form-confirm .standard-section h3 {
   margin-bottom: 0.5em;
 }
 .jobs .standard-section a,
-.media .standard-section a {
+.media .standard-section a,
+.form-confirm .standard-section a {
   text-decoration: underline;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -1023,15 +1025,18 @@ MAIN SECTION
   transition: all 0.2s ease;
 }
 .jobs .standard-section a:hover,
-.media .standard-section a:hover {
+.media .standard-section a:hover,
+.form-confirm .standard-section a:hover {
   color: #1a9975;
 }
 .jobs .standard-section p,
-.media .standard-section p {
+.media .standard-section p,
+.form-confirm .standard-section p {
   margin-bottom: 0;
 }
 .jobs li,
-.media li {
+.media li,
+.form-confirm li {
   margin-bottom: 0.5em;
   color: #3f3f3f;
 }

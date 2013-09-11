@@ -49,7 +49,6 @@ jQuery(document).ready(function($) {
 		});
 	});
 
-
 /*
     var MEASUREMENTS_ID = 'measurements'; // abstracted-out for convenience in renaming
     $("body").append('<div id="'+MEASUREMENTS_ID+'"></div>');

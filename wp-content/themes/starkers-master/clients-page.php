@@ -33,7 +33,7 @@ Template Name: clients
 					<ul class="grid-item-links">
 						<li><a href="<?php the_field('apple_app_store_link'); ?>" class="button"><img src="<?php bloginfo('template_url'); ?>/images/apple-download.png" alt="Apple Download Icon" /></a></li>
 						<li><a href="<?php the_field('google_play_link'); ?>" class="button"><img src="<?php bloginfo('template_url'); ?>/images/android-download.png" alt="Android Download Icon" /></a></li>
-						<li><a href="<?php the_field('ssplick-it_link'); ?>" class="button order-button">Order Online</a></li>
+						<li><a href="<?php the_field('splick-it_link'); ?>" class="button order-button">Order Online</a></li>
 					</ul>
 					<p><?php echo get_the_content(); ?></p>
 				</div>

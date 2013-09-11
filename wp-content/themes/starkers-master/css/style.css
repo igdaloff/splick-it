@@ -1067,8 +1067,9 @@ MAIN SECTION
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease;
 }
-.press .press-item:hover h4 {
+.press .press-item a:hover h4 {
   text-decoration: underline;
+  color: #1a9975;
 }
 .press-item-logo {
   width: 100px;

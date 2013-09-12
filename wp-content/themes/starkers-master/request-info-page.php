@@ -8,7 +8,7 @@ Template Name: request info
 	<div class="wrapper form-page-inner">
 		<h3>Request for Info and&nbsp;Pricing</h3>
 		<p>Complete the form below or call us at (303) 481-3660 to receive info about our branded iPhone, Android and web ordering apps for&nbsp;restaurants.</p>
-		<p><strong>Are you a Pita Pit franchisee? Please use <a href="index.php?page_id=28" title="New Pita Pit Franchisee Sign-Up">this sign-up form</a>&nbsp;instead!</strong></p>
+		<p><strong>Are you a Pita Pit franchisee? Please use <a href="/request-info-pita-pit" title="New Pita Pit Franchisee Sign-Up">this sign-up form</a>&nbsp;instead!</strong></p>
 <form method="post" novalidate enctype="multipart/form-data" action="http://www.formstack.com/forms/index.php" class="fsForm fsSingleColumn fsMaxCol1" id="fsForm1567980">
 	<input type="hidden" name="form" value="1567980" />
 	<input type="hidden" name="viewkey" value="OYIyBFTxAs" />

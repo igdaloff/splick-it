@@ -1,15 +1,15 @@
 <?php
 /*
-Template Name: marketing tools
+Template Name: online ordering
 */
 ?>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
-<div class="marketing-tools">
+<div class="online-ordering">
 	<div class="wrapper">
 		<?php
 	    $args=array(
-	      'category_name' => 'loyalty-and-gamification',
+	      'category_name' => 'online-ordering',
 	      'post_type' => 'post',
 	      'post_status' => 'publish',
 	      'posts_per_page' => 100,

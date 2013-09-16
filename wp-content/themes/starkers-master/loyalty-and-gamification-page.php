@@ -1,11 +1,11 @@
 <?php
 /*
-Template Name: marketing tools
+Template Name: loyalty and gamification
 */
 ?>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
-<div class="marketing-tools">
+<div class="loyalty-gamification">
 	<div class="wrapper">
 		<?php
 	    $args=array(

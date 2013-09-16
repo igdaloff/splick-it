@@ -1,15 +1,15 @@
 <?php
 /*
-Template Name: marketing tools
+Template Name: mobile ordering
 */
 ?>
 
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header', 'parts/shared/header' ) ); ?>
-<div class="marketing-tools">
+<div class="mobile-ordering">
 	<div class="wrapper">
 		<?php
 	    $args=array(
-	      'category_name' => 'loyalty-and-gamification',
+	      'category_name' => 'mobile-ordering',
 	      'post_type' => 'post',
 	      'post_status' => 'publish',
 	      'posts_per_page' => 100,
@@ -26,7 +26,7 @@ Template Name: marketing tools
 				<h3><?php echo get_the_title(); ?></h3>
 				<p><?php echo get_the_content(); ?></p>
 				<div class="standard-section-image">
-					<img src="<?php the_field('section_image'); ?>" alt="Section image" />
+					<img src="<?php the_field('section_image'); ?>" alt="Main section image" />
 				</div>
 			</section>
 

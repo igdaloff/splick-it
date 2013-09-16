@@ -19,7 +19,6 @@ jQuery(document).ready(function($) {
 	};
 
 	/* SHOW SUB-NAV */
-/*
 	var timer;
   $('.first-desktop-nav-item').mouseenter(function() {
 		$('.second-level-ul').addClass('second-level-ul-active');
@@ -38,7 +37,6 @@ jQuery(document).ready(function($) {
 		$('.first-desktop-nav-item a').addClass('selected');
     clearTimeout(timer);
   });
-*/
 
 	/* CLIENT MASONRY */
 	$(window).load(function(){

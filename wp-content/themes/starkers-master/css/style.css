@@ -1008,8 +1008,10 @@ MAIN SECTION
 }
 .merchant-solutions-horizontal .standard-section-image,
 .merchant-solutions-vertical .standard-section-image,
+.basic-vertical .standard-section-image,
 .merchant-solutions-horizontal p,
-.merchant-solutions-vertical p {
+.merchant-solutions-vertical p,
+.basic-vertical p {
   display: block;
   width: 100%;
 }
@@ -1086,34 +1088,41 @@ MAIN SECTION
 @media only screen and (min-width: 50em) {
   /* 800px */
   .merchant-solutions-vertical h3,
-  .distribution-network h3 {
+  .distribution-network h3,
+  .basic-vertical h3 {
     margin-bottom: 0.5em;
   }
   .merchant-solutions-vertical .standard-section-image,
-  .distribution-network .standard-section-image {
+  .distribution-network .standard-section-image,
+  .basic-vertical .standard-section-image {
     width: 33.3333333%;
     text-align: center;
     padding-top: 0.5em;
   }
   .merchant-solutions-vertical p,
-  .distribution-network p {
+  .distribution-network p,
+  .basic-vertical p {
     width: 66.6666666%;
   }
   .merchant-solutions-vertical .standard-section-image,
   .distribution-network .standard-section-image,
+  .basic-vertical .standard-section-image,
   .merchant-solutions-vertical p,
-  .distribution-network p {
+  .distribution-network p,
+  .basic-vertical p {
     float: right;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
   .merchant-solutions-vertical p,
-  .distribution-network p {
+  .distribution-network p,
+  .basic-vertical p {
     padding-left: 2em;
   }
   .merchant-solutions-vertical img,
-  .distribution-network img {
+  .distribution-network img,
+  .basic-vertical img {
     width: auto;
   }
   .press .press-item h4,

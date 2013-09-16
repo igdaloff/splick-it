@@ -22,7 +22,7 @@ Template Name: online ordering
 	    if( $my_query->have_posts() ) {
 	      while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-			<section id="<?php global $post; echo $post->post_name; ?>" class="standard-section <?php the_category_unlinked(' '); ?>">
+			<section id="<?php global $post; echo $post->post_name; ?>" class="standard-section basic-vertical <?php the_category_unlinked(' '); ?>">
 				<h3><?php echo get_the_title(); ?></h3>
 				<p><?php echo get_the_content(); ?></p>
 				<div class="standard-section-image">

@@ -57,10 +57,10 @@
 				<li class="primary-nav-item request-info-nav-item"><a class="button" href="/start/">Request Info</a></li>
 			</ul>
 			<ul class="second-level-ul">
+				<li><a class="button" href="/marketing-tools">Marketing Tools</a></li>
 				<li><a class="button" href="/mobile-ordering">Mobile Ordering</a></li>
 				<li><a class="button" href="/online-ordering">Online Ordering</a></li>
-				<li><a class="button" href="/loyalty-and-gamification">Loyalty & Gamification</a></li>
-				<li><a class="button" href="/marketing-tools">Marketing Tools</a></li>
+				<li><a href="//www.formstack.com/forms/splickit-promo" class="button">Request Promo</a></li>
 			</ul>
 		</nav>
 	</div>

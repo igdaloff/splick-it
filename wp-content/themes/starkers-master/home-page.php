@@ -27,7 +27,7 @@ Template Name: home
 	      'post_type' => 'post',
 	      'post_status' => 'publish',
 	      'posts_per_page' => 3,
-	      'order'	=> 'ASC'
+	      'order'	=> 'DEC'
 	    );
 
 	    $my_query = null;

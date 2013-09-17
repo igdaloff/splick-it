@@ -54,7 +54,10 @@
 						</li>
 					</ul>
 				</li>
-				<li class="primary-nav-item request-info-nav-item"><a class="button" href="/start/">Request Info</a></li>
+				<li class="primary-nav-item nav-cta">
+					<a class="button login-button" href="//merchant.splickit.com">Client Login</a>
+					<a class="button request-info-button" href="/start/">Request Info</a>
+				</li>
 			</ul>
 			<ul class="second-level-ul">
 				<li><a class="button" href="/marketing-tools">Marketing Tools</a></li>

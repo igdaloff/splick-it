@@ -362,7 +362,7 @@ HEADER
 		width: 90%;
 		padding: 0 5% 0 0;
 		margin: 0 auto;
-		height: 50px;
+		height: 70px;
 		text-align: center;
 		background: fadeout(white, 30%);
 		.box-sizing;
@@ -380,13 +380,13 @@ HEADER
 }
 
 .primary-nav-item{
-	height: 60px;
-	line-height: 60px;
+	height: 70px;
+	line-height: 70px;
 	font-size: 0.9em;
 	position: relative;
 
 	a{
-		padding: 0 1em;
+		padding: 0 0.5em;
 		display: block;
 		.transition;
 		font-family: @sans-bold;
@@ -401,7 +401,7 @@ HEADER
 	}
 }
 
-.request-info-nav-item{
+.nav-cta{
 	float: right;
 	display: inline-block;
 	width: 74%;
@@ -412,7 +412,6 @@ HEADER
 		height: 100%;
 		padding: 0 2em;
 		border-radius: 0;
-		background: @lightgreen;
 		color: @white;
 		height: 30px;
 		line-height: 30px;
@@ -423,14 +422,21 @@ HEADER
 	}
 }
 
+.login-button{
+	background: @blue;
+}
+
+.request-info-button{
+	background: @lightgreen;
+}
 .mobile-nav-icon{
 	position: relative;
 	display: inline-block;
 	float: left;
 
 	span{
-		font-size: 2em;
-		line-height: 2;
+		font-size: 2.2em;
+		line-height: 75px;
 		padding: 0 0.6em;
 		cursor: pointer;
 		.transition;
@@ -656,12 +662,12 @@ MEDIA QUERIES
 
 		img{
 			width: auto;
-			height: 60px;
+			height: 70px;
 		}
 	}
 
 	.primary-nav{
-		height: 60px;
+		height: 70px;
 		margin-left: 10px;
 		background: fadeout(white, 30%);
 
@@ -675,10 +681,6 @@ MEDIA QUERIES
 
 	.mobile-nav-icon{
 		float: right;
-
-		span{
-			line-height: 70px;
-		}
 	}
 
 	#mobile-nav{
@@ -696,14 +698,14 @@ MEDIA QUERIES
     right: auto;
 	}
 
-	.request-info-nav-item{
+	.nav-cta{
 		float: right;
 		margin: 0;
 		width: auto;
 
 		.button{
-			height: 60px;
-			line-height: 60px;
+			height: 35px;
+			line-height: 35px;
 		}
 	}
 
@@ -768,7 +770,7 @@ MEDIA QUERIES
 
 	.first-desktop-nav-item-active a:after{
 		opacity: 1;
-		top: 2.6em;
+		top: 2.75em;
 	}
 
 	.second-level-ul{
@@ -782,7 +784,6 @@ MEDIA QUERIES
 	 	opacity: 0;
 		.box-sizing;
 		.transition;
-		z-index: 1;
 
 		li{
 			float: left;
@@ -803,7 +804,7 @@ MEDIA QUERIES
 	}
 
 	.second-level-ul-active{
-		margin: 1em auto 0;
+		margin: 5px auto 0;
 		opacity: 1;
 	}
 }

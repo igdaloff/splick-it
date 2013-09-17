@@ -396,7 +396,7 @@ HEADER
   width: 90%;
   padding: 0 5% 0 0;
   margin: 0 auto;
-  height: 50px;
+  height: 70px;
   text-align: center;
   background: rgba(255, 255, 255, 0.7);
   -webkit-box-sizing: border-box;
@@ -412,13 +412,13 @@ HEADER
   display: block;
 }
 .primary-nav-item {
-  height: 60px;
-  line-height: 60px;
+  height: 70px;
+  line-height: 70px;
   font-size: 0.9em;
   position: relative;
 }
 .primary-nav-item a {
-  padding: 0 1em;
+  padding: 0 0.5em;
   display: block;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -432,7 +432,7 @@ HEADER
 .primary-nav-item a:not(.button):hover {
   color: #1a9975;
 }
-.request-info-nav-item {
+.nav-cta {
   float: right;
   display: inline-block;
   width: 74%;
@@ -441,17 +441,22 @@ HEADER
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-.request-info-nav-item .button {
+.nav-cta .button {
   height: 100%;
   padding: 0 2em;
   border-radius: 0;
-  background: #1a9975;
   color: #f9f9f9;
   height: 30px;
   line-height: 30px;
 }
-.request-info-nav-item .button:hover {
+.nav-cta .button:hover {
   padding: 0.2em 2em 0;
+}
+.login-button {
+  background: #05373c;
+}
+.request-info-button {
+  background: #1a9975;
 }
 .mobile-nav-icon {
   position: relative;
@@ -459,8 +464,8 @@ HEADER
   float: left;
 }
 .mobile-nav-icon span {
-  font-size: 2em;
-  line-height: 2;
+  font-size: 2.2em;
+  line-height: 75px;
   padding: 0 0.6em;
   cursor: pointer;
   -webkit-transition: all 0.2s ease;
@@ -669,10 +674,10 @@ MEDIA QUERIES
   }
   .main-logo img {
     width: auto;
-    height: 60px;
+    height: 70px;
   }
   .primary-nav {
-    height: 60px;
+    height: 70px;
     margin-left: 10px;
     background: rgba(255, 255, 255, 0.7);
   }
@@ -684,9 +689,6 @@ MEDIA QUERIES
   }
   .mobile-nav-icon {
     float: right;
-  }
-  .mobile-nav-icon span {
-    line-height: 70px;
   }
   #mobile-nav {
     right: -240px;
@@ -700,14 +702,14 @@ MEDIA QUERIES
     left: -240px;
     right: auto;
   }
-  .request-info-nav-item {
+  .nav-cta {
     float: right;
     margin: 0;
     width: auto;
   }
-  .request-info-nav-item .button {
-    height: 60px;
-    line-height: 60px;
+  .nav-cta .button {
+    height: 35px;
+    line-height: 35px;
   }
   .callout {
     width: 470px;
@@ -757,7 +759,7 @@ MEDIA QUERIES
   }
   .first-desktop-nav-item-active a:after {
     opacity: 1;
-    top: 2.6em;
+    top: 2.75em;
   }
   .second-level-ul {
     position: absolute;
@@ -775,7 +777,6 @@ MEDIA QUERIES
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease;
-    z-index: 1;
   }
   .second-level-ul li {
     float: left;
@@ -794,7 +795,7 @@ MEDIA QUERIES
     background: #05373c;
   }
   .second-level-ul-active {
-    margin: 1em auto 0;
+    margin: 5px auto 0;
     opacity: 1;
   }
 }

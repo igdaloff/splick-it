@@ -120,3 +120,30 @@
 
     echo $thelist;
 	}
+
+	/* ========================================================================================================================
+
+	Allow for Customizing Read More Excerpt
+
+	======================================================================================================================== */
+
+	function my_wp_trim_excerpt($text) { // Fakes an excerpt if needed
+
+	if ( '' == $text ) {
+	$text = get_the_content('');
+	$text = apply_filters('the_content', $text);
+	$text = str_replace(']]>', ']]>', $text);
+	$text = strip_tags($text, '<p>');
+	$excerpt_length = 50;
+	$words = explode(' ', $text, $excerpt_length + 1);
+	if (count($words) > $excerpt_length) {
+	array_pop($words);
+	array_push($words, ' ... <a href="'. get_permalink() . '">READ MORE</a>');
+	$text = implode(' ', $words);
+	}
+	}
+	return $text;
+	}
+
+	remove_filter('get_the_excerpt', 'wp_trim_excerpt');
+	add_filter('get_the_excerpt', 'my_wp_trim_excerpt');

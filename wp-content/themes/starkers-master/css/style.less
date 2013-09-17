@@ -404,40 +404,42 @@ HEADER
 .nav-cta{
 	float: right;
 	display: inline-block;
-	width: 74%;
-	margin-top: 10px;
+	width: 75%;
+	margin-top: 15px;
 	.box-sizing;
 
 	.button{
 		height: 100%;
-		padding: 0 2em;
+		padding: 0 0.9em;
 		border-radius: 0;
 		color: @white;
-		height: 30px;
-		line-height: 30px;
+		height: 40px;
+		line-height: 40px;
 
 		&:hover{
-			padding: 0.2em 2em 0;
+			padding: 0.2em 0.9em 0;
 		}
 	}
-}
 
-.login-button{
-	background: @blue;
+	.login-button{
+		display: none;
+	}
 }
 
 .request-info-button{
 	background: @lightgreen;
 }
+
 .mobile-nav-icon{
 	position: relative;
 	display: inline-block;
 	float: left;
+	width: 25%;
 
 	span{
-		font-size: 2.2em;
+		font-size: 2em;
 		line-height: 75px;
-		padding: 0 0.6em;
+		padding: 0 0.4em;
 		cursor: pointer;
 		.transition;
 
@@ -479,11 +481,11 @@ HEADER
 	h3{
 		color: @lightblue;
 		text-align: center;
-		padding: 0 0 0.5em;
-		font-size: 2.4em;
+		padding: 0 0 0.75em;
+		font-size: 2em;
 		text-transform: uppercase;
 		font-family: @sans-bold;
-		line-height: 1;
+		line-height: 1.4;
 	}
 
 	.button{
@@ -613,14 +615,20 @@ HOME - NEWS / EVENTS
 
 	h2{
 		float: left;
-		width: 25%;
-		line-height: 1.7;
+		width: 33.333333%;
+		font-size: 1.2em;
+		line-height: 2;
+	}
+
+	.button{
+		float: right;
+		background: @lightgreen;
 	}
 }
 
 .news-events-list{
 	float: left;
-	width: 75%;
+	width: 66.6666667%;
 	padding-left: 5%;
 	.box-sizing;
 
@@ -630,7 +638,6 @@ HOME - NEWS / EVENTS
 		border-radius: 4px;
 		margin-bottom: 0.5em;
 		background: @lightgrey;
-		font-size: 1.1em;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
@@ -640,10 +647,6 @@ HOME - NEWS / EVENTS
 			background: @lightgreen;
 			color: @white;
 		}
-	}
-
-	li:last-child a{
-		margin-bottom: 0;
 	}
 
 	span{
@@ -681,6 +684,7 @@ MEDIA QUERIES
 
 	.mobile-nav-icon{
 		float: right;
+		width: auto;
 	}
 
 	#mobile-nav{
@@ -706,6 +710,11 @@ MEDIA QUERIES
 		.button{
 			height: 35px;
 			line-height: 35px;
+			display: block;
+		}
+
+		.login-button{
+			background: @blue;
 		}
 	}
 
@@ -734,6 +743,17 @@ MEDIA QUERIES
 
 	.callout{
 		margin-right: 20%;
+	}
+
+	.nav-cta{
+
+		.button{
+			padding: 0 2em;
+
+			&:hover{
+				padding: 0.2em 2em 0;
+			}
+		}
 	}
 }
 

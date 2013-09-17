@@ -18,7 +18,7 @@ Template Name: home
 </div>
 <div class="news-events">
 	<div class="wrapper">
-		<h2>News & Events:</h2>
+		<h2>Latest News & Events:</h2>
 		<ul class="news-events-list">
 
 		<?php
@@ -26,7 +26,7 @@ Template Name: home
 	      'category_name' => 'news-events',
 	      'post_type' => 'post',
 	      'post_status' => 'publish',
-	      'posts_per_page' => 3,
+	      'posts_per_page' => 2,
 	      'order'	=> 'DEC'
 	    );
 
@@ -50,6 +50,7 @@ Template Name: home
 		?>
 
 		</ul>
+		<a href="/blog/" class="button">View All</a>
 	</div>
 </div>
 <section class="sub-section first-sub-section">

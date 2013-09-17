@@ -612,31 +612,29 @@ HOME - NEWS / EVENTS
 	padding: 1em 0;
 	background: @grey;
 	color: @black;
+	text-align: center;
 
 	h2{
-		float: left;
-		width: 33.333333%;
+		width: 100%;
 		font-size: 1.2em;
-		line-height: 2;
+		margin-bottom: 0.25em;
 	}
 
 	.button{
-		float: right;
 		background: @lightgreen;
 	}
 }
 
 .news-events-list{
-	float: left;
-	width: 66.6666667%;
-	padding-left: 5%;
-	.box-sizing;
+	width: 100%;
 
 	a{
 		display: block;
 		padding: 0.5em;
 		border-radius: 4px;
 		margin-bottom: 0.5em;
+		font-size: 0.9em;
+		text-align: left;
 		background: @lightgrey;
 		overflow: hidden;
 		text-overflow: ellipsis;
@@ -653,6 +651,7 @@ HOME - NEWS / EVENTS
 		font-style: italic;
 	}
 }
+
 /*-------------------------------------------------------------------------
 MEDIA QUERIES
 -------------------------------------------------------------------------*/
@@ -754,6 +753,26 @@ MEDIA QUERIES
 				padding: 0.2em 2em 0;
 			}
 		}
+	}
+
+	.news-events{
+
+		h2{
+			float: left;
+			text-align: left;
+			width: 33.333333%;
+		}
+
+		.button{
+			float: right;
+		}
+	}
+
+	.news-events-list{
+		float: left;
+		width: 66.6666667%;
+		padding-left: 5%;
+		.box-sizing;
 	}
 }
 

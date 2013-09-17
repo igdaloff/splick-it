@@ -624,30 +624,26 @@ HOME - NEWS / EVENTS
   padding: 1em 0;
   background: #b7b7b7;
   color: #3f3f3f;
+  text-align: center;
 }
 .news-events h2 {
-  float: left;
-  width: 33.333333%;
+  width: 100%;
   font-size: 1.2em;
-  line-height: 2;
+  margin-bottom: 0.25em;
 }
 .news-events .button {
-  float: right;
   background: #1a9975;
 }
 .news-events-list {
-  float: left;
-  width: 66.6666667%;
-  padding-left: 5%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  width: 100%;
 }
 .news-events-list a {
   display: block;
   padding: 0.5em;
   border-radius: 4px;
   margin-bottom: 0.5em;
+  font-size: 0.9em;
+  text-align: left;
   background: #dddddd;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -743,6 +739,22 @@ MEDIA QUERIES
   }
   .nav-cta .button:hover {
     padding: 0.2em 2em 0;
+  }
+  .news-events h2 {
+    float: left;
+    text-align: left;
+    width: 33.333333%;
+  }
+  .news-events .button {
+    float: right;
+  }
+  .news-events-list {
+    float: left;
+    width: 66.6666667%;
+    padding-left: 5%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
   }
 }
 @media only screen and (min-width: 60em) {

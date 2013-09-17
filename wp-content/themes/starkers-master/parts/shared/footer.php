@@ -22,13 +22,15 @@
 			<h4>Contact</h4>
 			<ul>
 				<li><a href="/start/" class="button">Request Info</a></li>
+				<li><a href="//formstack.com/forms/splickit-promo" class="button">Request Promo</a></li>
 			</ul>
 		</div>
 		<div class="footer-list footer-download-list">
-			<h4>Download</h4>
+			<h4>Use the App</h4>
 			<ul>
 				<li><a href="https://itunes.apple.com/us/app/splick-it/id375047368?mt=8" class="button"><img src="<?php bloginfo('template_url'); ?>/images/apple-download.png" alt="Apple Download Icon" /></a></li>
 				<li><a href="https://play.google.com/store/apps/details?id=com.splickit.app" class="button"><img src="<?php bloginfo('template_url'); ?>/images/android-download.png" alt="Android Download Icon" /></a></li>
+				<li><a href="//orders.splickit.com" class="button order-online-button">Order Food Online</a></li>
 			</ul>
 		</div>
 

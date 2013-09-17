@@ -1277,6 +1277,7 @@ footer {
 }
 footer .footer-list {
   margin-bottom: 1.5em;
+  height: auto;
 }
 footer h4 {
   margin-bottom: 0.5em;
@@ -1321,15 +1322,23 @@ footer .footer-download-list .button {
 footer .footer-download-list .button:hover {
   padding-top: 1.1em;
 }
+footer .footer-download-list .order-online-button {
+  padding: 0 2em;
+  line-height: 45px;
+}
+footer .footer-download-list .order-online-button:hover {
+  line-height: 50px;
+  padding: 0 2em;
+}
 @media only screen and (min-width: 37.5em) {
   /* 600px */
   footer button img {
     width: 100%;
   }
-  .footer-list {
+  footer .footer-list {
     width: 50%;
     float: left;
-    height: 150px;
+    height: 160px;
   }
 }
 @media only screen and (min-width: 50em) {
@@ -1351,15 +1360,17 @@ footer .footer-download-list .button:hover {
 }
 @media only screen and (min-width: 56.25em) {
   /* 900px */
-  .footer-list {
+  footer .footer-list {
     width: 25%;
     padding-right: 2em;
+    margin: 0;
     text-align: left;
+    height: auto;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  .footer-list .button {
+  footer .footer-list .button {
     width: 100%;
   }
 }

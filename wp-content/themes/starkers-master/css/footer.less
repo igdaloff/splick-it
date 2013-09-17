@@ -46,6 +46,7 @@ footer{
 
 	.footer-list{
 		margin-bottom: 1.5em;
+		height: auto;
 	}
 
 	h4{
@@ -103,18 +104,30 @@ footer .footer-download-list{
 			padding-top: 1.1em;
 		}
 	}
+
+	.order-online-button{
+		padding: 0 2em;
+		line-height: 45px;
+
+		&:hover{
+			line-height: 50px;
+			padding: 0 2em;
+		}
+	}
 }
 
 @media only screen and (min-width : 37.5em) { /* 600px */
 
-	footer button img{
-		width: 100%;
-	}
+	footer{
+		button img{
+			width: 100%;
+		}
 
-	.footer-list{
-		width: 50%;
-		float: left;
-		height: 150px;
+		.footer-list{
+			width: 50%;
+			float: left;
+			height: 160px;
+		}
 	}
 }
 
@@ -141,10 +154,12 @@ footer .footer-download-list{
 
 @media only screen and (min-width : 56.25em) { /* 900px */
 
-	.footer-list{
+	footer .footer-list{
 		width: 25%;
 		padding-right: 2em;
+		margin: 0;
 		text-align: left;
+		height: auto;
 		.box-sizing;
 
 		.button{

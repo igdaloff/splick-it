@@ -16,6 +16,42 @@ Template Name: home
 		</ul>
 	</div>
 </div>
+<div class="news-events">
+	<div class="wrapper">
+		<h2>News & Events:</h2>
+		<ul class="news-events-list">
+
+		<?php
+	    $args=array(
+	      'category_name' => 'news-events',
+	      'post_type' => 'post',
+	      'post_status' => 'publish',
+	      'posts_per_page' => 3,
+	      'order'	=> 'ASC'
+	    );
+
+	    $my_query = null;
+	    $my_query = new WP_Query($args);
+
+	    if( $my_query->have_posts() ) {
+	      while ($my_query->have_posts()) : $my_query->the_post(); ?>
+
+			<li>
+				<a href="<?php the_permalink(); ?>">
+					<span><?php the_time('F j, Y'); ?></span> - <?php the_title(); ?>
+				</a>
+			</li>
+
+	  <?php
+	  	endwhile;
+	  }
+
+		wp_reset_query();  // Restore global post data stomped by the_post().
+		?>
+
+		</ul>
+	</div>
+</div>
 <section class="sub-section first-sub-section">
 	<div class="sub-section-header">
 		<div class="wrapper">

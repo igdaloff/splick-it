@@ -175,6 +175,10 @@ strong{
   left: -9999px;
 }
 
+time{
+	color: @black;
+}
+
 /*-------------------------------------------------------------------------
 FORM ELEMENTS
 -------------------------------------------------------------------------*/
@@ -593,6 +597,56 @@ MAIN SECTION
 	}
 }
 
+/*-------------------------------------------------------------------------
+HOME - NEWS / EVENTS
+-------------------------------------------------------------------------*/
+.news-events{
+	padding: 1em 0;
+	background: @grey;
+	color: @black;
+
+	h2{
+		float: left;
+		width: 25%;
+		line-height: 1.7;
+	}
+}
+
+.news-events-list{
+	float: left;
+	width: 75%;
+	padding-left: 5%;
+	.box-sizing;
+
+	a{
+		display: block;
+		padding: 0.5em;
+		border-radius: 4px;
+		margin-bottom: 0.5em;
+		background: @lightgrey;
+		font-size: 1.1em;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		.transition;
+
+		&:hover{
+			background: @lightgreen;
+			color: @white;
+		}
+	}
+
+	li:last-child a{
+		margin-bottom: 0;
+	}
+
+	span{
+		font-style: italic;
+	}
+}
+/*-------------------------------------------------------------------------
+MEDIA QUERIES
+-------------------------------------------------------------------------*/
 @media only screen and (min-width : 30em) { /* 480px */
 
 	.main-logo{

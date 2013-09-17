@@ -14,10 +14,9 @@
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 <div class="wrapper">
-	<article class="standard-section">
-
+	<article class="standard-section blog-post">
 		<h3><?php the_title(); ?></h3>
-		<time datetime="<?php the_time( 'Y-m-d' ); ?>" pubdate><?php the_date(); ?> <?php the_time(); ?></time> <?php comments_popup_link('Leave a Comment', '1 Comment', '% Comments'); ?>
+		<time datetime="<?php the_time( 'Y-m-d' ); ?>"><?php the_date(); ?></time>
 		<?php the_content(); ?>
 	</article>
 </div>

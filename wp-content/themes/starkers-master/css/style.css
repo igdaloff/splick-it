@@ -531,6 +531,12 @@ HEADER
 #mobile-nav .download-button img {
   width: 90px;
 }
+#mobile-nav .order-online-push {
+  line-height: 4;
+}
+#mobile-nav .order-online-push:hover {
+  line-height: 4.5;
+}
 .menu-push {
   right: -240px;
   left: auto;

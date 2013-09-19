@@ -60,6 +60,7 @@
 								<ul>
 									<li class="mobile-nav-item"><a class="button download-button" href="https://itunes.apple.com/us/app/splick-it/id375047368?mt=8"><img src="<?php bloginfo('template_url'); ?>/images/apple-download.png" alt="Apple Download Icon" /></a></li>
 									<li class="mobile-nav-item"><a class="button download-button" href="https://play.google.com/store/apps/details?id=com.splickit.app"><img src="<?php bloginfo('template_url'); ?>/images/android-download.png" alt="Android Download Icon" /></a></li>
+									<li class="mobile-nav-item"><a class="button download-button order-online-push" href="//orders.splickit.com">Order Online</a></li>
 								</ul>
 							</div>
 						</li>

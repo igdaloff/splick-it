@@ -26,8 +26,9 @@ $more = 0;
 	    if( $my_query->have_posts() ) {
 	      while ($my_query->have_posts()) : $my_query->the_post(); ?>
 
-			<article class="standard-section blog-post">
+			<article class="standard-section blog-post-preview blog-post">
 				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+				<img src="<?php echo catch_that_image() ?>" alt="<?php the_title(); ?>" />
 				<time datetime="<?php the_time( 'Y-m-d' ); ?>"><?php the_time('F j, Y'); ?></time>
 				<?php the_excerpt(); ?><?php array_push($words, ' ... <a href="'. get_permalink() . '">READ MORE</a>');?>
 			</article>

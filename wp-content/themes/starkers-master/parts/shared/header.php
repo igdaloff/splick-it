@@ -20,6 +20,7 @@
 									<li class="mobile-nav-item"><a class="button" href="/">Home</a></li>
 								</ul>
 							</div>
+<!--
 							<div class="push-nav-section">
 								<h3>Merchant Solutions Network</h3>
 								<ul>
@@ -29,9 +30,10 @@
 									<li class="mobile-nav-item"><a class="button" href="/request-promo/">Request Promo</a></li>
 								</ul>
 							</div>
+-->
 							<div class="push-nav-section">
-								<h3>More</h3>
 								<ul>
+									<li class="mobile-nav-item"><a class="button" href="/merchant-solutions/">Merchant Solutions</a></li>
 									<li class="mobile-nav-item"><a class="button" href="/distribution-network/">Distribution Network</a></li>
 									<li class="mobile-nav-item"><a class="button" href="/clients/">Clients</a></li>
 									<li class="mobile-nav-item"><a class="button" href="//merchant.splickit.com">Client Login</a></li>
@@ -71,12 +73,14 @@
 					<a class="button request-info-button" href="/start/">Request Info</a>
 				</li>
 			</ul>
+<!--
 			<ul class="second-level-ul">
 				<li><a class="button" href="/marketing-tools">Marketing Tools</a></li>
 				<li><a class="button" href="/mobile-ordering">Mobile Ordering</a></li>
 				<li><a class="button" href="/online-ordering">Online Ordering</a></li>
 				<li><a href="//www.formstack.com/forms/splickit-promo" class="button">Request Promo</a></li>
 			</ul>
+-->
 		</nav>
 	</div>
 </header>

@@ -1237,11 +1237,17 @@ MEDIA QUERIES
   color: #084e51;
   margin-bottom: 1em;
 }
-.blog-post p a {
+.blog-post p,
+.blog-post li {
+  color: #3f3f3f;
+}
+.blog-post p a,
+.blog-post li a {
   color: #1a9975;
   font: normal 700 1em/1.3 'Gotham A', 'Gotham B', helvetica, sans-serif;
 }
-.blog-post p a:hover {
+.blog-post p a:hover,
+.blog-post li a:hover {
   text-decoration: underline;
 }
 .blog-post img {

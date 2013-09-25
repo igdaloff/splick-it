@@ -17,7 +17,7 @@ $more = 0;
 	      'post_type' => 'post',
 	      'post_status' => 'publish',
 	      'posts_per_page' => 100,
-	      'order'	=> 'ASC'
+	      'order'	=> 'DEC'
 	    );
 
 	    $my_query = null;
